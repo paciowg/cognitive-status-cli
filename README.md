@@ -1,2 +1,2 @@
 # cognitive-status-cli
-CIMPL files to generate PACIO Cognitive Status Implementation Guide
+[CIMPL](http://standardhealthrecord.org/cimpl-doc/) files to generate PACIO Cognitive Status Implementation Guide
