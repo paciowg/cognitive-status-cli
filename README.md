@@ -1,6 +1,6 @@
 # PACIO Cognitive Status
 
-FHIR Implementation Guide for PACIO Cognitive Status
+CIMPL files to generate the FHIR Implementation Guide for PACIO Cognitive Status
 
 ## Setup
 
