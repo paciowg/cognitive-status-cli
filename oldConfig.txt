@@ -1,16 +1,29 @@
 {
   "projectName": "PACIO Cognitive Status",
-  "projectShorthand": "PACIO COG",
+  "projectShorthand": "PACIO-COG",
   "implementationGuide": {
-    "npmName": "pacio-cognitive"
+    "npmName": "PACIO-cognitive",
+    "indexContent": "IndexContent.html"
   },
+  "package-id": "hl7.fhir.us.PACIO-functional-status",
+  "title": "PACIO Functional Status",
+  "canonical": "http://hl7.org/fhir/us/PACIO-functional-status",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "https://build.fhir.org/ig/HL7/PACIO-functional-status/",
+      "status": "ci-build",
+      "current": true
+    }
+  ],
   "publisher": "MITRE",
   "contact": [
       {
           "telecom": [
               {
                   "system": "url",
-                  "value": "http://example.com"
+                  "value": "http://mitre.org"
               }
           ]
       }
