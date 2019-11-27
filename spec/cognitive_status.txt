@@ -1,0 +1,16 @@
+Grammar:    DataElement 6.0
+Namespace:	pacio-cs
+Uses:  		shr.core
+
+CodeSystem: LOINC = http://loinc.org
+
+// Entry: CognitiveStatusSubject
+// Description: "Subject of Cognitive Status Observation must be a patient."
+// Parent: Patient
+
+Entry: BundledCognitiveStatus
+Description: "An bundled point in time package of cognitive status observations."
+
+Entry: CognitiveStatus
+Description: "An exchange of cognitive status information."
+// Subject substitute CognitiveStatusSubject
