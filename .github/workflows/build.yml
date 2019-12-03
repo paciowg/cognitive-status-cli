@@ -36,7 +36,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PUBLISH_REPOSITORY: paciowg/cognitive-status-ig
+          GITHUB_REPOSITORY: paciowg/cognitive-status-ig
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./out/fhir/guide/output
-          INPUT_KEEPFILES: "false"
