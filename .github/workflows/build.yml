@@ -8,24 +8,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Install java
+      - name: Set up java
         uses: actions/setup-java@v1
         with:
           java-version: "11"
           java-package: jre
           architecture: x64
-      - name: Install node
+      - name: Set up node
         uses: actions/setup-node@v1
         with:
           node-version: "12.12"
-      - name: Install ruby
+      - name: Set up ruby
         uses: actions/setup-ruby@v1
         with:
           ruby-version: "2.6"
       - name: Install jekyll
         run: gem install jekyll --no-document
       - name: Install dependencies
-        run: yarn install --production --no-lockfile
+        run: yarn install --production --no-lockfile && yarn add chalk
       - name: Run shr-cli
         run: node node_modules/shr-cli/app.js spec -o out
       - name: Run ig-publisher
