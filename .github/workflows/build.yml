@@ -24,6 +24,8 @@ jobs:
           ruby-version: "2.6"
       - name: Install jekyll
         run: gem install jekyll --no-document
+      - name: Install dependencies
+        run: yarn install --production --pure-lockfile
       - name: Run shr-cli
         run: node node_modules/shr-cli/app.js spec -o out
       - name: Run ig-publisher
