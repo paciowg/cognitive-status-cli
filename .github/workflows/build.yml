@@ -7,10 +7,10 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
-        uses: actions/hello-world-javascript-action@v1
+      - uses: actions/checkout@v1
+      - uses: actions/setup-java@v1
         with:
-          who-to-greet: 'Mona the Octocat'
-        id: hello
-      - name: Echo the greeting's time
-        run: echo 'The time was ${{ steps.hello.outputs.time }}.'
+          java-version: "11"
+          java-package: jre
+          architecture: x64
+        run: java -version
