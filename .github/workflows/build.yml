@@ -25,7 +25,7 @@ jobs:
       - name: Install jekyll
         run: gem install jekyll --no-document
       - name: Install dependencies
-        run: yarn install --production --pure-lockfile
+        run: yarn install --production --no-lockfile
       - name: Run shr-cli
         run: node node_modules/shr-cli/app.js spec -o out
       - name: Run ig-publisher
@@ -36,6 +36,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           repository: "paciowg/cognitive-status-ig"
+          branch: master
           github_token: ${{ secrets.GITHUB_TOKEN }}
           directory: docs
           force: true
