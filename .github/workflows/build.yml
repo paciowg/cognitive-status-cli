@@ -8,20 +8,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # - uses: actions/checkout@v1
-      - name: Set up ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: "2.6"
-      - name: Set up java
+      - name: Install java
         uses: actions/setup-java@v1
         with:
           java-version: "11"
           java-package: jre
           architecture: x64
-      - name: Set up node
+      - name: Install node
         uses: actions/setup-node@v1
         with:
           node-version: "12.12"
-      - run: gem install jekyll --no-document
-      - run: java -version
-      - run: yarn -version
+      - name: Install ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: "2.6"
+      - name: Install jekyll
+        run: gem install jekyll --no-document
+      - name: Run shr-cli
+        run: node node_modules/shr-cli/app.js spec -o out
+      - name: Run ig-publisher
+        run: java -jar out/fhir/guide/org.hl7.fhir.publisher.jar -ig out/fhir/guide/ig.json
+      - name: Build docs directory
+        run: mkdir -p docs && cp -Rv out/fhir/guide/output/* docs/
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          repository: "paciowg/cognitive-status-ig"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          directory: docs
+          force: true
