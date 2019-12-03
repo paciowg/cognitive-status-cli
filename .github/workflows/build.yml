@@ -7,14 +7,21 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-ruby@v1
+      # - uses: actions/checkout@v1
+      - name: Set up ruby
+        uses: actions/setup-ruby@v1
         with:
           ruby-version: "2.6"
-      - uses: actions/setup-java@v1
+      - name: Set up java
+        uses: actions/setup-java@v1
         with:
           java-version: "11"
           java-package: jre
           architecture: x64
-      - run: gem install jekyll
+      - name: Set up node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.12"
+      - run: gem install jekyll --no-document
       - run: java -version
+      - run: yarn -version
