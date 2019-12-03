@@ -40,9 +40,3 @@ jobs:
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./out/fhir/guide/output
           INPUT_KEEPFILES: "false"
-# git clone git@github.com:paciowg/cognitive-status-ig.git docs
-# rm -rf docs/*
-# cp -Rv out/fhir/guide/output/* docs/
-# git add .
-# git commit -m "Update implementation guide."
-# git push
