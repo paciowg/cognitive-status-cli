@@ -38,7 +38,7 @@ CognitiveStatus maps to Observation:
     // TODO: constrain performer to Practitioner|PractitionerRole|CareTeam
     constrain performer to 1..1
 
-    constrain value[x] to 0..0
+    constrain value[x] to 1..1
     constrain dataAbsentReason to 0..0
     constrain specimen to 0..0
     constrain referenceRange to 0..0
