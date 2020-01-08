@@ -2,46 +2,8 @@ Grammar:	Map 5.1
 Namespace:  pacio-cs
 Target:		FHIR_R4
 
-
 BundledCognitiveStatus maps to Observation:
-    constrain performer to 1..1
-
-    // TODO: constrain code to LOINC
-    constrain code to 1..1
-
-    // TODO: constrain subject to Patient
-    constrain subject to 1..1
-
-    // TODO: constrain code to LOINC
-    constrain component.code to 1..1
-
-    // Must have at least one nested Observation
-    // TODO: constrain hasMember to Observation
-    constrain hasMember to 1..*
-
+    // constrain hasMember to 1..*
 
 CognitiveStatus maps to Observation:
-    constrain category to 1..*
-    constrain subject to 1..1
-
-    // TODO: constrain code to LOINC
-    constrain code to 1..1
-
-    // TODO: constrain subject to Patient
-    constrain subject to 1..1
-    // CognitiveStatusSubject maps to subject
-
-    constrain focus to 0..0
-    constrain effective[x] to 1..1
-    constrain issued to 0..0
-
-    // TODO: constrain performer to Practitioner|PractitionerRole|CareTeam
-    constrain performer to 1..1
-
-    constrain value[x] to 1..1
-    constrain dataAbsentReason to 0..0
-    constrain specimen to 0..0
-    constrain referenceRange to 0..0
-
-    // TODO: constrain code to LOINC
-    constrain component.code to 1..1
+    // constrain hasMember to 0..0

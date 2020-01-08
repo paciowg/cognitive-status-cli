@@ -1,2 +1,10 @@
-Grammar:	ValueSet 5.0
-Namespace:	pacio-fs
+Grammar:	ValueSet 6.0
+Namespace:	pacio-cs
+
+CodeSystem: LNC = http://loinc.org
+
+ValueSet: CognitiveStatusQuestionVS
+Description: "LOINC codes for cognitive status questions"
+LNC#54632-5 "Acute onset mental status change"
+LNC#54628-3 "Inattention in last 7 days"
+LNC#54629-1 "Disorganized thinking in last 7 days"
