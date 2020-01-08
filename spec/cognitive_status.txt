@@ -29,6 +29,7 @@ Description: "An exchange of cognitive status information."
     ObservationSubjectOfRecord only Patient
     SubjectOfRecord 1..1
     SubjectOfRecord only Patient
+    DataValue 1..1
     DataValue only concept
     SubjectOfRecord 1..1
     SubjectOfRecord only Patient
