@@ -2,34 +2,20 @@
     "projectName": "PACIO Cognitive Status",
     "projectShorthand": "pacio-cs",
     "projectURL": "http://hl7.org/fhir/us/PACIO-cognitive-status",
-    "fhirURL": "http://hl7.org/fhir/us/PACIO-cognitive-status",
+    "fhirURL": "http://hl7.org/fhir/us/PACIO-functional-cognitive-status",
     "entryTypeURL": "PACIO-cognitive-status",
     "fhirTarget": "FHIR_R4",
-    "contentProfile": "ig-cognitive-status-cp.txt",
-    "filterStrategy":
-	{
-        "filter": true,
-        "strategy": "namespace",
-        "target": ["pacio-cs"]
-	},
-    "implementationGuide":
-	{
+    "contentProfile": "cognitive_status_cp.txt",
+    "implementationGuide": {
         "npmName": "hl7.fhir.us.PACIO-cognitive-status",
         "version": "0.1.0",
         "ballotStatus": "STU Ballot",
-		"includeLogicalModels": false,
-		"includeModelDoc": false,
-        "indexContent": "index-cognitive-status",
-        "examples": "examples-cognitive-status",
-        "extraResources": "searchParameters-cognitive-status",
+        "includeLogicalModels": false,
+        "includeModelDoc": false,
+        "indexContent": "content",
+        "extraResources": "resources",
         "historyLink": "http://hl7.org/fhir/us/PACIO-cognitive-status/history.html",
-        "changesLink": "",
-		"primarySelectionStrategy":
-		{
-            "strategy": "namespace",
-			"primary": ["pacio-cs"],
-            "hideSupporting": true
-		}
+        "changesLink": ""
     },
     "copyrightYear": "2019+",
     "publisher": "HL7 Patient Care WG and Community-Based Care and Privacy WG",
@@ -46,5 +32,14 @@
                 }
             ]
         }
-    ]
+    ],
+    "provenanceInfo": {
+        "leadAuthor": {
+            "name": "Sean Mahoney",
+            "organization": "The MITRE Corporation",
+            "email": "smahoney@mitre.org"
+        },
+        "license": "Apache 2.0",
+        "copyright": "Copyright (c) The MITRE Corporation <http://mitre.org>"
+    }
 }

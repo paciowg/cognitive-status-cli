@@ -1,0 +1,9 @@
+Grammar:	Map 5.1
+Namespace:  pacio-cs
+Target:		FHIR_R4
+
+BundledCognitiveStatus maps to Observation:
+    // constrain hasMember to 1..*
+
+CognitiveStatus maps to Observation:
+    // constrain hasMember to 0..0
