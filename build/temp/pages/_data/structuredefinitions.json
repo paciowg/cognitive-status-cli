@@ -1,0 +1,47 @@
+{
+  "pacio-bcs": {
+    "index": 0,
+    "url": "http://pacioproject.org/StructureDefinition/pacio-bcs",
+    "name": "BundledCognitiveStatus",
+    "path": "StructureDefinition-pacio-bcs.html",
+    "kind": "resource",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
+    "status": "active",
+    "date": "Fri Mar 20 22:27:06 GMT 2020",
+    "publisher": "MITRE Dev Team",
+    "description": "An point in time bundle of cognitive status observations for a patient."
+  },
+  "pacio-cs": {
+    "index": 1,
+    "url": "http://pacioproject.org/StructureDefinition/pacio-cs",
+    "name": "CognitiveStatus",
+    "path": "StructureDefinition-pacio-cs.html",
+    "kind": "resource",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
+    "status": "active",
+    "date": "Fri Mar 20 22:27:06 GMT 2020",
+    "publisher": "MITRE Dev Team",
+    "description": "An exchange of cognitive status data for a patient."
+  },
+  "pacio-qr": {
+    "index": 2,
+    "url": "http://pacioproject.org/StructureDefinition/pacio-qr",
+    "name": "PACIO_QuestionaireResponse",
+    "path": "StructureDefinition-pacio-qr.html",
+    "kind": "resource",
+    "type": "QuestionnaireResponse",
+    "base": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+    "basename": "QuestionnaireResponse",
+    "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
+    "status": "active",
+    "date": "Fri Mar 20 22:27:06 GMT 2020",
+    "publisher": "MITRE Dev Team",
+    "description": "A completed, or sections of a completed, CMS PAC assessment."
+  }
+}

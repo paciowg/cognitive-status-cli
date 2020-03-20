@@ -1,0 +1,123 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "pacio-cs",
+  "url": "http://pacioproject.org/ImplementationGuide/pacio-cs",
+  "version": "0.1.0",
+  "name": "PACIOCognitiveStatusImplementationGuide",
+  "title": "PACIO Cognitive Status Implementation Guide",
+  "status": "active",
+  "publisher": "MITRE Dev Team",
+  "contact": [
+    {
+      "name": "Caleb Wan",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "calebwan@mitre.org"
+        }
+      ]
+    }
+  ],
+  "description": "PACIO Cognitive Status Implementation Guide generated with the FHIR Shorthand tool",
+  "packageId": "pacio-cs",
+  "license": "Apache-2.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.0"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-bcs"
+        },
+        "name": "Bundled Cognitive Status",
+        "description": "An point in time bundle of cognitive status observations for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-cs"
+        },
+        "name": "Cognitive Status",
+        "description": "An exchange of cognitive status data for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pacio-qr"
+        },
+        "name": "PACIO Questionaire Response",
+        "description": "A completed, or sections of a completed, CMS PAC assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmith"
+        },
+        "name": "BetsySmith",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmith-MDS-CAM01-MentalStatusChange"
+        },
+        "name": "BetsySmith-MDS-CAM01-MentalStatusChange",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/BetsySmith-MDS-CAM01-Responses"
+        },
+        "name": "BetsySmith-MDS-CAM01-Responses",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-qr"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmith-MDS-CAM02-Inattention"
+        },
+        "name": "BetsySmith-MDS-CAM02-Inattention",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/BetsySmith-MDS-CAM03-AlteredConsciousness"
+        },
+        "name": "BetsySmith-MDS-CAM03-AlteredConsciousness",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      }
+    ]
+  }
+}

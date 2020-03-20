@@ -1,0 +1,26 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "BetsySmith-MDS-CAM01-Responses",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "completed",
+  "item": [
+    {
+      "text": "Evidence of an acute change in mental status from the patients baseline within the first 3 days of SNF admission?",
+      "linkId": "CAM01",
+      "answer": [
+        {
+          "valueReference": {
+            "reference": "Observation/BetsySmith-MDS-CAM01-MentalStatusChange"
+          }
+        }
+      ]
+    }
+  ]
+}
