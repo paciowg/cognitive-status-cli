@@ -1,0 +1,11 @@
+
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmith.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[3]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmith-MDS-CAM01-MentalStatusChange.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[4]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource QuestionnaireResponse/BetsySmith-MDS-CAM01-Responses.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[5]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmith-MDS-CAM02-Inattention.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[6]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find description for the resource Observation/BetsySmith-MDS-CAM03-AlteredConsciousness.  Descriptions are strongly encouraged to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[7]"]}
+,

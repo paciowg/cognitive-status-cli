@@ -1,0 +1,34 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmith-MDS-CAM01-MentalStatusChange",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cs"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "54632-5",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA32-8",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}

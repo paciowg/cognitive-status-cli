@@ -1,0 +1,34 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmith-MDS-CAM03-AlteredConsciousness",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cs"
+    ]
+  },
+  "subject": {
+    "reference": "Betsy Smith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "54629-1",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA61-7",
+        "system": "http://loinc.org"
+      }
+    ]
+  }
+}
