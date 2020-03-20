@@ -1,9 +1,0 @@
-Grammar: ContentProfile 1.0
-
-Namespace: pacio-cs
-
-    BundledCognitiveStatus:
-        Code MS
-
-    CognitiveStatus:
-        Code MS
