@@ -1,0 +1,72 @@
+{% raw %}<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:QuestionnaireResponse;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BetsySmith-HHDischargePerformance-CAM-Response&quot;];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://pacioproject.org/StructureDefinition/pacio-cognition-qr&quot;;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://pacioproject.org/StructureDefinition/pacio-cognition-qr&gt;     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: BetsySmith-HHDischargePerformance-CAM-Response&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-BetsySmith.html\&quot;&gt;Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section-C&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Section C: Cognitive Patterns&lt;/p&gt;&lt;h3&gt;Items&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.status">fhir:QuestionnaireResponse.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;completed&quot;];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.subject">fhir:QuestionnaireResponse.subject</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient/BetsySmith&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item">fhir:QuestionnaireResponse.item</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-C&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C: Cognitive Patterns&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-C/C1310&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Signs and Symptoms of Delirium&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-C/C1310/A&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Is there evidence of an acute change in mental status from the resident's baseline?&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmith-HHDischargePerformance-CAM01-MentalStatusChange&quot; ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-C/C1310/B&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Did the resident have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmith-HHDischargePerformance-CAM02-Inattention&quot; ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-C/C1310/C&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Was the resident's thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmith-HHDischargePerformance-CAM03-DisorganizedThinking&quot; ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section-C/C1310/D&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Did the resident have altered level of consciousness as indicated by any of the following criteria: (1) Vigilant, (2) Lethargic, (3) Stuporous, (4) Comatose?&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/BetsySmith-HHDischargePerformance-CAM04-AlteredConsciousness&quot; ]           ]         ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+{% endraw %}
