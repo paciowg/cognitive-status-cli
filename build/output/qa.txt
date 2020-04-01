@@ -3,7 +3,7 @@
 
 err = 80, warn = 48, info = 8
 IG Publisher Version: v1.0.76-SNAPSHOT
-Generated Wed Apr 01 00:50:15 GMT 2020. FHIR version 4.0.1 for pacio-cs#0.1.0 (canonical = http://pacioproject.org)
+Generated Wed Apr 01 03:08:32 GMT 2020. FHIR version 4.0.1 for pacio-cs#0.1.0 (canonical = http://pacioproject.org)
 
  Build Errors : 154 / 25
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/cognitive-status-cli/build/input/ImplementationGuide-pacio-cs : 0 / 0
