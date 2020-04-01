@@ -10,12 +10,27 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Fri Mar 20 22:27:06 GMT 2020",
+    "date": "Wed Apr 01 00:49:09 GMT 2020",
     "publisher": "MITRE Dev Team",
     "description": "An point in time bundle of cognitive status observations for a patient."
   },
-  "pacio-cs": {
+  "pacio-cognition-qr": {
     "index": 1,
+    "url": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr",
+    "name": "CognitionQuestionnaireResponse",
+    "path": "StructureDefinition-pacio-cognition-qr.html",
+    "kind": "resource",
+    "type": "QuestionnaireResponse",
+    "base": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+    "basename": "QuestionnaireResponse",
+    "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
+    "status": "active",
+    "date": "Wed Apr 01 00:49:09 GMT 2020",
+    "publisher": "MITRE Dev Team",
+    "description": "A completed, or sections of a completed, CMS PAC assessment."
+  },
+  "pacio-cs": {
+    "index": 2,
     "url": "http://pacioproject.org/StructureDefinition/pacio-cs",
     "name": "CognitiveStatus",
     "path": "StructureDefinition-pacio-cs.html",
@@ -25,23 +40,8 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Fri Mar 20 22:27:06 GMT 2020",
+    "date": "Wed Apr 01 00:49:09 GMT 2020",
     "publisher": "MITRE Dev Team",
     "description": "An exchange of cognitive status data for a patient."
-  },
-  "pacio-qr": {
-    "index": 2,
-    "url": "http://pacioproject.org/StructureDefinition/pacio-qr",
-    "name": "PACIO_QuestionaireResponse",
-    "path": "StructureDefinition-pacio-qr.html",
-    "kind": "resource",
-    "type": "QuestionnaireResponse",
-    "base": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
-    "basename": "QuestionnaireResponse",
-    "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
-    "status": "active",
-    "date": "Fri Mar 20 22:27:06 GMT 2020",
-    "publisher": "MITRE Dev Team",
-    "description": "A completed, or sections of a completed, CMS PAC assessment."
   }
 }

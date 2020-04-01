@@ -4,7 +4,7 @@
   "url": "http://pacioproject.org/StructureDefinition/pacio-bcs",
   "version": "0.1.0",
   "name": "BundledCognitiveStatus",
-  "title": "Bundled Cognitive Status",
+  "title": "PACIO Bundled Cognitive Status",
   "status": "active",
   "description": "An point in time bundle of cognitive status observations for a patient.",
   "fhirVersion": "4.0.1",
@@ -47,6 +47,16 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      },
       {
         "id": "Observation.code",
         "path": "Observation.code",

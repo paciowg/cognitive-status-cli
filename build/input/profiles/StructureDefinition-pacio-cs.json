@@ -4,7 +4,7 @@
   "url": "http://pacioproject.org/StructureDefinition/pacio-cs",
   "version": "0.1.0",
   "name": "CognitiveStatus",
-  "title": "Cognitive Status",
+  "title": "PACIO Cognitive Status",
   "status": "active",
   "description": "An exchange of cognitive status data for a patient.",
   "fhirVersion": "4.0.1",

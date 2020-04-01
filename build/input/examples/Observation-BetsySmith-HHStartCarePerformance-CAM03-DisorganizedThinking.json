@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmith-HHStartCarePerformance-CAM03-DisorganizedThinking",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cs"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "54629-1",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10992-8",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "effectiveDateTime": "2019-04-07T18:30:00-05:00"
+}
