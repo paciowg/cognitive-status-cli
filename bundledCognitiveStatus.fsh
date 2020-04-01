@@ -1,9 +1,10 @@
 Alias:  LNC = http://loinc.org
 
+
 Profile:        BundledCognitiveStatus
 Parent:         Observation
 Id:             pacio-bcs
-Title:          "Bundled Cognitive Status"
+Title:          "PACIO Bundled Cognitive Status"
 Description:    "An point in time bundle of cognitive status observations for a patient."
 
 * code 1..1
@@ -16,13 +17,5 @@ Description:    "An point in time bundle of cognitive status observations for a 
 * value[x] only CodeableConcept
 * effective[x] only dateTime
 
-
-Instance: BetsySmith
-InstanceOf: BundledCognitiveStatus
-* subject.reference  = "Betsy Smith"
-* status = #final
-* code = http://loinc.org#90480-5
-* performer.reference  = "CMS Provider"
-* derivedFrom = Reference(BetsySmith-MDS-CAM01-MentalStatusChange)
-* derivedFrom = Reference(BetsySmith-MDS-CAM02-Inattention)
-* derivedFrom = Reference(BetsySmith-MDS-CAM03-AlteredConsciousness)
+* category 1..1
+* category from CAT (preferred)

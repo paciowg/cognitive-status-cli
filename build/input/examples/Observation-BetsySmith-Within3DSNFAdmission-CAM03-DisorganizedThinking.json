@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmith-Within3DSNFAdmission-CAM03-DisorganizedThinking",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cs"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "54629-1",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA61-7",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "effectiveDateTime": "2019-03-25T14:30:00-05:00"
+}

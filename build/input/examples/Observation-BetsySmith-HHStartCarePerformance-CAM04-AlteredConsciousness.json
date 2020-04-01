@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "BetsySmith-HHStartCarePerformance-CAM04-AlteredConsciousness",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cs"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "54630-9",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "CMS Provider"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10993-6",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "effectiveDateTime": "2019-04-07T18:30:00-05:00"
+}
