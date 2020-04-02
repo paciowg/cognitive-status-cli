@@ -27,11 +27,11 @@ jobs:
       - name: Install dependencies
         run: npm install fsh-sushi --no-save
       - name: Run fsh-sushi
-        run: rm -rf build && ./node_modules/.bin/sushi .
-      - name: Update ig-publisher
-        run: cd build && ./_updatePublisher.sh
-      - name: Run ig-publisher
-        run: cd build && ./_genonce.sh
+        run: ./node_modules/.bin/sushi .
+#      - name: Update ig-publisher
+#        run: cd build && ./_updatePublisher.sh
+#      - name: Run ig-publisher
+#        run: cd build && ./_genonce.sh
       - name: Push changes
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
