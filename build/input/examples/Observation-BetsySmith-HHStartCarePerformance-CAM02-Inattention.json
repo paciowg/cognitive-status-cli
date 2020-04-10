@@ -6,6 +6,14 @@
       "http://pacioproject.org/StructureDefinition/pacio-cs"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-PTRES"
+      }
+    }
+  ],
   "subject": {
     "reference": "Patient/BetsySmith"
   },
@@ -14,22 +22,35 @@
     "coding": [
       {
         "code": "54628-3",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Inattention in last 7 days"
       }
     ]
   },
   "performer": [
     {
-      "reference": "CMS Provider"
+      "reference": "Practitioner/CMS-Practitioner-02",
+      "display": "Dr. Steve Davidson, MD"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
     }
   ],
   "valueCodeableConcept": {
     "coding": [
       {
         "code": "LA10992-8",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Behavior continuously present, does not fluctuate"
       }
     ]
   },
-  "effectiveDateTime": "2019-04-07T18:30:00-05:00"
+  "effectiveDateTime": "2019-04-07T18:30:00-05:00",
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/BetsySmith-HHStartCarePerformance-CAM-Response",
+      "display": "QuestionnaireResponse"
+    }
+  ]
 }

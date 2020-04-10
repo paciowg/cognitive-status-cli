@@ -231,6 +231,83 @@
         },
         "name": "BetsySmith-Within3DSNFAdmission-CAM04-AlteredConsciousness",
         "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Encounter/CMS-Encounter-01"
+        },
+        "name": "CMS-Encounter-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/CMS-Encounter-02"
+        },
+        "name": "CMS-Encounter-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/CMS-Encounter-03"
+        },
+        "name": "CMS-Encounter-03",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/CMS-Encounter-04"
+        },
+        "name": "CMS-Encounter-04",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/CMS-Location-AMB"
+        },
+        "name": "CMS-Location-AMB",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/CMS-Location-PTRES"
+        },
+        "name": "CMS-Location-PTRES",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/CMS-Location-SNF"
+        },
+        "name": "CMS-Location-SNF",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/CMS-Organization-01"
+        },
+        "name": "CMS-Organization-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/CMS-Organization-02"
+        },
+        "name": "CMS-Organization-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/CMS-Practitioner-01"
+        },
+        "name": "CMS-Practitioner-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/CMS-Practitioner-02"
+        },
+        "name": "CMS-Practitioner-02",
+        "exampleBoolean": true
       }
     ],
     "page": {

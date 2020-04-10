@@ -228,6 +228,81 @@
                </td>
                <td/>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-CMS-Encounter-01.html"
+                     title="Encounter/CMS-Encounter-01">CMS-Encounter-01</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-CMS-Encounter-02.html"
+                     title="Encounter/CMS-Encounter-02">CMS-Encounter-02</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-CMS-Encounter-03.html"
+                     title="Encounter/CMS-Encounter-03">CMS-Encounter-03</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-CMS-Encounter-04.html"
+                     title="Encounter/CMS-Encounter-04">CMS-Encounter-04</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-CMS-Location-AMB.html" title="Location/CMS-Location-AMB">CMS-Location-AMB</a>
+               </td>
+               <td>Ambulance provided by Burgers University Medical Center</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-CMS-Location-PTRES.html"
+                     title="Location/CMS-Location-PTRES">CMS-Location-PTRES</a>
+               </td>
+               <td>Patient's Home</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-CMS-Location-SNF.html" title="Location/CMS-Location-SNF">CMS-Location-SNF</a>
+               </td>
+               <td>Burgers Skilled Nursing Facility, South Wing, second floor</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-CMS-Organization-01.html"
+                     title="Organization/CMS-Organization-01">CMS-Organization-01</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-CMS-Organization-02.html"
+                     title="Organization/CMS-Organization-02">CMS-Organization-02</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Practitioner-CMS-Practitioner-01.html"
+                     title="Practitioner/CMS-Practitioner-01">CMS-Practitioner-01</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Practitioner-CMS-Practitioner-02.html"
+                     title="Practitioner/CMS-Practitioner-02">CMS-Practitioner-02</a>
+               </td>
+               <td/>
+            </tr>
          </tbody>
       </table>
    </p>

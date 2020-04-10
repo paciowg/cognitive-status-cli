@@ -29,12 +29,21 @@
     }
   ],
   "effectiveDateTime": "2019-04-07T18:30:00-05:00",
+  "encounter": {
+    "reference": "Encounter/CMS-Encounter-03",
+    "display": "HHC OASIS Functional Status Assessment at Start of Care (SOC)"
+  },
   "performer": [
     {
-      "reference": "CMS Provider"
+      "reference": "Practitioner/CMS-Practitioner-02",
+      "display": "Dr. Steve Davidson, MD"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
     }
   ],
-  "derivedFrom": [
+  "hasMember": [
     {
       "reference": "Observation/BetsySmith-HHStartCarePerformance-CAM01-MentalStatusChange"
     },
@@ -46,6 +55,12 @@
     },
     {
       "reference": "Observation/BetsySmith-HHStartCarePerformance-CAM04-AlteredConsciousness"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/BetsySmith-HHStartCarePerformance-CAM-Response",
+      "display": "QuestionnaireResponse"
     }
   ]
 }

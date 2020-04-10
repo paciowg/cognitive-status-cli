@@ -1,5 +1,5 @@
-Alias:  LNC = http://loinc.org
-
+Alias: LNC = http://loinc.org
+Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 Profile:        BundledCognitiveStatus
 Parent:         Observation
@@ -7,7 +7,6 @@ Id:             pacio-bcs
 Title:          "PACIO Bundled Cognitive Status"
 Description:    "An point in time bundle of cognitive status observations for a patient."
 
-* code 1..1
 * code from LNC (extensible)
 
 * subject 1..1
