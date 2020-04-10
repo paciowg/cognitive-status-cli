@@ -29,12 +29,21 @@
     }
   ],
   "effectiveDateTime": "2019-03-25T14:30:00-05:00",
+  "encounter": {
+    "reference": "Encounter/CMS-Encounter-01",
+    "display": "Within the first 3 days of SNF admission"
+  },
   "performer": [
     {
-      "reference": "CMS Provider"
+      "reference": "Practitioner/CMS-Practitioner-01",
+      "display": "Dr. Ed Johnson, MD"
+    },
+    {
+      "reference": "Organization/CMS-Organization-01",
+      "display": "Organization"
     }
   ],
-  "derivedFrom": [
+  "hasMember": [
     {
       "reference": "Observation/BetsySmith-Within3DSNFAdmission-CAM01-MentalStatusChange"
     },
@@ -46,6 +55,12 @@
     },
     {
       "reference": "Observation/BetsySmith-Within3DSNFAdmission-CAM04-AlteredConsciousness"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/BetsySmith-Within3DSNFAdmission-CAM-Response",
+      "display": "QuestionnaireResponse"
     }
   ]
 }

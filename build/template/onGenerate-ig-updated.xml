@@ -17,7 +17,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-04-01T04:07:08+00:00"/>
+   <date value="2020-04-10T21:57:56+00:00"/>
    <publisher value="MITRE Dev Team"/>
    <contact>
       <name value="Caleb Wan"/>
@@ -454,6 +454,163 @@
          <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-01"/>
+         </reference>
+         <name value="CMS-Encounter-01"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-02"/>
+         </reference>
+         <name value="CMS-Encounter-02"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-03.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-03"/>
+         </reference>
+         <name value="CMS-Encounter-03"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-CMS-Encounter-04.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/CMS-Encounter-04"/>
+         </reference>
+         <name value="CMS-Encounter-04"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-CMS-Location-AMB.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/CMS-Location-AMB"/>
+         </reference>
+         <name value="CMS-Location-AMB"/>
+         <description value="Ambulance provided by Burgers University Medical Center"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-CMS-Location-PTRES.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/CMS-Location-PTRES"/>
+         </reference>
+         <name value="CMS-Location-PTRES"/>
+         <description value="Patient's Home"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-CMS-Location-SNF.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/CMS-Location-SNF"/>
+         </reference>
+         <name value="CMS-Location-SNF"/>
+         <description value="Burgers Skilled Nursing Facility, South Wing, second floor"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-CMS-Organization-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/CMS-Organization-01"/>
+         </reference>
+         <name value="CMS-Organization-01"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-CMS-Organization-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/CMS-Organization-02"/>
+         </reference>
+         <name value="CMS-Organization-02"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-CMS-Practitioner-01.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/CMS-Practitioner-01"/>
+         </reference>
+         <name value="CMS-Practitioner-01"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-CMS-Practitioner-02.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/CMS-Practitioner-02"/>
+         </reference>
+         <name value="CMS-Practitioner-02"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="_ex_example"/>
+      </resource>
       <page>
          <nameUrl value="toc.html"/>
          <title value="Table of Contents"/>
@@ -605,6 +762,61 @@
             <page>
                <nameUrl value="Observation-BetsySmith-Within3DSNFAdmission-CAM04-AlteredConsciousness.html"/>
                <title value="BetsySmith-Within3DSNFAdmission-CAM04-AlteredConsciousness"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-01.html"/>
+               <title value="CMS-Encounter-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-02.html"/>
+               <title value="CMS-Encounter-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-03.html"/>
+               <title value="CMS-Encounter-03"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Encounter-CMS-Encounter-04.html"/>
+               <title value="CMS-Encounter-04"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-CMS-Location-AMB.html"/>
+               <title value="CMS-Location-AMB"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-CMS-Location-PTRES.html"/>
+               <title value="CMS-Location-PTRES"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-CMS-Location-SNF.html"/>
+               <title value="CMS-Location-SNF"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-CMS-Organization-01.html"/>
+               <title value="CMS-Organization-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Organization-CMS-Organization-02.html"/>
+               <title value="CMS-Organization-02"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-CMS-Practitioner-01.html"/>
+               <title value="CMS-Practitioner-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Practitioner-CMS-Practitioner-02.html"/>
+               <title value="CMS-Practitioner-02"/>
                <generation value="generated"/>
             </page>
          </page>

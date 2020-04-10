@@ -21,10 +21,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA32-8"
+  "code" : "LA33-6"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "No",
+  "display" : "Yes",
   "severity" : null,
   "error" : ""
 }
@@ -41,10 +41,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA61-7"
+  "code" : "LA10993-6"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Behavior not present",
+  "display" : "Behavior present, fluctuates (comes and goes, changes in severity)",
   "severity" : null,
   "error" : ""
 }
@@ -71,10 +71,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA33-6"
+  "code" : "LA61-7"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Yes",
+  "display" : "Behavior not present",
   "severity" : null,
   "error" : ""
 }
@@ -91,10 +91,109 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA10993-6"
+  "code" : "LA32-8"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "No",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54632-5",
+  "display" : "Acute onset mental status change"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Acute onset mental status change [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Acute onset mental status change\" is not a valid display for the code {http://loinc.org}54632-5 - should be one of [\"Acute onset mental status change [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA33-6",
+  "display" : "Yes"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Yes",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54628-3",
+  "display" : "Inattention in last 7 days"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Inattention in last 7 days [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Inattention in last 7 days\" is not a valid display for the code {http://loinc.org}54628-3 - should be one of [\"Inattention in last 7 days [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA10993-6",
+  "display" : "Behavior present, fluctuates (comes and goes, changes in severity)"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Behavior present, fluctuates (comes and goes, changes in severity)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54629-1",
+  "display" : "Disorganized thinking in last 7 days"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Disorganized thinking in last 7 days [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Disorganized thinking in last 7 days\" is not a valid display for the code {http://loinc.org}54629-1 - should be one of [\"Disorganized thinking in last 7 days [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54630-9",
+  "display" : "Altered level of consciousness in last 7 days"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Altered level of consciousness in last 7 days [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Altered level of consciousness in last 7 days\" is not a valid display for the code {http://loinc.org}54630-9 - should be one of [\"Altered level of consciousness in last 7 days [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA61-7",
+  "display" : "Behavior not present"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Behavior not present",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA10992-8",
+  "display" : "Behavior continuously present, does not fluctuate"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Behavior continuously present, does not fluctuate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA32-8",
+  "display" : "No"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "No",
   "severity" : null,
   "error" : ""
 }

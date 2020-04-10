@@ -49,3 +49,19 @@
 ,
 {"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Observation/BetsySmith-Within3DSNFAdmission-CAM04-AlteredConsciousness.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[27]"]}
 ,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/CMS-Encounter-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[28]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/CMS-Encounter-02.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[29]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/CMS-Encounter-03.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[30]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/CMS-Encounter-04.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[31]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Organization/CMS-Organization-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[35]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Organization/CMS-Organization-02.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[36]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/CMS-Practitioner-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[37]"]}
+,
+{"severity":"warning","code":"invariant","details":{"text":"Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/CMS-Practitioner-02.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list."},"location":["ImplementationGuide.definition.resource[38]"]}
+,

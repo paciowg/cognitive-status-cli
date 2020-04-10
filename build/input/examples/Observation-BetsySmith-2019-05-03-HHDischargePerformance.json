@@ -29,12 +29,21 @@
     }
   ],
   "effectiveDateTime": "2019-05-03T18:30:00-05:00",
+  "encounter": {
+    "reference": "Encounter/CMS-Encounter-04",
+    "display": "HHC OASIS Functional Status Assessment at Discharge"
+  },
   "performer": [
     {
-      "reference": "CMS Provider"
+      "reference": "Practitioner/CMS-Practitioner-02",
+      "display": "Dr. Steve Davidson, MD"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
     }
   ],
-  "derivedFrom": [
+  "hasMember": [
     {
       "reference": "Observation/BetsySmith-HHDischargePerformance-CAM01-MentalStatusChange"
     },
@@ -46,6 +55,12 @@
     },
     {
       "reference": "Observation/BetsySmith-HHDischargePerformance-CAM04-AlteredConsciousness"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/BetsySmith-HHDischargePerformance-CAM-Response",
+      "display": "QuestionnaireResponse"
     }
   ]
 }

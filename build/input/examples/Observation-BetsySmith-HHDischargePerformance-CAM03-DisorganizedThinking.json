@@ -6,6 +6,14 @@
       "http://pacioproject.org/StructureDefinition/pacio-cs"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/CMS-Location-PTRES"
+      }
+    }
+  ],
   "subject": {
     "reference": "Patient/BetsySmith"
   },
@@ -14,20 +22,27 @@
     "coding": [
       {
         "code": "54629-1",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Disorganized thinking in last 7 days"
       }
     ]
   },
   "performer": [
     {
-      "reference": "CMS Provider"
+      "reference": "Practitioner/CMS-Practitioner-02",
+      "display": "Dr. Steve Davidson, MD"
+    },
+    {
+      "reference": "Organization/CMS-Organization-02",
+      "display": "Organization"
     }
   ],
   "valueCodeableConcept": {
     "coding": [
       {
         "code": "LA10993-6",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Behavior present, fluctuates (comes and goes, changes in severity)"
       }
     ]
   },

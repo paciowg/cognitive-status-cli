@@ -10,6 +10,8 @@
     "reference": "Patient/BetsySmith"
   },
   "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2019-03-25T14:30:00-05:00",
   "item": [
     {
       "linkId": "Section-C",
@@ -20,6 +22,7 @@
           "text": "Signs and Symptoms of Delirium",
           "item": [
             {
+              "id": "54632-5",
               "text": "Is there evidence of an acute change in mental status from the resident's baseline?",
               "linkId": "Section-C/C1310/A",
               "answer": [
@@ -31,6 +34,7 @@
               ]
             },
             {
+              "id": "54628-3",
               "text": "Did the resident have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?",
               "linkId": "Section-C/C1310/B",
               "answer": [
@@ -42,6 +46,7 @@
               ]
             },
             {
+              "id": "54629-1",
               "text": "Was the resident's thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?",
               "linkId": "Section-C/C1310/C",
               "answer": [
@@ -53,6 +58,7 @@
               ]
             },
             {
+              "id": "54630-9",
               "text": "Did the resident have altered level of consciousness as indicated by any of the following criteria: (1) Vigilant, (2) Lethargic, (3) Stuporous, (4) Comatose?",
               "linkId": "Section-C/C1310/D",
               "answer": [
