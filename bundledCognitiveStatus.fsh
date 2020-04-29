@@ -13,8 +13,11 @@ Description:    "An point in time bundle of cognitive status observations for a 
 * subject only Reference(Patient)
 
 * performer 1..*
-* value[x] only CodeableConcept
-* effective[x] only dateTime
+
+* value[x] only CodeableConcept or Quantity
 
 * category 1..1
 * category from CAT (preferred)
+* category ^binding.description = "If this is from a Post-Acute Care Assessment, value should be survey."
+
+* extension contains ObservationLocation named event-location 0..1 MS
