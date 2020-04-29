@@ -14,7 +14,8 @@
     "coding": [
       {
         "code": "90480-5",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment]"
       }
     ]
   },
@@ -23,7 +24,8 @@
       "coding": [
         {
           "code": "survey",
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Survey"
         }
       ]
     }

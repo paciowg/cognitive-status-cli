@@ -59,6 +59,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/pacio-cs-dev"
+        },
+        "name": "Use of Device",
+        "description": "A device used by a Patient during a cognitive status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Patient/BetsySmith"
         },
         "name": "BetsySmith",
@@ -258,13 +266,6 @@
           "reference": "Encounter/CMS-Encounter-04"
         },
         "name": "CMS-Encounter-04",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/CMS-Location-AMB"
-        },
-        "name": "CMS-Location-AMB",
         "exampleBoolean": true
       },
       {
