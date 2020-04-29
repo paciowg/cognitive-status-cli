@@ -13,7 +13,7 @@ Description:    "An exchange of cognitive status data for a patient."
 * subject only Reference(Patient)
 
 * performer 1..*
-* value[x] only CodeableConcept
+* value[x] only CodeableConcept or Quantity
 * effective[x] only dateTime
 
 * extension contains ObservationLocation named event-location 0..1 MS

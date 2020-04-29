@@ -44,6 +44,13 @@
                </td>
                <td>An exchange of cognitive status data for a patient.</td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-pacio-cs-dev.html"
+                     title="StructureDefinition/pacio-cs-dev">Use of Device</a>
+               </td>
+               <td>A device used by a Patient during a cognitive status assessment.</td>
+            </tr>
          </tbody>
       </table>
    </p>
@@ -255,12 +262,6 @@
                      title="Encounter/CMS-Encounter-04">CMS-Encounter-04</a>
                </td>
                <td/>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Location-CMS-Location-AMB.html" title="Location/CMS-Location-AMB">CMS-Location-AMB</a>
-               </td>
-               <td>Ambulance provided by Burgers University Medical Center</td>
             </tr>
             <tr>
                <td style="column-width:30%">
