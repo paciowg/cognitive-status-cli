@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "90480-5"
+  "code" : "88482-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment]",
+  "display" : "Functional abilities and goals - admission [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
@@ -21,10 +21,280 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA33-6"
+  "code" : "LA32-8"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Yes",
+  "display" : "No",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52731-7"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Repetition of three words # [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52732-5"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Temporal orientation - current year [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52733-3"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Temporal orientation - current month [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54609-3"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Temporal orientation - current day of the week [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52735-8"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recall - sock [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52736-6"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recall - blue [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52737-4"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recall - bed [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54614-3"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Brief Interview for Mental Status - summary score [BIMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54636-6"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Little interest or pleasure in doing things in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54637-4"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54638-2"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling down, depressed or hopeless in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54639-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54640-8"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54641-6"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54642-4"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54643-2"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling tired or having little energy in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54644-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Poor appetite or overeating in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54645-7"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54646-5"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54647-3"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54648-1"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54649-9"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54650-7"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54651-5"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54652-3"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54653-1"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54654-9"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mood interview total severity score [Reported PHQ-9 CMS]",
   "severity" : null,
   "error" : ""
 }
@@ -41,10 +311,10 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA10993-6"
+  "code" : "LA61-7"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Behavior present, fluctuates (comes and goes, changes in severity)",
+  "display" : "Behavior not present",
   "severity" : null,
   "error" : ""
 }
@@ -61,20 +331,30 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "54630-9"
+  "code" : "88483-3"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Altered level of consciousness in last 7 days [CMS Assessment]",
+  "display" : "Functional abilities and goals - discharge [CMS Assessment]",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA61-7"
+  "code" : "LA10993-6"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Behavior not present",
+  "display" : "Behavior present, fluctuates (comes and goes, changes in severity)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA33-6"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Yes",
   "severity" : null,
   "error" : ""
 }
@@ -91,12 +371,374 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "LA32-8"
+  "code" : "90480-5"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "No",
+  "display" : "MDS v3.0 - RAI v1.17.1 - Interim Payment Assessment (IPA) item set [CMS Assessment]",
   "severity" : null,
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54630-9"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Altered level of consciousness in last 7 days [CMS Assessment]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88482-5",
+  "display" : "Functional Abilities and Goals - Admission (Start of SNF PPS Stay)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Functional abilities and goals - admission [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Functional Abilities and Goals - Admission (Start of SNF PPS Stay)\" is not a valid display for the code {http://loinc.org}88482-5 - should be one of [\"Functional abilities and goals - admission [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54632-5",
+  "display" : "Is there evidence of an acute change in mental status from the patients baseline?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Acute onset mental status change [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Is there evidence of an acute change in mental status from the patients baseline?\" is not a valid display for the code {http://loinc.org}54632-5 - should be one of [\"Acute onset mental status change [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52731-7",
+  "display" : "Number of words repeated after first attempt"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Repetition of three words # [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"Number of words repeated after first attempt\" is not a valid display for the code {http://loinc.org}52731-7 - should be one of [\"Repetition of three words # [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52732-5",
+  "display" : "Able to report correct year"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Temporal orientation - current year [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"Able to report correct year\" is not a valid display for the code {http://loinc.org}52732-5 - should be one of [\"Temporal orientation - current year [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52733-3",
+  "display" : "Able to report correct month"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Temporal orientation - current month [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"Able to report correct month\" is not a valid display for the code {http://loinc.org}52733-3 - should be one of [\"Temporal orientation - current month [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54609-3",
+  "display" : "Able to report correct day of the week"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Temporal orientation - current day of the week [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"Able to report correct day of the week\" is not a valid display for the code {http://loinc.org}54609-3 - should be one of [\"Temporal orientation - current day of the week [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52735-8",
+  "display" : "Able to recall sock"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recall - sock [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"Able to recall sock\" is not a valid display for the code {http://loinc.org}52735-8 - should be one of [\"Recall - sock [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52736-6",
+  "display" : "Able to recall blue"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recall - blue [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"Able to recall blue\" is not a valid display for the code {http://loinc.org}52736-6 - should be one of [\"Recall - blue [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "52737-4",
+  "display" : "Able to recall bed"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Recall - bed [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"Able to recall bed\" is not a valid display for the code {http://loinc.org}52737-4 - should be one of [\"Recall - bed [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54614-3",
+  "display" : "BIMS Summary Score"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Brief Interview for Mental Status - summary score [BIMS]",
+  "severity" : "warning",
+  "error" : "The display \"BIMS Summary Score\" is not a valid display for the code {http://loinc.org}54614-3 - should be one of [\"Brief Interview for Mental Status - summary score [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54636-6",
+  "display" : "Little interest or pleasure in doing things"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Little interest or pleasure in doing things in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Little interest or pleasure in doing things\" is not a valid display for the code {http://loinc.org}54636-6 - should be one of [\"Little interest or pleasure in doing things in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54637-4",
+  "display" : "Little interest or pleasure in doing things"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Little interest or pleasure in doing things\" is not a valid display for the code {http://loinc.org}54637-4 - should be one of [\"Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54638-2",
+  "display" : "Feeling down, depressed or hopeless"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling down, depressed or hopeless in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Feeling down, depressed or hopeless\" is not a valid display for the code {http://loinc.org}54638-2 - should be one of [\"Feeling down, depressed or hopeless in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54639-0",
+  "display" : "Feeling down, depressed or hopeless"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Feeling down, depressed or hopeless\" is not a valid display for the code {http://loinc.org}54639-0 - should be one of [\"Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54640-8",
+  "display" : "Trouble falling or staying asleep or sleeping too much"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Trouble falling or staying asleep or sleeping too much\" is not a valid display for the code {http://loinc.org}54640-8 - should be one of [\"Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54641-6",
+  "display" : "Trouble falling or staying asleep or sleeping too much"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Trouble falling or staying asleep or sleeping too much\" is not a valid display for the code {http://loinc.org}54641-6 - should be one of [\"Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54642-4",
+  "display" : "Feeling tired or having little energy"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Feeling tired or having little energy\" is not a valid display for the code {http://loinc.org}54642-4 - should be one of [\"Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54643-2",
+  "display" : "Feeling tired or having little energy"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling tired or having little energy in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Feeling tired or having little energy\" is not a valid display for the code {http://loinc.org}54643-2 - should be one of [\"Feeling tired or having little energy in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54644-0",
+  "display" : "Poor appetite or overeating"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Poor appetite or overeating in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Poor appetite or overeating\" is not a valid display for the code {http://loinc.org}54644-0 - should be one of [\"Poor appetite or overeating in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54645-7",
+  "display" : "Poor appetite or overeating"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Poor appetite or overeating\" is not a valid display for the code {http://loinc.org}54645-7 - should be one of [\"Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54646-5",
+  "display" : "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Feeling bad about yourself - or that you are a failure or have let yourself or your family down\" is not a valid display for the code {http://loinc.org}54646-5 - should be one of [\"Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54647-3",
+  "display" : "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Feeling bad about yourself - or that you are a failure or have let yourself or your family down\" is not a valid display for the code {http://loinc.org}54647-3 - should be one of [\"Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54648-1",
+  "display" : "Trouble concentrating on things, such as reading the newspaper or watching television"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Trouble concentrating on things, such as reading the newspaper or watching television\" is not a valid display for the code {http://loinc.org}54648-1 - should be one of [\"Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54649-9",
+  "display" : "Trouble concentrating on things, such as reading the newspaper or watching television"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Trouble concentrating on things, such as reading the newspaper or watching television\" is not a valid display for the code {http://loinc.org}54649-9 - should be one of [\"Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54650-7",
+  "display" : "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual\" is not a valid display for the code {http://loinc.org}54650-7 - should be one of [\"Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54651-5",
+  "display" : "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual\" is not a valid display for the code {http://loinc.org}54651-5 - should be one of [\"Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54652-3",
+  "display" : "Thoughts that you would be better off dead, or of hurting yourself in some way"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Thoughts that you would be better off dead, or of hurting yourself in some way\" is not a valid display for the code {http://loinc.org}54652-3 - should be one of [\"Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54653-1",
+  "display" : "Thoughts that you would be better off dead, or of hurting yourself in some way"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.frequency [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Thoughts that you would be better off dead, or of hurting yourself in some way\" is not a valid display for the code {http://loinc.org}54653-1 - should be one of [\"Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.frequency [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54654-9",
+  "display" : "Total Severity Score"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Mood interview total severity score [Reported PHQ-9 CMS]",
+  "severity" : "warning",
+  "error" : "The display \"Total Severity Score\" is not a valid display for the code {http://loinc.org}54654-9 - should be one of [\"Mood interview total severity score [Reported PHQ-9 CMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54628-3",
+  "display" : "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Inattention in last 7 days [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?\" is not a valid display for the code {http://loinc.org}54628-3 - should be one of [\"Inattention in last 7 days [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "54629-1",
+  "display" : "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Disorganized thinking in last 7 days [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused\" is not a valid display for the code {http://loinc.org}54629-1 - should be one of [\"Disorganized thinking in last 7 days [CMS Assessment]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "88483-3",
+  "display" : "Functional Abilities and Goals - Discharge (End of SNF PPS Stay)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Functional abilities and goals - discharge [CMS Assessment]",
+  "severity" : "warning",
+  "error" : "The display \"Functional Abilities and Goals - Discharge (End of SNF PPS Stay)\" is not a valid display for the code {http://loinc.org}88483-3 - should be one of [\"Functional abilities and goals - discharge [CMS Assessment]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {

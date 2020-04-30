@@ -1,0 +1,331 @@
+﻿<html>
+<head>
+  <title>QuestionnaireResponse-QuestionnaireResponse-1-First3DSNFAdmission-ttl-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="rdf">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:QuestionnaireResponse;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;QuestionnaireResponse-1-First3DSNFAdmission&quot;];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://pacioproject.org/StructureDefinition/pacio-cognition-qr&quot;;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://pacioproject.org/StructureDefinition/pacio-cognition-qr&gt;     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative with Details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: QuestionnaireResponse-1-First3DSNFAdmission&lt;/p&gt;&lt;p&gt;&lt;b&gt;meta&lt;/b&gt;: &lt;/p&gt;&lt;p&gt;&lt;b&gt;questionnaire&lt;/b&gt;: &lt;a href=\&quot;Q-MDS3-NC-1.17\&quot;&gt;Q-MDS3-NC-1.17&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-BetsySmith.html\&quot;&gt;Generated Summary: id: BetsySmith; Betsy Smith ; gender: female; birthDate: 1959-06-14&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;authored&lt;/b&gt;: Apr 9, 2020 11:00:00 PM&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: 86529-5&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section C&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Cognitive Patterns&lt;/p&gt;&lt;h3&gt;Items&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;id&lt;/b&gt;: 90482-1&lt;/p&gt;&lt;p&gt;&lt;b&gt;linkId&lt;/b&gt;: Section D&lt;/p&gt;&lt;p&gt;&lt;b&gt;text&lt;/b&gt;: Mood&lt;/p&gt;&lt;h3&gt;Items&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.questionnaire">fhir:QuestionnaireResponse.questionnaire</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;Q-MDS3-NC-1.17&quot;];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.status">fhir:QuestionnaireResponse.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;completed&quot;];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.subject">fhir:QuestionnaireResponse.subject</a> [
+     <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient/BetsySmith&quot; ]
+  ];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.authored">fhir:QuestionnaireResponse.authored</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2020-04-09T18:00:00-05:00&quot;^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item">fhir:QuestionnaireResponse.item</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;86529-5&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cognitive Patterns&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52491-8&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Brief Interview for Mental Status (BIMS)&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52731-7&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0200&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Number of words repeated after first attempt&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-13&quot; ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54510-3&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0300&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Temporal Orientation (orientation to year, month, and day)&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52732-5&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0300/C0300A&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Able to report correct year&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-14&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52733-3&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0300/C0300B&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Able to report correct month&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-15&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54609-3&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0300/C0300C&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Able to report correct day of the week&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-16&quot; ]             ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52493-4&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0400&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Recall&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52735-8&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0400/C0400A&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Able to recall sock&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-17&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52736-6&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0400/C0400B&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Able to recall blue&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-18&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;52737-4&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0400/C0400C&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Able to recall bed&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-19&quot; ]             ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54614-3&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C0200-C0500/C0500&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BIMS Summary Score&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-20&quot; ]           ]         ]       ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;86585-7&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C1310&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Signs and Symptoms of Delirium (from CAM)&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54632-5&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C1310/C1310A&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Is there evidence of an acute change in mental status from the patients baseline?&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-1&quot; ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54628-3&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C1310/C1310B&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-5&quot; ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54629-1&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section C/C1310/C1310C&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+             <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-9&quot; ]           ]         ]       ]     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;90482-1&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mood&quot; ];
+     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54635-8&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Resident Mood Interview (PHQ-9)&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;86843-0&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Symptom Presence&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54636-6&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200A1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Little interest or pleasure in doing things&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-21&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54638-2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200B1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Feeling down, depressed or hopeless&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-23&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54640-8&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200C1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Trouble falling or staying asleep or sleeping too much&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-25&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54642-4&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200D1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Feeling tired or having little energy&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-27&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54644-0&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200E1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Poor appetite or overeating&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-29&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54646-5&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200F1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Feeling bad about yourself - or that you are a failure or have let yourself or your family down&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-31&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54648-1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200G1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Trouble concentrating on things, such as reading the newspaper or watching television&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-33&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54650-7&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200H1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-35&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54652-3&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/1/D0200I1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Thoughts that you would be better off dead, or of hurting yourself in some way&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-37&quot; ]             ]           ]         ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;86844-8&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Symptom Frequency&quot; ];
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.item">fhir:QuestionnaireResponse.item.item</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54637-4&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200A2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Little interest or pleasure in doing things&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-22&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54639-0&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200B2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Feeling down, depressed or hopeless&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-24&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54641-6&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200C2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Trouble falling or staying asleep or sleeping too much&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-26&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54643-2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200D2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Feeling tired or having little energy&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-28&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54645-7&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200E2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Poor appetite or overeating&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-30&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54647-3&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200F2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Feeling bad about yourself - or that you are a failure or have let yourself or your family down&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-32&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54649-9&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200G2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Trouble concentrating on things, such as reading the newspaper or watching television&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-34&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54651-5&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200H2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-36&quot; ]             ]           ]         ], [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54653-1&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0200/2/D0200I2&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Thoughts that you would be better off dead, or of hurting yourself in some way&quot; ];
+           <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+             <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+               <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-38&quot; ]             ]           ]         ]       ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;54654-9&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.linkId">fhir:QuestionnaireResponse.item.linkId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Section D/D0300&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.text">fhir:QuestionnaireResponse.item.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Total Severity Score&quot; ];
+       <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer">fhir:QuestionnaireResponse.item.answer</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/questionnaireresponse.html#QuestionnaireResponse.item.answer.value[x]">fhir:QuestionnaireResponse.item.answer.valueReference</a> [
+           <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation/Assessment-1-First3DSNFAdmission-Observation-39&quot; ]         ]       ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</pre>
+
+</body>
+</html>

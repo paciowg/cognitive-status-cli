@@ -3,93 +3,48 @@ Alias: V3ActCode  = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: V3RoleCode  = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: LocPType = http://terminology.hl7.org/CodeSystem/location-physical-type
 
-// Patient instance
-Instance: BetsySmith
-InstanceOf: Patient
-* name.given = "Betsy"
-* name.family = "Smith"
-* gender = Hl7FhirAdminGender#female
-* birthDate = "1959-06-14"
-
 // Practitioner instances
-Instance: CMS-Practitioner-01
+Instance: HoneyJones
 InstanceOf: Practitioner
-* name.given = "Ed"
-* name.family = "Johnson"
+* name.given = "Honey"
+* name.family = "Jones"
+* active = true
+* gender = Hl7FhirAdminGender#female
+
+Instance: LunaBaskin
+InstanceOf: Practitioner
+* name.given = "Luna"
+* name.family = "Baskin"
+* active = true
+* gender = Hl7FhirAdminGender#female
+
+Instance: ScottDumble
+InstanceOf: Practitioner
+* name.given = "Scott"
+* name.family = "Dumble"
 * active = true
 * gender = Hl7FhirAdminGender#male
-
-Instance: CMS-Practitioner-02
-InstanceOf: Practitioner
-* name.given = "Steve"
-* name.family = "Davidson"
-* active = true
-* gender = Hl7FhirAdminGender#male
-
-// Encounter instances
-Instance: CMS-Encounter-01
-InstanceOf: Encounter
-* subject  = Reference(BetsySmith)
-* status = #finished
-* class = V3ActCode#IMP "inpatient encounter"
-* statusHistory.status = #finished
-* statusHistory.period.start = "2019-03-25T14:30:00-05:00"
-* statusHistory.period.end = "2019-03-25T16:30:00-05:00"
-
-Instance: CMS-Encounter-02
-InstanceOf: Encounter
-* subject  = Reference(BetsySmith)
-* status = #finished
-* class = V3ActCode#IMP "inpatient encounter"
-* statusHistory.status = #finished
-* statusHistory.period.start = "2019-04-06T18:30:00-05:00"
-* statusHistory.period.end = "2019-04-06T20:30:00-05:00"
-
-Instance: CMS-Encounter-03
-InstanceOf: Encounter
-* subject  = Reference(BetsySmith)
-* status = #finished
-* class = V3ActCode#IMP "inpatient encounter"
-* statusHistory.status = #finished
-* statusHistory.period.start = "2019-04-07T18:30:00-05:00"
-* statusHistory.period.end = "2019-04-07T20:30:00-05:00"
-
-Instance: CMS-Encounter-04
-InstanceOf: Encounter
-* subject  = Reference(BetsySmith)
-* status = #finished
-* class = V3ActCode#IMP "inpatient encounter"
-* statusHistory.status = #finished
-* statusHistory.period.start = "2019-05-03T18:30:00-05:00"
-* statusHistory.period.end = "2019-05-03T20:30:00-05:00"
 
 // Organization instances
-Instance: CMS-Organization-01
+Instance: HappyNursingFacility
 InstanceOf: Organization
-* name = "Burgers Skilled Nursing Facility"
+* name = "Happy Nursing Facility"
 
-Instance: CMS-Organization-02
+Instance: SkyHarborHomeHealthServices
 InstanceOf: Organization
-* name = "Good Health Clinic"
+* name = "Sky Harbor Home Health Services"
 
 // Location instances
-Instance: CMS-Location-AMB
+Instance: HappyNursingFacility-Loc
 InstanceOf: Location
 * status = #active
-* name = "BUMC Ambulance"
-* description = "Ambulance provided by Burgers University Medical Center"
-* type = V3RoleCode#AMB "Ambulance"
-
-Instance: CMS-Location-SNF
-InstanceOf: Location
-* status = #active
-* name = "Burgers Skilled Nursing"
-* description = "Burgers Skilled Nursing Facility, South Wing, second floor"
+* name = "Happy Nursing Facility"
+* description = "8100 Pinebrook Dr, SanAntonio, TX 78230"
 * type = LocPType#WI "Wing"
 
-Instance: CMS-Location-PTRES
+Instance: SkyHarborHomeHealthServices-Loc
 InstanceOf: Location
 * status = #active
-* name = "Patient's Home"
-* description = "Patient's Home"
-* type = V3RoleCode#PTRES "Patient's Residence"
+* name = "Sky Harbor Home Health Services"
+* description = "8810 Old Sky Harbor, SanAntonio, TX 78242"
+* type = LocPType#PWI "Wing"
