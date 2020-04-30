@@ -4,7 +4,7 @@ Instance: QuestionnaireResponse-4-HHDischargePerf
 InstanceOf: CognitionQuestionnaireResponse
 * subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "Q-MDS3-NC-1.17"
+* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-05-01T14:00:00-05:00"
 
 * item[0].linkId = "Section C"
@@ -30,7 +30,7 @@ Instance: QuestionnaireResponse-3-HHStartOfCarePerf
 InstanceOf: CognitionQuestionnaireResponse
 * subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "Q-MDS3-NC-1.17"
+* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-04-24T13:15:00-05:00"
 
 * item[0].linkId = "Section C"
@@ -56,7 +56,7 @@ Instance: QuestionnaireResponse-2-Last3DSNFStay
 InstanceOf: CognitionQuestionnaireResponse
 * subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "Q-MDS3-NC-1.17"
+* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-04-23T14:00:00-05:00"
 
 * item[0].linkId = "Section C"
@@ -82,7 +82,7 @@ Instance: QuestionnaireResponse-1-First3DSNFAdmission
 InstanceOf: CognitionQuestionnaireResponse
 * subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "Q-MDS3-NC-1.17"
+* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-04-09T18:00:00-05:00"
 
 * item[0].linkId = "Section C"
