@@ -33,6 +33,14 @@
   "differential": {
     "element": [
       {
+        "id": "QuestionnaireResponse.questionnaire",
+        "path": "QuestionnaireResponse.questionnaire",
+        "short": "This field contains the URI for the PAC assessment.",
+        "binding": {
+          "description": "This field contains the URI for the assessment."
+        }
+      },
+      {
         "id": "QuestionnaireResponse.subject",
         "path": "QuestionnaireResponse.subject",
         "min": 1,
@@ -44,6 +52,20 @@
             ]
           }
         ]
+      },
+      {
+        "id": "QuestionnaireResponse.item.id",
+        "path": "QuestionnaireResponse.item.id",
+        "binding": {
+          "description": "This field contains the LOINC code."
+        }
+      },
+      {
+        "id": "QuestionnaireResponse.item.linkId",
+        "path": "QuestionnaireResponse.item.linkId",
+        "binding": {
+          "description": "This field contains the assessment section and GG question id."
+        }
       },
       {
         "id": "QuestionnaireResponse.item.answer.value[x]",

@@ -1,136 +1,234 @@
+Alias: Q-MDS3-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
 
-Instance: BetsySmith-Within3DSNFAdmission-CAM-Response
+Instance: QuestionnaireResponse-4-HHDischargePerf
 InstanceOf: CognitionQuestionnaireResponse
-* subject  = Reference(BetsySmith)
+* subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"
-* authored = "2019-03-25T14:30:00-05:00"
+* questionnaire = "Q-MDS3-NC-1.17"
+* authored = "2020-05-01T14:00:00-05:00"
 
-* item[0].linkId = "Section-C"
-* item[0].text =  "Section C: Cognitive Patterns"
-
-//Delirium
-* item[0].item[0].linkId = "Section-C/C1310"
-* item[0].item[0].text = "Signs and Symptoms of Delirium"
-
+* item[0].linkId = "Section C"
+* item[0].text =  "Cognitive Patterns"
+* item[0].id = "86529-5"
+* item[0].item[0].linkId = "Section C/C1310"
+* item[0].item[0].text =  "Signs and Symptoms of Delirium (from CAM)"
+* item[0].item[0].id = "86585-7"
+* item[0].item[0].item[0].linkId = "Section C/C1310/C1310A"
+* item[0].item[0].item[0].text =  "Is there evidence of an acute change in mental status from the patients baseline?"
 * item[0].item[0].item[0].id = "54632-5"
-* item[0].item[0].item[0].text = "Is there evidence of an acute change in mental status from the resident's baseline?"
-* item[0].item[0].item[0].linkId = "Section-C/C1310/A"
-* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmith-Within3DSNFAdmission-CAM01-MentalStatusChange)
-
+* item[0].item[0].item[0].answer.valueReference = Reference(Assessment-4-HHDischargePerf-Observation-4)
+* item[0].item[0].item[1].linkId = "Section C/C1310/C1310B"
+* item[0].item[0].item[1].text =  "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * item[0].item[0].item[1].id = "54628-3"
-* item[0].item[0].item[1].text = "Did the resident have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
-* item[0].item[0].item[1].linkId = "Section-C/C1310/B"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmith-Within3DSNFAdmission-CAM02-Inattention)
-
+* item[0].item[0].item[1].answer.valueReference = Reference(Assessment-4-HHDischargePerf-Observation-8)
+* item[0].item[0].item[2].linkId = "Section C/C1310/C1310C"
+* item[0].item[0].item[2].text =  "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * item[0].item[0].item[2].id = "54629-1"
-* item[0].item[0].item[2].text = "Was the resident's thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?"
-* item[0].item[0].item[2].linkId = "Section-C/C1310/C"
-* item[0].item[0].item[2].answer.valueReference = Reference(BetsySmith-Within3DSNFAdmission-CAM03-DisorganizedThinking)
+* item[0].item[0].item[2].answer.valueReference = Reference(Assessment-4-HHDischargePerf-Observation-12)
 
-* item[0].item[0].item[3].id = "54630-9"
-* item[0].item[0].item[3].text = "Did the resident have altered level of consciousness as indicated by any of the following criteria: (1) Vigilant, (2) Lethargic, (3) Stuporous, (4) Comatose?"
-* item[0].item[0].item[3].linkId = "Section-C/C1310/D"
-* item[0].item[0].item[3].answer.valueReference = Reference(BetsySmith-Within3DSNFAdmission-CAM04-AlteredConsciousness)
-
-Instance: BetsySmith-Last3DSNFStay-CAM-Response
+Instance: QuestionnaireResponse-3-HHStartOfCarePerf
 InstanceOf: CognitionQuestionnaireResponse
-* subject  = Reference(BetsySmith)
+* subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"
-* authored = "2019-04-06T18:30:00-05:00"
+* questionnaire = "Q-MDS3-NC-1.17"
+* authored = "2020-04-24T13:15:00-05:00"
 
-* item[0].linkId = "Section-C"
-* item[0].text =  "Section C: Cognitive Patterns"
-
-//Delirium
-* item[0].item[0].linkId = "Section-C/C1310"
-* item[0].item[0].text = "Signs and Symptoms of Delirium"
-
+* item[0].linkId = "Section C"
+* item[0].text =  "Cognitive Patterns"
+* item[0].id = "86529-5"
+* item[0].item[0].linkId = "Section C/C1310"
+* item[0].item[0].text =  "Signs and Symptoms of Delirium (from CAM)"
+* item[0].item[0].id = "86585-7"
+* item[0].item[0].item[0].linkId = "Section C/C1310/C1310A"
+* item[0].item[0].item[0].text =  "Is there evidence of an acute change in mental status from the patients baseline?"
 * item[0].item[0].item[0].id = "54632-5"
-* item[0].item[0].item[0].text = "Is there evidence of an acute change in mental status from the resident's baseline?"
-* item[0].item[0].item[0].linkId = "Section-C/C1310/A"
-* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmith-Last3DSNFStay-CAM01-MentalStatusChange)
-
+* item[0].item[0].item[0].answer.valueReference = Reference(Assessment-3-HHStartOfCarePerf-Observation-3)
+* item[0].item[0].item[1].linkId = "Section C/C1310/C1310B"
+* item[0].item[0].item[1].text =  "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * item[0].item[0].item[1].id = "54628-3"
-* item[0].item[0].item[1].text = "Did the resident have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
-* item[0].item[0].item[1].linkId = "Section-C/C1310/B"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmith-Last3DSNFStay-CAM02-Inattention)
-
+* item[0].item[0].item[1].answer.valueReference = Reference(Assessment-3-HHStartOfCarePerf-Observation-7)
+* item[0].item[0].item[2].linkId = "Section C/C1310/C1310C"
+* item[0].item[0].item[2].text =  "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * item[0].item[0].item[2].id = "54629-1"
-* item[0].item[0].item[2].text = "Was the resident's thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?"
-* item[0].item[0].item[2].linkId = "Section-C/C1310/C"
-* item[0].item[0].item[2].answer.valueReference = Reference(BetsySmith-Last3DSNFStay-CAM03-DisorganizedThinking)
+* item[0].item[0].item[2].answer.valueReference = Reference(Assessment-3-HHStartOfCarePerf-Observation-11)
 
-* item[0].item[0].item[3].id = "54630-9"
-* item[0].item[0].item[3].text = "Did the resident have altered level of consciousness as indicated by any of the following criteria: (1) Vigilant, (2) Lethargic, (3) Stuporous, (4) Comatose?"
-* item[0].item[0].item[3].linkId = "Section-C/C1310/D"
-* item[0].item[0].item[3].answer.valueReference = Reference(BetsySmith-Last3DSNFStay-CAM04-AlteredConsciousness)
-
-Instance: BetsySmith-HHStartCarePerformance-CAM-Response
+Instance: QuestionnaireResponse-2-Last3DSNFStay
 InstanceOf: CognitionQuestionnaireResponse
-* subject  = Reference(BetsySmith)
+* subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"
-* authored = "2019-04-07T18:30:00-05:00"
+* questionnaire = "Q-MDS3-NC-1.17"
+* authored = "2020-04-23T14:00:00-05:00"
 
-* item[0].linkId = "Section-C"
-* item[0].text =  "Section C: Cognitive Patterns"
-
-//Delirium
-* item[0].item[0].linkId = "Section-C/C1310"
-* item[0].item[0].text = "Signs and Symptoms of Delirium"
-
+* item[0].linkId = "Section C"
+* item[0].text =  "Cognitive Patterns"
+* item[0].id = "86529-5"
+* item[0].item[0].linkId = "Section C/C1310"
+* item[0].item[0].text =  "Signs and Symptoms of Delirium (from CAM)"
+* item[0].item[0].id = "86585-7"
+* item[0].item[0].item[0].linkId = "Section C/C1310/C1310A"
+* item[0].item[0].item[0].text =  "Is there evidence of an acute change in mental status from the patients baseline?"
 * item[0].item[0].item[0].id = "54632-5"
-* item[0].item[0].item[0].text = "Is there evidence of an acute change in mental status from the resident's baseline?"
-* item[0].item[0].item[0].linkId = "Section-C/C1310/A"
-* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmith-HHStartCarePerformance-CAM01-MentalStatusChange)
-
+* item[0].item[0].item[0].answer.valueReference = Reference(Assessment-2-Last3DSNFStay-Observation-2)
+* item[0].item[0].item[1].linkId = "Section C/C1310/C1310B"
+* item[0].item[0].item[1].text =  "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * item[0].item[0].item[1].id = "54628-3"
-* item[0].item[0].item[1].text = "Did the resident have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
-* item[0].item[0].item[1].linkId = "Section-C/C1310/B"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmith-HHStartCarePerformance-CAM02-Inattention)
-
+* item[0].item[0].item[1].answer.valueReference = Reference(Assessment-2-Last3DSNFStay-Observation-6)
+* item[0].item[0].item[2].linkId = "Section C/C1310/C1310C"
+* item[0].item[0].item[2].text =  "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * item[0].item[0].item[2].id = "54629-1"
-* item[0].item[0].item[2].text = "Was the resident's thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?"
-* item[0].item[0].item[2].linkId = "Section-C/C1310/C"
-* item[0].item[0].item[2].answer.valueReference = Reference(BetsySmith-HHStartCarePerformance-CAM03-DisorganizedThinking)
+* item[0].item[0].item[2].answer.valueReference = Reference(Assessment-2-Last3DSNFStay-Observation-10)
 
-* item[0].item[0].item[3].id = "54630-9"
-* item[0].item[0].item[3].text = "Did the resident have altered level of consciousness as indicated by any of the following criteria: (1) Vigilant, (2) Lethargic, (3) Stuporous, (4) Comatose?"
-* item[0].item[0].item[3].linkId = "Section-C/C1310/D"
-* item[0].item[0].item[3].answer.valueReference = Reference(BetsySmith-HHStartCarePerformance-CAM04-AlteredConsciousness)
-
-Instance: BetsySmith-HHDischargePerformance-CAM-Response
+Instance: QuestionnaireResponse-1-First3DSNFAdmission
 InstanceOf: CognitionQuestionnaireResponse
-* subject  = Reference(BetsySmith)
+* subject = Reference(BetsySmith)
 * status = #completed
-* questionnaire = "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"
-* authored = "2019-05-03T18:30:00-05:00"
+* questionnaire = "Q-MDS3-NC-1.17"
+* authored = "2020-04-09T18:00:00-05:00"
 
-* item[0].linkId = "Section-C"
-* item[0].text =  "Section C: Cognitive Patterns"
-
-//Delirium
-* item[0].item[0].linkId = "Section-C/C1310"
-* item[0].item[0].text = "Signs and Symptoms of Delirium"
-
-* item[0].item[0].item[0].id = "54632-5"
-* item[0].item[0].item[0].text = "Is there evidence of an acute change in mental status from the resident's baseline?"
-* item[0].item[0].item[0].linkId = "Section-C/C1310/A"
-* item[0].item[0].item[0].answer.valueReference = Reference(BetsySmith-HHDischargePerformance-CAM01-MentalStatusChange)
-
-* item[0].item[0].item[1].id = "54628-3"
-* item[0].item[0].item[1].text = "Did the resident have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
-* item[0].item[0].item[1].linkId = "Section-C/C1310/B"
-* item[0].item[0].item[1].answer.valueReference = Reference(BetsySmith-HHDischargePerformance-CAM02-Inattention)
-
-* item[0].item[0].item[2].id = "54629-1"
-* item[0].item[0].item[2].text = "Was the resident's thinking disorganized or incoherent (rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?"
-* item[0].item[0].item[2].linkId = "Section-C/C1310/C"
-* item[0].item[0].item[2].answer.valueReference = Reference(BetsySmith-HHDischargePerformance-CAM03-DisorganizedThinking)
-
-* item[0].item[0].item[3].id = "54630-9"
-* item[0].item[0].item[3].text = "Did the resident have altered level of consciousness as indicated by any of the following criteria: (1) Vigilant, (2) Lethargic, (3) Stuporous, (4) Comatose?"
-* item[0].item[0].item[3].linkId = "Section-C/C1310/D"
-* item[0].item[0].item[3].answer.valueReference = Reference(BetsySmith-HHDischargePerformance-CAM04-AlteredConsciousness)
+* item[0].linkId = "Section C"
+* item[0].text =  "Cognitive Patterns"
+* item[0].id = "86529-5"
+* item[0].item[0].linkId = "Section C/C0200-C0500"
+* item[0].item[0].text =  "Brief Interview for Mental Status (BIMS)"
+* item[0].item[0].id = "52491-8"
+* item[0].item[0].item[0].linkId = "Section C/C0200-C0500/C0200"
+* item[0].item[0].item[0].text =  "Number of words repeated after first attempt"
+* item[0].item[0].item[0].id = "52731-7"
+* item[0].item[0].item[0].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-13)
+* item[0].item[0].item[1].linkId = "Section C/C0200-C0500/C0300"
+* item[0].item[0].item[1].text =  "Temporal Orientation (orientation to year, month, and day)"
+* item[0].item[0].item[1].id = "54510-3"
+* item[0].item[0].item[1].item[0].linkId = "Section C/C0200-C0500/C0300/C0300A"
+* item[0].item[0].item[1].item[0].text =  "Able to report correct year"
+* item[0].item[0].item[1].item[0].id = "52732-5"
+* item[0].item[0].item[1].item[0].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-14)
+* item[0].item[0].item[1].item[1].linkId = "Section C/C0200-C0500/C0300/C0300B"
+* item[0].item[0].item[1].item[1].text =  "Able to report correct month"
+* item[0].item[0].item[1].item[1].id = "52733-3"
+* item[0].item[0].item[1].item[1].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-15)
+* item[0].item[0].item[1].item[2].linkId = "Section C/C0200-C0500/C0300/C0300C"
+* item[0].item[0].item[1].item[2].text =  "Able to report correct day of the week"
+* item[0].item[0].item[1].item[2].id = "54609-3"
+* item[0].item[0].item[1].item[2].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-16)
+* item[0].item[0].item[2].linkId = "Section C/C0200-C0500/C0400"
+* item[0].item[0].item[2].text =  "Recall"
+* item[0].item[0].item[2].id = "52493-4"
+* item[0].item[0].item[2].item[0].linkId = "Section C/C0200-C0500/C0400/C0400A"
+* item[0].item[0].item[2].item[0].text =  "Able to recall sock"
+* item[0].item[0].item[2].item[0].id = "52735-8"
+* item[0].item[0].item[2].item[0].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-17)
+* item[0].item[0].item[2].item[1].linkId = "Section C/C0200-C0500/C0400/C0400B"
+* item[0].item[0].item[2].item[1].text =  "Able to recall blue"
+* item[0].item[0].item[2].item[1].id = "52736-6"
+* item[0].item[0].item[2].item[1].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-18)
+* item[0].item[0].item[2].item[2].linkId = "Section C/C0200-C0500/C0400/C0400C"
+* item[0].item[0].item[2].item[2].text =  "Able to recall bed"
+* item[0].item[0].item[2].item[2].id = "52737-4"
+* item[0].item[0].item[2].item[2].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-19)
+* item[0].item[0].item[3].linkId = "Section C/C0200-C0500/C0500"
+* item[0].item[0].item[3].text =  "BIMS Summary Score"
+* item[0].item[0].item[3].id = "54614-3"
+* item[0].item[0].item[3].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-20)
+* item[0].item[1].linkId = "Section C/C1310"
+* item[0].item[1].text =  "Signs and Symptoms of Delirium (from CAM)"
+* item[0].item[1].id = "86585-7"
+* item[0].item[1].item[0].linkId = "Section C/C1310/C1310A"
+* item[0].item[1].item[0].text =  "Is there evidence of an acute change in mental status from the patients baseline?"
+* item[0].item[1].item[0].id = "54632-5"
+* item[0].item[1].item[0].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-1)
+* item[0].item[1].item[1].linkId = "Section C/C1310/C1310B"
+* item[0].item[1].item[1].text =  "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
+* item[0].item[1].item[1].id = "54628-3"
+* item[0].item[1].item[1].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-5)
+* item[0].item[1].item[2].linkId = "Section C/C1310/C1310C"
+* item[0].item[1].item[2].text =  "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
+* item[0].item[1].item[2].id = "54629-1"
+* item[0].item[1].item[2].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-9)
+* item[1].linkId = "Section D"
+* item[1].text =  "Mood"
+* item[1].id = "90482-1"
+* item[1].item[0].linkId = "Section D/D0200"
+* item[1].item[0].text =  "Resident Mood Interview (PHQ-9)"
+* item[1].item[0].id = "54635-8"
+* item[1].item[0].item[0].linkId = "Section D/D0200/1"
+* item[1].item[0].item[0].text =  "Symptom Presence"
+* item[1].item[0].item[0].id = "86843-0"
+* item[1].item[0].item[0].item[0].linkId = "Section D/D0200/1/D0200A1"
+* item[1].item[0].item[0].item[0].text =  "Little interest or pleasure in doing things"
+* item[1].item[0].item[0].item[0].id = "54636-6"
+* item[1].item[0].item[0].item[0].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-21)
+* item[1].item[0].item[0].item[1].linkId = "Section D/D0200/1/D0200B1"
+* item[1].item[0].item[0].item[1].text =  "Feeling down, depressed or hopeless"
+* item[1].item[0].item[0].item[1].id = "54638-2"
+* item[1].item[0].item[0].item[1].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-23)
+* item[1].item[0].item[0].item[2].linkId = "Section D/D0200/1/D0200C1"
+* item[1].item[0].item[0].item[2].text =  "Trouble falling or staying asleep or sleeping too much"
+* item[1].item[0].item[0].item[2].id = "54640-8"
+* item[1].item[0].item[0].item[2].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-25)
+* item[1].item[0].item[0].item[3].linkId = "Section D/D0200/1/D0200D1"
+* item[1].item[0].item[0].item[3].text =  "Feeling tired or having little energy"
+* item[1].item[0].item[0].item[3].id = "54642-4"
+* item[1].item[0].item[0].item[3].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-27)
+* item[1].item[0].item[0].item[4].linkId = "Section D/D0200/1/D0200E1"
+* item[1].item[0].item[0].item[4].text =  "Poor appetite or overeating"
+* item[1].item[0].item[0].item[4].id = "54644-0"
+* item[1].item[0].item[0].item[4].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-29)
+* item[1].item[0].item[0].item[5].linkId = "Section D/D0200/1/D0200F1"
+* item[1].item[0].item[0].item[5].text =  "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
+* item[1].item[0].item[0].item[5].id = "54646-5"
+* item[1].item[0].item[0].item[5].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-31)
+* item[1].item[0].item[0].item[6].linkId = "Section D/D0200/1/D0200G1"
+* item[1].item[0].item[0].item[6].text =  "Trouble concentrating on things, such as reading the newspaper or watching television"
+* item[1].item[0].item[0].item[6].id = "54648-1"
+* item[1].item[0].item[0].item[6].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-33)
+* item[1].item[0].item[0].item[7].linkId = "Section D/D0200/1/D0200H1"
+* item[1].item[0].item[0].item[7].text =  "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+* item[1].item[0].item[0].item[7].id = "54650-7"
+* item[1].item[0].item[0].item[7].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-35)
+* item[1].item[0].item[0].item[8].linkId = "Section D/D0200/1/D0200I1"
+* item[1].item[0].item[0].item[8].text =  "Thoughts that you would be better off dead, or of hurting yourself in some way"
+* item[1].item[0].item[0].item[8].id = "54652-3"
+* item[1].item[0].item[0].item[8].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-37)
+* item[1].item[0].item[1].linkId = "Section D/D0200/2"
+* item[1].item[0].item[1].text =  "Symptom Frequency"
+* item[1].item[0].item[1].id = "86844-8"
+* item[1].item[0].item[1].item[0].linkId = "Section D/D0200/2/D0200A2"
+* item[1].item[0].item[1].item[0].text =  "Little interest or pleasure in doing things"
+* item[1].item[0].item[1].item[0].id = "54637-4"
+* item[1].item[0].item[1].item[0].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-22)
+* item[1].item[0].item[1].item[1].linkId = "Section D/D0200/2/D0200B2"
+* item[1].item[0].item[1].item[1].text =  "Feeling down, depressed or hopeless"
+* item[1].item[0].item[1].item[1].id = "54639-0"
+* item[1].item[0].item[1].item[1].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-24)
+* item[1].item[0].item[1].item[2].linkId = "Section D/D0200/2/D0200C2"
+* item[1].item[0].item[1].item[2].text =  "Trouble falling or staying asleep or sleeping too much"
+* item[1].item[0].item[1].item[2].id = "54641-6"
+* item[1].item[0].item[1].item[2].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-26)
+* item[1].item[0].item[1].item[3].linkId = "Section D/D0200/2/D0200D2"
+* item[1].item[0].item[1].item[3].text =  "Feeling tired or having little energy"
+* item[1].item[0].item[1].item[3].id = "54643-2"
+* item[1].item[0].item[1].item[3].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-28)
+* item[1].item[0].item[1].item[4].linkId = "Section D/D0200/2/D0200E2"
+* item[1].item[0].item[1].item[4].text =  "Poor appetite or overeating"
+* item[1].item[0].item[1].item[4].id = "54645-7"
+* item[1].item[0].item[1].item[4].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-30)
+* item[1].item[0].item[1].item[5].linkId = "Section D/D0200/2/D0200F2"
+* item[1].item[0].item[1].item[5].text =  "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
+* item[1].item[0].item[1].item[5].id = "54647-3"
+* item[1].item[0].item[1].item[5].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-32)
+* item[1].item[0].item[1].item[6].linkId = "Section D/D0200/2/D0200G2"
+* item[1].item[0].item[1].item[6].text =  "Trouble concentrating on things, such as reading the newspaper or watching television"
+* item[1].item[0].item[1].item[6].id = "54649-9"
+* item[1].item[0].item[1].item[6].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-34)
+* item[1].item[0].item[1].item[7].linkId = "Section D/D0200/2/D0200H2"
+* item[1].item[0].item[1].item[7].text =  "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+* item[1].item[0].item[1].item[7].id = "54651-5"
+* item[1].item[0].item[1].item[7].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-36)
+* item[1].item[0].item[1].item[8].linkId = "Section D/D0200/2/D0200I2"
+* item[1].item[0].item[1].item[8].text =  "Thoughts that you would be better off dead, or of hurting yourself in some way"
+* item[1].item[0].item[1].item[8].id = "54653-1"
+* item[1].item[0].item[1].item[8].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-38)
+* item[1].item[1].linkId = "Section D/D0300"
+* item[1].item[1].text =  "Total Severity Score"
+* item[1].item[1].id = "54654-9"
+* item[1].item[1].answer.valueReference = Reference(Assessment-1-First3DSNFAdmission-Observation-39)

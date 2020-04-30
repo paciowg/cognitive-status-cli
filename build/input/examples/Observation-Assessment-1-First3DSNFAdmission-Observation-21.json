@@ -1,0 +1,49 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-1-First3DSNFAdmission-Observation-21",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/HappyNursingFacility-Loc"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/BetsySmith"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "54636-6",
+        "system": "http://loinc.org",
+        "display": "Little interest or pleasure in doing things"
+      }
+    ],
+    "text": "Little interest or pleasure in doing things"
+  },
+  "valueCodeableConcept": {
+    "text": "1"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/HoneyJones"
+    },
+    {
+      "reference": "Organization/HappyNursingFacility",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QuestionnaireResponse-1-First3DSNFAdmission"
+    }
+  ]
+}

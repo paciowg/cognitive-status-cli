@@ -109,7 +109,10 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "min": 1
+        "min": 1,
+        "binding": {
+          "description": "The person who performed the assessment."
+        }
       },
       {
         "id": "Observation.value[x]",
