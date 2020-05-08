@@ -5,17 +5,17 @@
   "igName": "PACIOCognitiveStatusImplementationGuide",
   "packageId": "pacio-cs",
   "igVer": "0.1.0",
-  "errorCount": 22,
+  "errorCount": 21,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "4.2.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.2.0 (3)",
-  "totalFiles": 94,
-  "processedFiles": 105,
-  "genDate": "Thu, Apr 30, 2020 16:12+0000",
-  "genDay": "30/04/2020",
+  "totalFiles": 82,
+  "processedFiles": 93,
+  "genDate": "Fri, May 8, 2020 16:18+0000",
+  "genDay": "08/05/2020",
   "ig": {
     "id": "pacio-cs",
     "name": "PACIOCognitiveStatusImplementationGuide",
@@ -34,9 +34,9 @@
         ]
       }
     ],
-    "date": "2020-04-30T16:12:33+00:00",
+    "date": "2020-05-08T16:18:08+00:00",
     "description": "PACIO Cognitive Status Implementation Guide generated with the FHIR Shorthand tool",
     "fhirVersion": "4.0.1"
   },
-  "u966fc95902d148b3bf2b69ffe883cfdc": "http://hl7.org/fhir/us/core"
+  "u9a282422299746efa455ecd8e272ef0c": "http://hl7.org/fhir/us/core"
 }
