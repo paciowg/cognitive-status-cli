@@ -34,7 +34,7 @@
       {
         "code": "LA10997-7",
         "system": "http://loinc.org",
-        "display": "0"
+        "display": "Never or 1 day"
       }
     ],
     "text": "Never or 1 day"

@@ -214,13 +214,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/Connectathon-Assessment-CS-Hospital-MOCA-Ob-16"
-        },
-        "name": "Connectathon-Assessment-CS-Hospital-MOCA-Ob-16",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
-      },
-      {
-        "reference": {
           "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS"
         },
         "name": "Connectathon-Assessment-CS-NursingFacility-BIMS",
@@ -273,13 +266,6 @@
           "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23"
         },
         "name": "Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23",
-        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24"
-        },
-        "name": "Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24",
         "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
       },
       {

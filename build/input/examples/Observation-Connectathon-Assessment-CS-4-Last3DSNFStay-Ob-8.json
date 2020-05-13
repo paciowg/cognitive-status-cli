@@ -33,7 +33,8 @@
     "coding": [
       {
         "code": "LA10992-8",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Behavior continuously present, does not fluctuate"
       }
     ],
     "text": "Behavior continuously present, does not fluctuate"

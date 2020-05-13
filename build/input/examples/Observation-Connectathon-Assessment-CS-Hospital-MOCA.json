@@ -28,6 +28,14 @@
       }
     ]
   },
+  "valueCodeableConcept": {
+    "text": "12",
+    "coding": [
+      {
+        "display": "Total score [MoCA]"
+      }
+    ]
+  },
   "category": [
     {
       "coding": [
@@ -48,11 +56,6 @@
     {
       "reference": "Organization/Connectathon-Org-01",
       "display": "Organization"
-    }
-  ],
-  "hasMember": [
-    {
-      "reference": "Observation/Connectathon-Assessment-CS-Hospital-MOCA-Ob-16"
     }
   ],
   "derivedFrom": [

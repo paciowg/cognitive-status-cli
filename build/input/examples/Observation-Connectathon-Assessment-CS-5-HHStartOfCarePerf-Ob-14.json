@@ -33,7 +33,8 @@
     "coding": [
       {
         "code": "LA10993-6",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Behavior present, fluctuates (comes and goes, changes in severity)"
       }
     ],
     "text": "Behavior present, fluctuates (comes and goes, changes in severity)"

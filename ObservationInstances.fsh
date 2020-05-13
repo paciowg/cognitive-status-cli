@@ -11,7 +11,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Is there evidence of an acute change in mental status from the patients baseline?"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-RonBurgendy)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -29,6 +29,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * valueCodeableConcept = LNC#LA10993-6
 * valueCodeableConcept.text = "Behavior present, fluctuates (comes and goes, changes in severity)"
+* valueCodeableConcept.coding.display = "Behavior present, fluctuates (comes and goes, changes in severity)"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -36,7 +37,7 @@ InstanceOf: CognitiveStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-4-Last3DSNFStay)
 
-/*******************
+/**************
 Instance: Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-43
 InstanceOf: CognitiveStatus
 * subject = Reference(patientBSJ1)
@@ -52,7 +53,7 @@ InstanceOf: CognitiveStatus
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-NursingFacility-PHQ9)
-*************/
+**************/
 
 Instance: Connectathon-Assessment-CS-Hospital-CAM-Ob-6
 InstanceOf: CognitiveStatus
@@ -64,6 +65,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * valueCodeableConcept = LNC#LA10993-6
 * valueCodeableConcept.text = "Behavior present, fluctuates (comes and goes, changes in severity)"
+* valueCodeableConcept.coding.display = "Behavior present, fluctuates (comes and goes, changes in severity)"
 * performer = Reference(Connectathon-Practitioner-RonBurgendy)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -81,6 +83,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * valueCodeableConcept = LNC#LA10993-6
 * valueCodeableConcept.text = "Behavior present, fluctuates (comes and goes, changes in severity)"
+* valueCodeableConcept.coding.display = "Behavior present, fluctuates (comes and goes, changes in severity)"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -98,7 +101,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Thoughts that you would be better off dead, or of hurting yourself in some way"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -116,7 +119,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Is there evidence of an acute change in mental status from the patients baseline?"
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "Yes"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -134,6 +137,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * valueCodeableConcept = LNC#LA61-7
 * valueCodeableConcept.text = "Behavior not present"
+* valueCodeableConcept.coding.display = "Behavior not present"
 * performer = Reference(Connectathon-Practitioner-ScottDumble)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -151,7 +155,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Thoughts that you would be better off dead, or of hurting yourself in some way"
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "Never or 1 day"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -169,7 +173,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Feeling down, depressed or hopeless"
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "Yes"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -187,7 +191,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Little interest or pleasure in doing things"
 * valueCodeableConcept = LNC#LA10998-5
 * valueCodeableConcept.text = "2-6 days (several days)"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "2-6 days (several days)"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -205,7 +209,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Little interest or pleasure in doing things"
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "Yes"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -223,6 +227,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * valueCodeableConcept = LNC#LA10993-6
 * valueCodeableConcept.text = "Behavior present, fluctuates (comes and goes, changes in severity)"
+* valueCodeableConcept.coding.display = "Behavior present, fluctuates (comes and goes, changes in severity)"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -240,7 +245,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Trouble falling or staying asleep or sleeping too much"
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "Yes"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -258,7 +263,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Feeling down, depressed or hopeless"
 * valueCodeableConcept = LNC#LA10998-5
 * valueCodeableConcept.text = "2-6 days (several days)"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "2-6 days (several days)"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -276,7 +281,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Is there evidence of an acute change in mental status from the patients baseline?"
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "Yes"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -293,7 +298,8 @@ InstanceOf: CognitiveStatus
 * code.text = "Repetition of Three Words. Number of words repeated after first attempt"
 * code.coding.display = "Number of words repeated after first attempt"
 * valueCodeableConcept = LNC#LA6395-3
-* valueCodeableConcept.text = "3"
+* valueCodeableConcept.text = "Three"
+* valueCodeableConcept.coding.display = "Three"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -310,7 +316,8 @@ InstanceOf: CognitiveStatus
 * code.text = "Able to report correct month"
 * code.coding.display = "Able to report correct month"
 * valueCodeableConcept = LNC#LA9927-0
-* valueCodeableConcept.text = "2"
+* valueCodeableConcept.text = "Accurate within 5 days"
+* valueCodeableConcept.coding.display = "Accurate within 5 days"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -327,7 +334,8 @@ InstanceOf: CognitiveStatus
 * code.text = "Able to report correct year"
 * code.coding.display = "Able to report correct year"
 * valueCodeableConcept = LNC#LA9960-1
-* valueCodeableConcept.text = "1"
+* valueCodeableConcept.text = "Correct"
+* valueCodeableConcept.coding.display = "Correct"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -345,6 +353,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * valueCodeableConcept = LNC#LA61-7
 * valueCodeableConcept.text = "Behavior not present"
+* valueCodeableConcept.coding.display = "Behavior not present"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -361,7 +370,8 @@ InstanceOf: CognitiveStatus
 * code.text = "Able to report correct day of the week"
 * code.coding.display = "Able to report correct day of the week"
 * valueCodeableConcept = LNC#LA9960-1
-* valueCodeableConcept.text = "1"
+* valueCodeableConcept.text = "Correct"
+* valueCodeableConcept.coding.display = "Correct"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -379,7 +389,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Is there evidence of an acute change in mental status from the patients baseline?"
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "Yes"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -397,6 +407,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * valueCodeableConcept = LNC#LA10992-8
 * valueCodeableConcept.text = "Behavior continuously present, does not fluctuate"
+* valueCodeableConcept.coding.display = "Behavior continuously present, does not fluctuate"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -414,6 +425,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * valueCodeableConcept = LNC#LA10992-8
 * valueCodeableConcept.text = "Behavior continuously present, does not fluctuate"
+* valueCodeableConcept.coding.display = "Behavior continuously present, does not fluctuate"
 * performer = Reference(Connectathon-Practitioner-LunaBaskins)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-03)
@@ -431,6 +443,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 * valueCodeableConcept = LNC#LA61-7
 * valueCodeableConcept.text = "Behavior not present"
+* valueCodeableConcept.coding.display = "Behavior not present"
 * performer = Reference(Connectathon-Practitioner-RonBurgendy)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-01)
@@ -448,7 +461,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Trouble falling or staying asleep or sleeping too much"
 * valueCodeableConcept = LNC#LA10998-5
 * valueCodeableConcept.text = "2-6 days (several days)"
-* valueCodeableConcept.coding.display = "1"
+* valueCodeableConcept.coding.display = "2-6 days (several days)"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -466,7 +479,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Feeling tired or having little energy"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -484,7 +497,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Feeling tired or having little energy"
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "Never or 1 day"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -502,7 +515,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Poor appetite or overeating"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -520,7 +533,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Poor appetite or overeating"
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "Never or 1 day"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -538,7 +551,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -556,7 +569,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "Never or 1 day"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -574,7 +587,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -592,7 +605,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "Never or 1 day"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -610,7 +623,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -618,6 +631,7 @@ InstanceOf: CognitiveStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-NursingFacility-PHQ9)
 
+/**************
 Instance: Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24
 InstanceOf: CognitiveStatus
 * subject = Reference(patientBSJ1)
@@ -633,6 +647,7 @@ InstanceOf: CognitiveStatus
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-NursingFacility-BIMS)
+****************/
 
 Instance: Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-22
 InstanceOf: CognitiveStatus
@@ -643,7 +658,8 @@ InstanceOf: CognitiveStatus
 * code.text = "Able to recall 'blue'"
 * code.coding.display = "Able to recall blue"
 * valueCodeableConcept = LNC#LA10134-7
-* valueCodeableConcept.text = "2"
+* valueCodeableConcept.text = "Yes, no cue required"
+* valueCodeableConcept.coding.display = "Yes, no cue required"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -660,7 +676,8 @@ InstanceOf: CognitiveStatus
 * code.text = "Able to recall 'bed'"
 * code.coding.display = "Able to recall bed"
 * valueCodeableConcept = LNC#LA10134-7
-* valueCodeableConcept.text = "2"
+* valueCodeableConcept.text = "Yes, no cue required"
+* valueCodeableConcept.coding.display = "Yes, no cue required"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -668,6 +685,7 @@ InstanceOf: CognitiveStatus
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-02)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-NursingFacility-BIMS)
 
+/**************
 Instance: Connectathon-Assessment-CS-Hospital-MOCA-Ob-16
 InstanceOf: CognitiveStatus
 * subject = Reference(patientBSJ1)
@@ -683,6 +701,7 @@ InstanceOf: CognitiveStatus
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-Hospital-MOCA)
+**************/
 
 Instance: Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-21
 InstanceOf: CognitiveStatus
@@ -693,7 +712,8 @@ InstanceOf: CognitiveStatus
 * code.text = "Able to recall 'sock'"
 * code.coding.display = "Able to recall sock"
 * valueCodeableConcept = LNC#LA10134-7
-* valueCodeableConcept.text = "2"
+* valueCodeableConcept.text = "Yes, no cue required"
+* valueCodeableConcept.coding.display = "Yes, no cue required"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -711,7 +731,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Is there evidence of an acute change in mental status from the patients baseline?"
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -729,6 +749,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 * valueCodeableConcept = LNC#LA61-7
 * valueCodeableConcept.text = "Behavior not present"
+* valueCodeableConcept.coding.display = "Behavior not present"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)
@@ -746,7 +767,7 @@ InstanceOf: CognitiveStatus
 * code.coding.display = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
-* valueCodeableConcept.coding.display = "0"
+* valueCodeableConcept.coding.display = "Never or 1 day"
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-02)

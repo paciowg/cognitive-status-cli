@@ -29,7 +29,7 @@
     ]
   },
   "valueCodeableConcept": {
-    "text": "3",
+    "text": "9",
     "coding": [
       {
         "display": "Total Severity Score"

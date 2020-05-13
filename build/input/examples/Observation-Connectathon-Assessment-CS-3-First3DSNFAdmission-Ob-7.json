@@ -33,7 +33,8 @@
     "coding": [
       {
         "code": "LA61-7",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Behavior not present"
       }
     ],
     "text": "Behavior not present"
