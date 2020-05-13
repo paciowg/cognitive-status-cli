@@ -28,6 +28,14 @@
       }
     ]
   },
+  "valueCodeableConcept": {
+    "text": "15",
+    "coding": [
+      {
+        "display": "BIMS Summary Score"
+      }
+    ]
+  },
   "category": [
     {
       "coding": [
@@ -71,9 +79,6 @@
     },
     {
       "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23"
-    },
-    {
-      "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24"
     }
   ],
   "derivedFrom": [

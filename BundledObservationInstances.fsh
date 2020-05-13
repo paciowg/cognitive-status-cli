@@ -46,7 +46,7 @@ InstanceOf: BundledCognitiveStatus
 * effectiveDateTime = "2020-04-09T18:00:00-05:00"
 * code = LNC#54635-8
 * code.coding.display = "Resident Mood Interview (PHQ-9)"
-* valueCodeableConcept.text = "3"
+* valueCodeableConcept.text = "9"
 * valueCodeableConcept.coding.display = "Total Severity Score"
 * category = CAT#survey
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
@@ -121,13 +121,15 @@ InstanceOf: BundledCognitiveStatus
 * effectiveDateTime = "2020-04-05T16:00:00-05:00"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
+* valueCodeableConcept.text = "12"
+* valueCodeableConcept.coding.display = "Total score [MoCA]"
 * category = CAT#survey
 * performer = Reference(Connectathon-Practitioner-JennyGlass)
 * performer[1] = Reference(Connectathon-Role-RN)
 * performer[2] = Reference(Connectathon-Org-01)
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Connectathon-Org-Loc-01)
-* hasMember[0] = Reference(Connectathon-Assessment-CS-Hospital-MOCA-Ob-16)
+//* hasMember[0] = Reference(Connectathon-Assessment-CS-Hospital-MOCA-Ob-16)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-Hospital-MOCA)
 * derivedFrom.display = "Questionnaire Response"
 
@@ -138,6 +140,8 @@ InstanceOf: BundledCognitiveStatus
 * effectiveDateTime = "2020-04-09T18:00:00-05:00"
 * code = LNC#52491-8
 * code.coding.display = "Brief Interview for Mental Status (BIMS)"
+* valueCodeableConcept.text = "15"
+* valueCodeableConcept.coding.display = "BIMS Summary Score"
 * category = CAT#survey
 * performer = Reference(Connectathon-Practitioner-HoneyJones)
 * performer[1] = Reference(Connectathon-Role-RN)
@@ -151,7 +155,7 @@ InstanceOf: BundledCognitiveStatus
 * hasMember[4] = Reference(Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-21)
 * hasMember[5] = Reference(Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-22)
 * hasMember[6] = Reference(Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23)
-* hasMember[7] = Reference(Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24)
+//* hasMember[7] = Reference(Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24)
 * derivedFrom = Reference(Connectathon-QuestResponse-CS-NursingFacility-BIMS)
 * derivedFrom.display = "Questionnaire Response"
 

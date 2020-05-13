@@ -101,16 +101,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "72172-0"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Total score [MoCA]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "52491-8"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -225,16 +215,6 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Recall - bed [BIMS]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "54614-3"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Brief Interview for Mental Status - summary score [BIMS]",
   "severity" : null,
   "error" : ""
 }
@@ -473,6 +453,17 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "LA61-7",
+  "display" : "Behavior not present"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Behavior not present",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "54632-5",
   "display" : "Is there evidence of an acute change in mental status from the patients baseline?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -485,12 +476,12 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "LA32-8",
-  "display" : "0"
+  "display" : "No"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "No",
-  "severity" : "warning",
-  "error" : "The display \"0\" is not a valid display for the code {http://loinc.org}LA32-8 - should be one of [No]"
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -506,13 +497,35 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "LA10993-6",
+  "display" : "Behavior present, fluctuates (comes and goes, changes in severity)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Behavior present, fluctuates (comes and goes, changes in severity)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "LA33-6",
-  "display" : "1"
+  "display" : "Yes"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Yes",
-  "severity" : "warning",
-  "error" : "The display \"1\" is not a valid display for the code {http://loinc.org}LA33-6 - should be one of [Yes]"
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA10992-8",
+  "display" : "Behavior continuously present, does not fluctuate"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Behavior continuously present, does not fluctuate",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -522,17 +535,6 @@ v: {
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Montreal Cognitive Assessment [MoCA]",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "72172-0",
-  "display" : "Total score [MoCA]"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Total score [MoCA]",
   "severity" : null,
   "error" : ""
 }
@@ -561,6 +563,17 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "LA6395-3",
+  "display" : "Three"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Three",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "52732-5",
   "display" : "Able to report correct year"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -572,6 +585,17 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "LA9960-1",
+  "display" : "Correct"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Correct",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "52733-3",
   "display" : "Able to report correct month"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -579,6 +603,17 @@ v: {
   "display" : "Temporal orientation - current month [BIMS]",
   "severity" : "warning",
   "error" : "The display \"Able to report correct month\" is not a valid display for the code {http://loinc.org}52733-3 - should be one of [\"Temporal orientation - current month [BIMS]\",]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA9927-0",
+  "display" : "Accurate within 5 days"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Accurate within 5 days",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -605,6 +640,17 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
+  "code" : "LA10134-7",
+  "display" : "Yes, no cue required"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Yes, no cue required",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
   "code" : "52736-6",
   "display" : "Able to recall blue"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -623,17 +669,6 @@ v: {
   "display" : "Recall - bed [BIMS]",
   "severity" : "warning",
   "error" : "The display \"Able to recall bed\" is not a valid display for the code {http://loinc.org}52737-4 - should be one of [\"Recall - bed [BIMS]\",]"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "54614-3",
-  "display" : "BIMS Summary Score"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Brief Interview for Mental Status - summary score [BIMS]",
-  "severity" : "warning",
-  "error" : "The display \"BIMS Summary Score\" is not a valid display for the code {http://loinc.org}54614-3 - should be one of [\"Brief Interview for Mental Status - summary score [BIMS]\",]"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -672,12 +707,12 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "LA10998-5",
-  "display" : "1"
+  "display" : "2-6 days (several days)"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "2-6 days (several days)",
-  "severity" : "warning",
-  "error" : "The display \"1\" is not a valid display for the code {http://loinc.org}LA10998-5 - should be one of [\"2-6 days (several days)\"]"
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -749,12 +784,12 @@ v: {
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "LA10997-7",
-  "display" : "0"
+  "display" : "Never or 1 day"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Never or 1 day",
-  "severity" : "warning",
-  "error" : "The display \"0\" is not a valid display for the code {http://loinc.org}LA10997-7 - should be one of [\"Never or 1 day\"]"
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {

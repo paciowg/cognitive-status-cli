@@ -33,10 +33,11 @@
     "coding": [
       {
         "code": "LA6395-3",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Three"
       }
     ],
-    "text": "3"
+    "text": "Three"
   },
   "performer": [
     {

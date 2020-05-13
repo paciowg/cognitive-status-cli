@@ -33,10 +33,11 @@
     "coding": [
       {
         "code": "LA9927-0",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Accurate within 5 days"
       }
     ],
-    "text": "2"
+    "text": "Accurate within 5 days"
   },
   "performer": [
     {

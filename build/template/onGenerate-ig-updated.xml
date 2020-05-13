@@ -17,7 +17,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-05-08T16:18:08+00:00"/>
+   <date value="2020-05-11T23:04:24+00:00"/>
    <publisher value="MITRE Dev Team"/>
    <contact>
       <name value="Caleb Wan"/>
@@ -422,20 +422,6 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-Connectathon-Assessment-CS-Hospital-MOCA-Ob-16.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/Connectathon-Assessment-CS-Hospital-MOCA-Ob-16"/>
-         </reference>
-         <name value="Connectathon-Assessment-CS-Hospital-MOCA-Ob-16"/>
-         <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="Observation-Connectathon-Assessment-CS-NursingFacility-BIMS.html"/>
          </extension>
          <reference>
@@ -540,20 +526,6 @@
             <reference value="Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23"/>
          </reference>
          <name value="Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23"/>
-         <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24"/>
-         </reference>
-         <name value="Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24"/>
          <exampleCanonical value="http://pacioproject.org/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1346,11 +1318,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-Connectathon-Assessment-CS-Hospital-MOCA-Ob-16.html"/>
-               <title value="Connectathon-Assessment-CS-Hospital-MOCA-Ob-16"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-Connectathon-Assessment-CS-NursingFacility-BIMS.html"/>
                <title value="Connectathon-Assessment-CS-NursingFacility-BIMS"/>
                <generation value="generated"/>
@@ -1388,11 +1355,6 @@
             <page>
                <nameUrl value="Observation-Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23.html"/>
                <title value="Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24.html"/>
-               <title value="Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-24"/>
                <generation value="generated"/>
             </page>
             <page>

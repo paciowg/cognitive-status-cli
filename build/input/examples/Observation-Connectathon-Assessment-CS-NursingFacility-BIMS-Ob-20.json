@@ -33,10 +33,11 @@
     "coding": [
       {
         "code": "LA9960-1",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Correct"
       }
     ],
-    "text": "1"
+    "text": "Correct"
   },
   "performer": [
     {
