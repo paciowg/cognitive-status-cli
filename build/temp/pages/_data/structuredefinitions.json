@@ -10,7 +10,7 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon May 11 23:04:24 GMT 2020",
+    "date": "Tue Jun 23 22:47:22 GMT 2020",
     "publisher": "MITRE Dev Team",
     "description": "An point in time bundle of cognitive status observations for a patient."
   },
@@ -25,7 +25,7 @@
     "basename": "QuestionnaireResponse",
     "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
     "status": "active",
-    "date": "Mon May 11 23:04:24 GMT 2020",
+    "date": "Tue Jun 23 22:47:22 GMT 2020",
     "publisher": "MITRE Dev Team",
     "description": "A completed, or sections of a completed, CMS PAC assessment."
   },
@@ -40,12 +40,27 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Mon May 11 23:04:24 GMT 2020",
+    "date": "Tue Jun 23 22:47:22 GMT 2020",
     "publisher": "MITRE Dev Team",
     "description": "An exchange of cognitive status data for a patient."
   },
-  "pacio-cs-dev": {
+  "pacio-plcf": {
     "index": 3,
+    "url": "http://pacioproject.org/StructureDefinition/pacio-plcf",
+    "name": "PriorLevelOfCognitiveFunction",
+    "path": "StructureDefinition-pacio-plcf.html",
+    "kind": "resource",
+    "type": "Observation",
+    "base": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "basename": "Observation",
+    "basepath": "http://hl7.org/fhir/R4/observation.html",
+    "status": "active",
+    "date": "Tue Jun 23 22:47:22 GMT 2020",
+    "publisher": "MITRE Dev Team",
+    "description": "An exchange of prior level of cognitive function data for a patient."
+  },
+  "pacio-cs-dev": {
+    "index": 4,
     "url": "http://pacioproject.org/StructureDefinition/pacio-cs-dev",
     "name": "UseOfDevice",
     "path": "StructureDefinition-pacio-cs-dev.html",
@@ -55,8 +70,48 @@
     "basename": "DeviceUseStatement",
     "basepath": "http://hl7.org/fhir/R4/deviceusestatement.html",
     "status": "active",
-    "date": "Mon May 11 23:04:24 GMT 2020",
+    "date": "Tue Jun 23 22:47:22 GMT 2020",
     "publisher": "MITRE Dev Team",
     "description": "A device used by a Patient during a cognitive status assessment."
+  },
+  "assistance-required": {
+    "index": 5,
+    "url": "http://pacioproject.org/StructureDefinition/assistance-required",
+    "name": "AssistanceRequired",
+    "path": "StructureDefinition-assistance-required.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status": "active",
+    "date": "Tue Jun 23 22:47:22 GMT 2020",
+    "publisher": "MITRE Dev Team",
+    "description": "Associated cognitive status used for display purposes.",
+    "contexts": [
+      {
+        "type": "Element"
+      }
+    ]
+  },
+  "device-patient-used": {
+    "index": 6,
+    "url": "http://pacioproject.org/StructureDefinition/device-patient-used",
+    "name": "DevicePatientUsed",
+    "path": "StructureDefinition-device-patient-used.html",
+    "kind": "complex-type",
+    "type": "Extension",
+    "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename": "Extension",
+    "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "status": "active",
+    "date": "Tue Jun 23 22:47:22 GMT 2020",
+    "publisher": "MITRE Dev Team",
+    "description": "A device used by a patient during a cognitive status assessment.",
+    "contexts": [
+      {
+        "type": "Element"
+      }
+    ]
   }
 }

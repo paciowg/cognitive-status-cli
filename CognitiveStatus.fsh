@@ -20,3 +20,8 @@ Description:    "An exchange of cognitive status data for a patient."
 * effective[x] only dateTime
 
 * extension contains ObservationLocation named event-location 0..1 MS
+
+//* component.code from LNC
+* component.code ^binding.description = "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns)."
+* component.value[x] only CodeableConcept
+//* component.value[x] ^binding.description = "test desc"

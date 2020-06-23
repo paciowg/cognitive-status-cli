@@ -39,8 +39,8 @@ $RECYCLE.BIN/
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
-### Node ###
+### IG Publisher ###
 
-node_modules
-out
-docs
+build/input-cache
+build/temp
+build/input

@@ -21,3 +21,9 @@ Description:    "An point in time bundle of cognitive status observations for a 
 * category ^binding.description = "If this is from a Post-Acute Care Assessment, value should be survey."
 
 * extension contains ObservationLocation named event-location 0..1 MS
+* extension contains DevicePatientUsed named device-use 0..* MS
+
+Extension: DevicePatientUsed
+Description: "A device used by a patient during a cognitive status assessment."
+Id: device-patient-used
+* value[x] only Reference(UseOfDevice)
