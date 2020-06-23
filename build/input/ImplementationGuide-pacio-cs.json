@@ -59,11 +59,392 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/pacio-plcf"
+        },
+        "name": "PACIO Prior Level of Cognitive Function",
+        "description": "An exchange of prior level of cognitive function data for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/pacio-cs-dev"
         },
         "name": "Use of Device",
         "description": "A device used by a Patient during a cognitive status assessment.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/assistance-required"
+        },
+        "name": "AssistanceRequired",
+        "description": "Associated cognitive status used for display purposes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/device-patient-used"
+        },
+        "name": "DevicePatientUsed",
+        "description": "A device used by a patient during a cognitive status assessment.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-CS"
+        },
+        "name": "Assessment-HH-Discharge-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-CS-Ob-10"
+        },
+        "name": "Assessment-HH-Discharge-CS-Ob-10",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-CS-Ob-15"
+        },
+        "name": "Assessment-HH-Discharge-CS-Ob-15",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-Discharge-CS-Ob-5"
+        },
+        "name": "Assessment-HH-Discharge-CS-Ob-5",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-CS"
+        },
+        "name": "Assessment-HH-StartOfCare-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-CS-Ob-14"
+        },
+        "name": "Assessment-HH-StartOfCare-CS-Ob-14",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-CS-Ob-4"
+        },
+        "name": "Assessment-HH-StartOfCare-CS-Ob-4",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-HH-StartOfCare-CS-Ob-9"
+        },
+        "name": "Assessment-HH-StartOfCare-CS-Ob-9",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-CS"
+        },
+        "name": "Assessment-Hospital-Admission-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-CS-Ob-1"
+        },
+        "name": "Assessment-Hospital-Admission-CS-Ob-1",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-CS-Ob-11"
+        },
+        "name": "Assessment-Hospital-Admission-CS-Ob-11",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-Admission-CS-Ob-6"
+        },
+        "name": "Assessment-Hospital-Admission-CS-Ob-6",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-MOCA"
+        },
+        "name": "Assessment-Hospital-MOCA",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-Hospital-MOCA-Ob-1"
+        },
+        "name": "Assessment-Hospital-MOCA-Ob-1",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-CS"
+        },
+        "name": "Assessment-SNF-Admission-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-CS-Ob-12"
+        },
+        "name": "Assessment-SNF-Admission-CS-Ob-12",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-CS-Ob-2"
+        },
+        "name": "Assessment-SNF-Admission-CS-Ob-2",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Admission-CS-Ob-7"
+        },
+        "name": "Assessment-SNF-Admission-CS-Ob-7",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS"
+        },
+        "name": "Assessment-SNF-BIMS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-2"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-2",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-3"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-3",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-4"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-4",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-5"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-5",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-6"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-6",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-7"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-7",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-8"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-8",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-BIMS-Ob-9"
+        },
+        "name": "Assessment-SNF-BIMS-Ob-9",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-CS"
+        },
+        "name": "Assessment-SNF-Discharge-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-CS-Ob-13"
+        },
+        "name": "Assessment-SNF-Discharge-CS-Ob-13",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-CS-Ob-3"
+        },
+        "name": "Assessment-SNF-Discharge-CS-Ob-3",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-Discharge-CS-Ob-8"
+        },
+        "name": "Assessment-SNF-Discharge-CS-Ob-8",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9"
+        },
+        "name": "Assessment-SNF-PHQ9",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-bcs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-10"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-10",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-11"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-11",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-12"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-12",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-13"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-13",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-14"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-14",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-15"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-15",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-16"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-16",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-17"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-17",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-18"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-18",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-19"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-19",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-20"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-20",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-21"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-21",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-22"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-22",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-23"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-23",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-24"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-24",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-25"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-25",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-26"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-26",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-27"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-27",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
+      },
+      {
+        "reference": {
+          "reference": "Observation/Assessment-SNF-PHQ9-Ob-28"
+        },
+        "name": "Assessment-SNF-PHQ9-Ob-28",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
@@ -574,6 +955,181 @@
           "reference": "PractitionerRole/Connectathon-Role-RN"
         },
         "name": "Connectathon-Role-RN",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/Org-01"
+        },
+        "name": "Org-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/Org-02"
+        },
+        "name": "Org-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/Org-03"
+        },
+        "name": "Org-03",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Org-Loc-01"
+        },
+        "name": "Org-Loc-01",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Org-Loc-02"
+        },
+        "name": "Org-Loc-02",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Org-Loc-03"
+        },
+        "name": "Org-Loc-03",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-DanielGranger"
+        },
+        "name": "Practitioner-DanielGranger",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-HoneyJones"
+        },
+        "name": "Practitioner-HoneyJones",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-JenCadbury"
+        },
+        "name": "Practitioner-JenCadbury",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-JennyGlass"
+        },
+        "name": "Practitioner-JennyGlass",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-LunaBaskins"
+        },
+        "name": "Practitioner-LunaBaskins",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-RonBurgendy"
+        },
+        "name": "Practitioner-RonBurgendy",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-RonMarble"
+        },
+        "name": "Practitioner-RonMarble",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-SallySmith"
+        },
+        "name": "Practitioner-SallySmith",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/Practitioner-ScottDumble"
+        },
+        "name": "Practitioner-ScottDumble",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-HH-Discharge-CS"
+        },
+        "name": "QResponse-HH-Discharge-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-HH-StartOfCare-CS"
+        },
+        "name": "QResponse-HH-StartOfCare-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-Hospital-Admission-CS"
+        },
+        "name": "QResponse-Hospital-Admission-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-Hospital-MOCA"
+        },
+        "name": "QResponse-Hospital-MOCA",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-Admission-CS"
+        },
+        "name": "QResponse-SNF-Admission-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-BIMS"
+        },
+        "name": "QResponse-SNF-BIMS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-Discharge-CS"
+        },
+        "name": "QResponse-SNF-Discharge-CS",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/QResponse-SNF-PHQ9"
+        },
+        "name": "QResponse-SNF-PHQ9",
+        "exampleCanonical": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Role-PT"
+        },
+        "name": "Role-PT",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Role-RN"
+        },
+        "name": "Role-RN",
         "exampleBoolean": true
       },
       {
