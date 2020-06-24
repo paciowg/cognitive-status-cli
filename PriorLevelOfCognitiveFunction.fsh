@@ -5,7 +5,7 @@ Profile:        PriorLevelOfCognitiveFunction
 Parent:         Observation
 Id:             pacio-plcf
 Title:          "PACIO Prior Level of Cognitive Function"
-Description:    "An exchange of prior level of cognitive function data for a patient."
+Description:    "An exchange of prior level of cognitive function data for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"
 
 * code from LNC
 
@@ -26,6 +26,6 @@ Description:    "An exchange of prior level of cognitive function data for a pat
 * extension contains AssistanceRequired named assistance-required 0..1 MS
 
 Extension: AssistanceRequired
-Description: "Associated cognitive status used for display purposes."
+Description: "Associated with prior level of cognitive function to provide indication of 'independent' vs. 'assistance needed'."
 Id: assistance-required
 * value[x] only CodeableConcept
