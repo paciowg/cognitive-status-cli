@@ -77,16 +77,33 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.basedOn",
+        "path": "Observation.basedOn",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "Should have the value 'final' to indicate the observation is complete."
+      },
+      {
         "id": "Observation.code",
         "path": "Observation.code",
+        "short": "For a Post-Acute Care Assessment, should include a LOINC code and text for the question.",
         "binding": {
-          "strength": "extensible",
+          "strength": "preferred",
           "valueSet": "http://loinc.org"
         }
       },
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "short": "Should only reference a Patient resource",
         "min": 1,
         "type": [
           {
@@ -98,6 +115,11 @@
         ]
       },
       {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
         "type": [
@@ -107,8 +129,14 @@
         ]
       },
       {
+        "id": "Observation.issued",
+        "path": "Observation.issued",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
         "id": "Observation.performer",
         "path": "Observation.performer",
+        "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization. ",
         "min": 1,
         "binding": {
           "description": "The person who performed the assessment."
@@ -119,31 +147,59 @@
         "path": "Observation.value[x]",
         "type": [
           {
-            "code": "Quantity"
-          },
-          {
             "code": "CodeableConcept"
           }
         ]
       },
       {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.referenceRange",
+        "path": "Observation.referenceRange",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "short": "Currently not used in CognitiveStatus."
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "short": "If used, the answers for the associated questions (for the purpose of grouping answers under a heading and displaying side-by-side columns)"
+      },
+      {
         "id": "Observation.component.code",
         "path": "Observation.component.code",
-        "binding": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-              "valueString": "ObservationCode"
-            }
-          ],
-          "strength": "example",
-          "description": "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns).",
-          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
-        }
+        "short": "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns)."
       },
       {
         "id": "Observation.component.value[x]",
         "path": "Observation.component.value[x]",
+        "short": "The code and text for the answer to the (associated) question.",
         "type": [
           {
             "code": "CodeableConcept"

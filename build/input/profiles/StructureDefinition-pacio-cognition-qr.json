@@ -35,9 +35,7 @@
       {
         "id": "QuestionnaireResponse.questionnaire",
         "path": "QuestionnaireResponse.questionnaire",
-        "binding": {
-          "description": "This field contains the URI for the PAC assessment."
-        }
+        "short": "This field contains the URI for the PAC assessment questionnaire."
       },
       {
         "id": "QuestionnaireResponse.subject",
@@ -55,16 +53,12 @@
       {
         "id": "QuestionnaireResponse.item.id",
         "path": "QuestionnaireResponse.item.id",
-        "binding": {
-          "description": "This field contains the LOINC code of the question."
-        }
+        "short": "This field contains the LOINC code of the section title or observation question."
       },
       {
         "id": "QuestionnaireResponse.item.linkId",
         "path": "QuestionnaireResponse.item.linkId",
-        "binding": {
-          "description": "This field contains the 'linkId' of the corresponding section title or question from the Questionnaire."
-        }
+        "short": "This field contains the 'linkId' of the corresponding section title or question from the questionnaire."
       },
       {
         "id": "QuestionnaireResponse.item.answer.value[x]",
