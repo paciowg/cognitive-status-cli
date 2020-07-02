@@ -96,7 +96,7 @@
         "path": "Observation.code",
         "short": "For a Post-Acute Care Assessment, should include a LOINC code and text for the question.",
         "binding": {
-          "strength": "preferred",
+          "strength": "extensible",
           "valueSet": "http://loinc.org"
         }
       },
