@@ -1,5 +1,8 @@
 This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of PAC assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.
 
+A note on the use of "Must Support" in the Implementation Guide:
+For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, Must Support will conform with US Core definition.
+
 ### Resource Profile: CognitionQuestionnaireResponse
 
 This resource profile is intended to be used for data exchange of a completed, or sections of a completed, post-acute care (PAC) assessment. The CognitionQuestionnaireResponse resource also preserves the structure of the PAC assessment questionnaire to provide context for the PACIO observation-based information and is derived from the FHIR resource QuestionnaireResponse.

@@ -3,7 +3,9 @@
 Post-acute care patients are typically complex from a healthcare perspective and have many stops during their healthcare journey (as shown in Figure 1).  As the patient moves from one healthcare setting to another, it is important that their [functional/cognitive] data travel with them so that the new healthcare setting has the most complete information about that patient so they can provide the best care.
 
 ![Patient Journey](Patient_Journey.png){:style="float: none;"}
+
 Figure 1: Example Post-acute Care Patient Healthcare Journey
+
 
 ### Assessment Data Exchange
 
@@ -13,5 +15,6 @@ Upon discharge, Healthcare Setting A refers the patient to Healthcare Setting B.
 
 The patient and their family can also access the assessments from Healthcare Setting A at any time through a mobile/web application, so that they are informed about the patient’s care, can track progress, and can be more engaged in their healthcare decisions.
 
-![Cognitive Status Use Case](Cognitive_Status_Use_Case.png)
+![Cognitive Status Use Case](Cognitive_Status_Use_Case.png){:style="float: none;"}
+
 Figure 2: Cognitive Status Use Case

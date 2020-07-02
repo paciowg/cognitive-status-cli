@@ -27,7 +27,6 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/images/BCS_PHQ9_Example.png                    | copied    | ../ig-data/input/images/BCS_PHQ9_Example.png                        |
 | input/images/Cognitive_Status_Use_Case.png           | copied    | ../ig-data/input/images/Cognitive_Status_Use_Case.png               |
 | input/images/Patient_Journey.png                     | copied    | ../ig-data/input/images/Patient_Journey.png                         |
-| input/images/QResponse_CAM_Example-ORIG.png          | copied    | ../ig-data/input/images/QResponse_CAM_Example-ORIG.png              |
 | input/images/QResponse_CAM_Example.png               | copied    | ../ig-data/input/images/QResponse_CAM_Example.png                   |
 | input/images/pacio.png                               | copied    | ../ig-data/input/images/pacio.png                                   |
 | input/images/pacio.png.jpg                           | copied    | ../ig-data/input/images/pacio.png.jpg                               |

@@ -7,7 +7,7 @@ Id:             pacio-cs
 Title:          "PACIO Cognitive Status"
 Description:    "An exchange of cognitive status data for a patient."
 
-* code from LNC (preferred)
+* code from LNC (extensible)
 
 * subject 1..1
 * subject only Reference(Patient)

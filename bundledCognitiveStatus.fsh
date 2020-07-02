@@ -7,7 +7,7 @@ Id:             pacio-bcs
 Title:          "PACIO Bundled Cognitive Status"
 Description:    "An point in time bundle of cognitive status observations for a patient."
 
-* code from LNC (preferred)
+* code from LNC (extensible)
 
 * subject 1..1
 * subject only Reference(Patient)
@@ -17,7 +17,7 @@ Description:    "An point in time bundle of cognitive status observations for a 
 * value[x] only CodeableConcept
 
 * category 1..1
-* category from CAT (preferred)
+* category from CAT (extensible)
 
 * effective[x] only dateTime or Period
 
