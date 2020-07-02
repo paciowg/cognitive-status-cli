@@ -91,27 +91,44 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.basedOn",
+        "path": "Observation.basedOn",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "Should have the value 'final' to indicate the assessment is complete."
+      },
+      {
         "id": "Observation.category",
         "path": "Observation.category",
+        "short": "For a Post-Acute Care Assessment, should have the value 'survey'.",
         "min": 1,
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "description": "If this is from a Post-Acute Care Assessment, value should be survey."
+          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       },
       {
         "id": "Observation.code",
         "path": "Observation.code",
+        "short": "For a Post-Acute Care Assessment, should include a LOINC code and text for the kind of assessment.",
         "binding": {
-          "strength": "extensible",
+          "strength": "preferred",
           "valueSet": "http://loinc.org"
         }
       },
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "short": "Should only reference a Patient resource",
         "min": 1,
         "type": [
           {
@@ -123,8 +140,31 @@
         ]
       },
       {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Observation.issued",
+        "path": "Observation.issued",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
         "id": "Observation.performer",
         "path": "Observation.performer",
+        "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization. ",
         "min": 1
       },
       {
@@ -132,12 +172,49 @@
         "path": "Observation.value[x]",
         "type": [
           {
-            "code": "Quantity"
-          },
-          {
             "code": "CodeableConcept"
           }
         ]
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.method",
+        "path": "Observation.method",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.referenceRange",
+        "path": "Observation.referenceRange",
+        "short": "Currently not used in BundledCognitiveStatus."
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "short": "Currently not used in BundledCognitiveStatus."
       }
     ]
   }
