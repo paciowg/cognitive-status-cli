@@ -66,11 +66,11 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#86585-7
 * code.coding.display = "Signs and Symptoms of Delirium (from CAM)"
 * category = CAT#survey
-* performer = Reference(Connectathon-Practitioner-ScottDumble)
-* performer[1] = Reference(Connectathon-Role-RN)
-* performer[2] = Reference(Connectathon-Org-03)
+* performer = Reference(Practitioner-ScottDumble)
+* performer[1] = Reference(Role-RN)
+* performer[2] = Reference(Org-03)
 * performer[2].display = "Organization"
-* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-03)
+* extension[event-location].valueReference = Reference(Org-Loc-03)
 * hasMember[0] = Reference(Assessment-HH-Discharge-CS-Ob-5)
 * hasMember[1] = Reference(Assessment-HH-Discharge-CS-Ob-10)
 * hasMember[2] = Reference(Assessment-HH-Discharge-CS-Ob-15)

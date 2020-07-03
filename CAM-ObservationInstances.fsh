@@ -1,6 +1,6 @@
 Alias: LNC = http://loinc.org
 Alias: UOM = http://unitsofmeasure.org
-Alias: DAR = http://hl7.org/fhir/ValueSet/data-absent-reason
+Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 Instance: Assessment-SNF-Discharge-CS-Ob-8
 InstanceOf: CognitiveStatus
@@ -31,11 +31,11 @@ InstanceOf: CognitiveStatus
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
 * valueCodeableConcept.coding.display = "Yes"
-* performer = Reference(Connectathon-Practitioner-ScottDumble)
-* performer[1] = Reference(Connectathon-Role-RN)
-* performer[2] = Reference(Connectathon-Org-03)
+* performer = Reference(Practitioner-ScottDumble)
+* performer[1] = Reference(Role-RN)
+* performer[2] = Reference(Org-03)
 * performer[2].display = "Organization"
-* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-03)
+* extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-HH-Discharge-CS)
 
 Instance: Assessment-Hospital-Admission-CS-Ob-11
@@ -229,11 +229,11 @@ InstanceOf: CognitiveStatus
 * valueCodeableConcept = LNC#LA10993-6
 * valueCodeableConcept.text = "Behavior present, fluctuates (comes and goes, changes in severity)"
 * valueCodeableConcept.coding.display = "Behavior present, fluctuates (comes and goes, changes in severity)"
-* performer = Reference(Connectathon-Practitioner-ScottDumble)
-* performer[1] = Reference(Connectathon-Role-RN)
-* performer[2] = Reference(Connectathon-Org-03)
+* performer = Reference(Practitioner-ScottDumble)
+* performer[1] = Reference(Role-RN)
+* performer[2] = Reference(Org-03)
 * performer[2].display = "Organization"
-* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-03)
+* extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-HH-Discharge-CS)
 
 Instance: Assessment-SNF-Discharge-CS-Ob-13
@@ -265,9 +265,9 @@ InstanceOf: CognitiveStatus
 * valueCodeableConcept = LNC#LA61-7
 * valueCodeableConcept.text = "Behavior not present"
 * valueCodeableConcept.coding.display = "Behavior not present"
-* performer = Reference(Connectathon-Practitioner-ScottDumble)
-* performer[1] = Reference(Connectathon-Role-RN)
-* performer[2] = Reference(Connectathon-Org-03)
+* performer = Reference(Practitioner-ScottDumble)
+* performer[1] = Reference(Role-RN)
+* performer[2] = Reference(Org-03)
 * performer[2].display = "Organization"
-* extension[event-location].valueReference = Reference(Connectathon-Org-Loc-03)
+* extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-HH-Discharge-CS)
