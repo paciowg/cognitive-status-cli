@@ -1,42 +1,41 @@
 {
   "path": "http://hl7.org/fhir/R4/",
-  "canonical": "http://pacioproject.org",
+  "canonical": "https://paciowg.github.io/cognitive-status-ig",
   "igId": "pacio-cs",
   "igName": "PACIOCognitiveStatusImplementationGuide",
   "packageId": "pacio-cs",
   "igVer": "0.1.0",
-  "errorCount": 25,
+  "errorCount": 22,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "4.4.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.4.0 (3)",
-  "totalFiles": 159,
-  "processedFiles": 180,
-  "genDate": "Thu, Jul 2, 2020 20:46+0000",
-  "genDay": "02/07/2020",
+  "totalFiles": 86,
+  "processedFiles": 107,
+  "genDate": "Fri, Jul 3, 2020 15:51+0000",
+  "genDay": "03/07/2020",
   "ig": {
     "id": "pacio-cs",
     "name": "PACIOCognitiveStatusImplementationGuide",
     "title": "PACIO Cognitive Status Implementation Guide",
-    "url": "http://pacioproject.org/ImplementationGuide/pacio-cs",
+    "url": "https://paciowg.github.io/cognitive-status-ig/ImplementationGuide/pacio-cs",
     "version": "0.1.0",
     "status": "active",
     "experimental": false,
-    "publisher": "MITRE Dev Team",
+    "publisher": "MITRE PACIO Team",
     "gitstatus": "",
     "contact": [
       {
         "name": "Caleb Wan",
         "telecom": [
-          "calebwan@mitre.org"
+          "http://pacioproject.org/"
         ]
       }
     ],
-    "date": "2020-07-02T20:46:43+00:00",
-    "description": "PACIO Cognitive Status Implementation Guide generated with the FHIR Shorthand tool",
+    "date": "2020-07-03T15:51:30+00:00",
     "fhirVersion": "4.0.1"
   },
-  "udc5a40e0883748919315aba602a6135a": "http://hl7.org/fhir/us/core"
+  "ucc81e1487f72482db2e0eb22e9d31109": "http://hl7.org/fhir/us/core"
 }

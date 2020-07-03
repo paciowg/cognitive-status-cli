@@ -1,6 +1,6 @@
 {
   "resourceType": "CapabilityStatement",
-  "id": "pacio-cs",
+  "id": "CapabilityStatement-pacio-cs",
   "url": "https://paciowg.github.io/cognitive-status-ig/CapabilityStatement-pacio-cs.html",
   "version": "0.1.0",
   "name": "PACIO_CognitiveStatus_CapabilityStatement",

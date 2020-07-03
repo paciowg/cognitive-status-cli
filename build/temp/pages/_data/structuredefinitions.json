@@ -1,7 +1,7 @@
 {
   "pacio-bcs": {
     "index": 0,
-    "url": "http://pacioproject.org/StructureDefinition/pacio-bcs",
+    "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs",
     "name": "BundledCognitiveStatus",
     "path": "StructureDefinition-pacio-bcs.html",
     "kind": "resource",
@@ -10,13 +10,13 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Thu Jul 02 20:46:43 GMT 2020",
-    "publisher": "MITRE Dev Team",
+    "date": "Fri Jul 03 15:51:30 GMT 2020",
+    "publisher": "MITRE PACIO Team",
     "description": "An point in time bundle of cognitive status observations for a patient."
   },
   "pacio-cognition-qr": {
     "index": 1,
-    "url": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr",
+    "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr",
     "name": "CognitionQuestionnaireResponse",
     "path": "StructureDefinition-pacio-cognition-qr.html",
     "kind": "resource",
@@ -25,13 +25,13 @@
     "basename": "QuestionnaireResponse",
     "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
     "status": "active",
-    "date": "Thu Jul 02 20:46:43 GMT 2020",
-    "publisher": "MITRE Dev Team",
+    "date": "Fri Jul 03 15:51:30 GMT 2020",
+    "publisher": "MITRE PACIO Team",
     "description": "A completed, or sections of a completed, CMS PAC assessment."
   },
   "pacio-cs": {
     "index": 2,
-    "url": "http://pacioproject.org/StructureDefinition/pacio-cs",
+    "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs",
     "name": "CognitiveStatus",
     "path": "StructureDefinition-pacio-cs.html",
     "kind": "resource",
@@ -40,13 +40,13 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Thu Jul 02 20:46:43 GMT 2020",
-    "publisher": "MITRE Dev Team",
+    "date": "Fri Jul 03 15:51:30 GMT 2020",
+    "publisher": "MITRE PACIO Team",
     "description": "An exchange of cognitive status data for a patient."
   },
   "pacio-plcf": {
     "index": 3,
-    "url": "http://pacioproject.org/StructureDefinition/pacio-plcf",
+    "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf",
     "name": "PriorLevelOfCognitiveFunction",
     "path": "StructureDefinition-pacio-plcf.html",
     "kind": "resource",
@@ -55,13 +55,13 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Thu Jul 02 20:46:43 GMT 2020",
-    "publisher": "MITRE Dev Team",
+    "date": "Fri Jul 03 15:51:30 GMT 2020",
+    "publisher": "MITRE PACIO Team",
     "description": "An exchange of prior level of cognitive function data for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"
   },
   "pacio-cs-dev": {
     "index": 4,
-    "url": "http://pacioproject.org/StructureDefinition/pacio-cs-dev",
+    "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs-dev",
     "name": "UseOfDevice",
     "path": "StructureDefinition-pacio-cs-dev.html",
     "kind": "resource",
@@ -70,13 +70,13 @@
     "basename": "DeviceUseStatement",
     "basepath": "http://hl7.org/fhir/R4/deviceusestatement.html",
     "status": "active",
-    "date": "Thu Jul 02 20:46:43 GMT 2020",
-    "publisher": "MITRE Dev Team",
+    "date": "Fri Jul 03 15:51:30 GMT 2020",
+    "publisher": "MITRE PACIO Team",
     "description": "A device used by a Patient during a cognitive status assessment."
   },
   "assistance-required": {
     "index": 5,
-    "url": "http://pacioproject.org/StructureDefinition/assistance-required",
+    "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/assistance-required",
     "name": "AssistanceRequired",
     "path": "StructureDefinition-assistance-required.html",
     "kind": "complex-type",
@@ -85,8 +85,8 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Thu Jul 02 20:46:43 GMT 2020",
-    "publisher": "MITRE Dev Team",
+    "date": "Fri Jul 03 15:51:30 GMT 2020",
+    "publisher": "MITRE PACIO Team",
     "description": "Associated with prior level of cognitive function to provide indication of \u0027independent\u0027 vs. \u0027assistance needed\u0027.",
     "contexts": [
       {
@@ -96,7 +96,7 @@
   },
   "device-patient-used": {
     "index": 6,
-    "url": "http://pacioproject.org/StructureDefinition/device-patient-used",
+    "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/device-patient-used",
     "name": "DevicePatientUsed",
     "path": "StructureDefinition-device-patient-used.html",
     "kind": "complex-type",
@@ -105,8 +105,8 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Thu Jul 02 20:46:43 GMT 2020",
-    "publisher": "MITRE Dev Team",
+    "date": "Fri Jul 03 15:51:30 GMT 2020",
+    "publisher": "MITRE PACIO Team",
     "description": "A device used by a patient during a cognitive status assessment.",
     "contexts": [
       {
