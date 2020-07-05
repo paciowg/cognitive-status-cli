@@ -21,6 +21,7 @@ Description:    "An exchange of cognitive status data for a patient."
 
 * extension contains ObservationLocation named event-location 0..1 MS
 
+* component.code from LNC (extensible)
 * component.value[x] only CodeableConcept
 
 * performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization. "
