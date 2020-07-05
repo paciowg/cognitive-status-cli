@@ -7,7 +7,7 @@ Id:             pacio-plcf
 Title:          "PACIO Prior Level of Cognitive Function"
 Description:    "An exchange of prior level of cognitive function data for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"
 
-* code from LNC (preferred)
+* code from LNC (extensible)
 
 * text 0..1 MS
 * text ^short = "Text summary of the prior level of cognitive function for the patient. (Strongly encouraged to use until more structured method is established)"
