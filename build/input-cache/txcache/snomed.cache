@@ -1,23 +1,12 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "36682004",
-  "display" : "Physiotherapist"
+  "code" : "159026005",
+  "display" : "Speech Language Pathologist"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Physiotherapist",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "224535009",
-  "display" : "Registered Nurse"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Registered nurse",
-  "severity" : null,
-  "error" : ""
+  "display" : "Speech and language therapist",
+  "severity" : "warning",
+  "error" : "The display \"Speech Language Pathologist\" is not a valid display for the code {http://snomed.info/sct}159026005 - should be one of [\"Speech and language therapist\",\"Speech therapist\",\"SLT - Speech and language therapist\",\"ST - Speech therapist\",\"Speech/language therapist (occupation)\",\"Speech/language therapist\"] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
