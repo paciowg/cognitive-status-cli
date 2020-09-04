@@ -1,29 +1,25 @@
 ---
 ---
+<!-- get modelType -->
+{% include fragment-modelType.html id='pacio-bcs' %}
+
 {% include fragment-pagebegin.html %}
 <div style="counter-reset: section 5" class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
   {% include fragment-profile-navtabs.html type='StructureDefinition' id='pacio-bcs' active='mapping' %}
-  <a name="root"> </a>
 
-{% if site.data.structuredefinitions['pacio-bcs'].kind == 'logical' %}
-  {% assign modelType = 'Logical Model' %}
-{% elsif site.data.structuredefinitions['pacio-bcs'].kind == 'resource' %}
-  {% assign modelType = 'Resource Profile' %}
-{% else %}
-  {% assign modelType = 'Data Type Profile' %}
-{% endif %}
+<a name="root"> </a>
 <h2 id="root">{{modelType}}: BundledCognitiveStatus - Mappings</h2>
 
-<p>Mappings for the pacio-bcs Profile.</p>
+<p>Mappings for the pacio-bcs {{modelType | downcase }}.</p>
 
   <!-- insert intro if present -->
-  {% include fragment-intro.html %}
+  {% include fragment-intro.html type='StructureDefinition' id='pacio-bcs' %}
 
   {%include StructureDefinition-pacio-bcs-maps.xhtml%}
 
   <!-- insert notes if present -->
-  {% include fragment-notes.html %}
+  {% include fragment-notes.html type='StructureDefinition' id='pacio-bcs' %}
 
 </div>
 {% assign includetabscripts = 'true' %}
