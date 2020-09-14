@@ -5,17 +5,17 @@
   "igName": "PACIOCognitiveStatusImplementationGuide",
   "packageId": "pacio-cs",
   "igVer": "0.1.0",
-  "errorCount": 23,
+  "errorCount": 46,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "4.5.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.5.0 (3)",
-  "totalFiles": 66,
-  "processedFiles": 88,
-  "genDate": "Fri, Sep 4, 2020 17:24+0000",
-  "genDay": "04/09/2020",
+  "totalFiles": 88,
+  "processedFiles": 111,
+  "genDate": "Mon, Sep 14, 2020 20:23+0000",
+  "genDay": "14/09/2020",
   "ig": {
     "id": "pacio-cs",
     "name": "PACIOCognitiveStatusImplementationGuide",
@@ -34,11 +34,11 @@
         ]
       }
     ],
-    "date": "2020-09-04T17:24:51+00:00",
+    "date": "2020-09-14T20:23:53+00:00",
     "fhirVersion": "4.0.1"
   },
-  "u653bc843a4f44dfbadb96ec8dade50c9": "http://hl7.org/fhir/us/core",
+  "ub0de61e792604fe3a07724b2b8365bb7": "http://hl7.org/fhir/us/core",
   "ver": {
-    "u653bc843a4f44dfbadb96ec8dade50c9": "http://hl7.org/fhir/us/core/STU3.1"
+    "ub0de61e792604fe3a07724b2b8365bb7": "http://hl7.org/fhir/us/core/STU3.1"
   }
 }

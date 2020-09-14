@@ -72,7 +72,8 @@ InstanceOf: Location
 * address.text  = "8810 Old Sky Harbor, San Antonio, TX 78242"
 
 
-///////////// TEMP ////////////////
+//////////////////////////////////////////////////////////
+
 Instance: provider-role-pcp
 InstanceOf: PractitionerRole
 * code = NUCC#261QP2300X
@@ -89,6 +90,19 @@ InstanceOf: Practitioner
 * name.text = "Primary Care Physician"
 * active = true
 * gender = Hl7FhirAdminGender#male
+
+Instance: Practitioner-NoraOlogist
+InstanceOf: Practitioner
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "3668788925"
+* name.given = "Nora"
+* name.family = "Ologist"
+* name.text = "Neurologist"
+* active = true
+* gender = Hl7FhirAdminGender#female
+* telecom.system = #phone
+* telecom.value = "(210) 555 7632"
+* address.text = "26022 Meadowlark Bay, San Antonio, TX 78260"
 
 Instance: provider-org-01
 InstanceOf: Organization

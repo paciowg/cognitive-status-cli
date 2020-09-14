@@ -1,6 +1,149 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "713458007",
+  "display" : "Needs transportation"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lack of access to transportation (finding)",
+  "severity" : "warning",
+  "error" : "The display \"Needs transportation\" is not a valid display for the code {http://snomed.info/sct}713458007 - should be one of [\"Lack of access to transportation (finding)\",\"Lack of access to transportation\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "734920002",
+  "display" : "Needs health / nutrition education for diabetes"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Diabetes mellitus education service (qualifier value)",
+  "severity" : "warning",
+  "error" : "The display \"Needs health / nutrition education for diabetes\" is not a valid display for the code {http://snomed.info/sct}734920002 - should be one of [\"Diabetes mellitus education service (qualifier value)\",\"Diabetic education service\",\"Diabetes mellitus education service\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "183301007",
+  "display" : "Needs physical exercises"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Physical exercises",
+  "severity" : "warning",
+  "error" : "The display \"Needs physical exercises\" is not a valid display for the code {http://snomed.info/sct}183301007 - should be one of [\"Physical exercises\",\"Physical exercises (regime/therapy)\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "Hypertension"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "High blood pressure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "55822004",
+  "display" : "Hyperlipidemia"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hyperlipidemia",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "433144002",
+  "display" : "Stage 3 chronic kideny disease"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Chronic kidney disease stage 3 (disorder)",
+  "severity" : "warning",
+  "error" : "The display \"Stage 3 chronic kideny disease\" is not a valid display for the code {http://snomed.info/sct}433144002 - should be one of [\"Chronic kidney disease stage 3 (disorder)\",\"Chronic kidney disease stage 3\",\"CKD stage 3\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "414545008",
+  "display" : "Ischemic heart disease"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ischemic heart disease (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "192080009",
+  "display" : "Depression"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Chronic depression",
+  "severity" : "warning",
+  "error" : "The display \"Depression\" is not a valid display for the code {http://snomed.info/sct}192080009 - should be one of [\"Chronic depression\",\"Chronic depression (disorder)\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "95722004",
+  "display" : "Cataracts"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Bilateral cataracts",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "396275006",
+  "display" : "Osteoarthiritis"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Osteoarthritis (disorder)",
+  "severity" : "warning",
+  "error" : "The display \"Osteoarthiritis\" is not a valid display for the code {http://snomed.info/sct}396275006 - should be one of [\"Osteoarthritis (disorder)\",Osteoarthritis,\"OA - Osteoarthritis\",\"Degenerative arthritis\",\"OA - Osteoarthrosis\",\"Hypertrophic arthritis\",\"Degenerative joint disease\",\"Hypertrophic polyarthritis\",Osteoarthrosis,\"Degenerative arthropathy\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "44054006",
+  "display" : "Type 2 diabetes"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Diabetes mellitus type II",
+  "severity" : "warning",
+  "error" : "The display \"Type 2 diabetes\" is not a valid display for the code {http://snomed.info/sct}44054006 - should be one of [\"Diabetes mellitus type II\",\"Type 2 diabetes mellitus\",\"Diabetes mellitus type 2\",\"Type II diabetes mellitus\",\"Diabetes mellitus type 2 (disorder)\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "422504002",
+  "display" : "Ischemic stroke"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Ischemic stroke (disorder)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "32485007",
+  "display" : "Hospital admission (procedure)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Hospital admission",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "159026005",
   "display" : "Speech Language Pathologist"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####

@@ -9,6 +9,7 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
 * category = CAT#survey
+* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "18"
 * valueCodeableConcept.coding.display = "Total score [MoCA]"
 * performer = Reference(Practitioner-JennyGlass)
@@ -27,6 +28,7 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
 * category = CAT#survey
+* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "22"
 * valueCodeableConcept.coding.display = "Total score [MoCA]"
 * performer = Reference(Practitioner-JennyGlass)
@@ -45,6 +47,7 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
 * category = CAT#survey
+* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "24"
 * valueCodeableConcept.coding.display = "MMSE Total Score"
 * performer = Reference(Practitioner-JennyGlass)
@@ -63,6 +66,7 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
 * category = CAT#survey
+* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "20"
 * valueCodeableConcept.coding.display = "MMSE Total Score"
 * performer = Reference(Practitioner-JennyGlass)
