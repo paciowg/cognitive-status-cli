@@ -175,7 +175,7 @@ This resource profile is intended to be used for the exchange of prior level of 
   </tr>
   <tr>
     <td>effective</td>
-    <td>This field, limited to the type dateTime or Period only, indicates the time/time-period for the observation.</td>
+    <td>This required field, limited to the type dateTime or Period only, indicates the time/time-period for the observation.</td>
   </tr>
   <tr>
     <td>performer</td>

@@ -39,6 +39,7 @@ The implementation guide is organized into the following sections:
 * [Use Case Example](cognitive_status_use_case.html) Describes an example of its use and provides a high-level overview of expected process flow.
 * [Underlying Technologies](underlying_technologies.html) Describes the different specifications this implementation guide relies on and indicates what developers should read and understand prior to implementing this specification.
 * [Profile Highlights and Guidance](profile_highlights_and_guidance.html) Provides a closer look at the IG profiles and guidance for constructing profile instances with examples for data exchange.
+* [Representative Assessments](Representative_assessments.html) Presents representative examples of standardized instruments and guidance on the use of standardized code systems.
 * [Security and Data Sharing](security_and_data_sharing.html) Covers issues concerning security and patient information access and sharing.
 * [Artifacts Summary](artifacts.html) Introduces and provides links to the Capability Statement, IG Resource Profiles, and IG Extension Definitions as well as example profile instances.
 
