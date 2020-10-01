@@ -14,8 +14,8 @@
   "toolingVersionFull": "4.5.0 (3)",
   "totalFiles": 88,
   "processedFiles": 112,
-  "genDate": "Tue, Sep 29, 2020 21:15-0700",
-  "genDay": "29/09/2020",
+  "genDate": "Thu, Oct 1, 2020 09:12-0700",
+  "genDay": "01/10/2020",
   "ig": {
     "id": "pacio-cs",
     "name": "PACIOCognitiveStatusImplementationGuide",
@@ -24,21 +24,21 @@
     "version": "0.1.0",
     "status": "active",
     "experimental": false,
-    "publisher": "MITRE PACIO Team",
+    "publisher": "PACIO Project",
     "gitstatus": "",
     "contact": [
       {
-        "name": "Caleb Wan",
+        "name": "MITRE PACIO Team",
         "telecom": [
           "http://pacioproject.org/"
         ]
       }
     ],
-    "date": "2020-09-29T21:15:07-07:00",
+    "date": "2020-10-01T09:12:36-07:00",
     "fhirVersion": "4.0.1"
   },
-  "u30acc77f63ff4cc0812f39dc4ad91e54": "http://hl7.org/fhir/us/core",
+  "u052f66442dd4422eb84e00e4a09f89b3": "http://hl7.org/fhir/us/core",
   "ver": {
-    "u30acc77f63ff4cc0812f39dc4ad91e54": "http://hl7.org/fhir/us/core/STU3.1"
+    "u052f66442dd4422eb84e00e4a09f89b3": "http://hl7.org/fhir/us/core/STU3.1"
   }
 }

@@ -19,6 +19,7 @@ Description:    "An point in time bundle of cognitive status observations for a 
 * category 1..1
 * category from CAT (extensible)
 
+* effective[x] 1..1
 * effective[x] only dateTime or Period
 
 * performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization. "
