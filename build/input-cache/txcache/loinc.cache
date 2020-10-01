@@ -214,9 +214,9 @@ v: {
   "display" : "Signs and Symptoms of Delirium (from CAM)"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "MDS v3.0 - RAI v1.14.1, v1.15.1, v1.16.1 - Signs and symptoms of delirium (from CAM) [CMS Assessment]",
+  "display" : "MDS v3.0 - RAI v1.17.2 - Signs and symptoms of delirium (from CAM) [CMS Assessment]",
   "severity" : "warning",
-  "error" : "The display \"Signs and Symptoms of Delirium (from CAM)\" is not a valid display for the code {http://loinc.org}86585-7 - should be one of [\"MDS v3.0 - RAI v1.14.1, v1.15.1, v1.16.1 - Signs and symptoms of delirium (from CAM) [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Signs and Symptoms of Delirium (from CAM)\" is not a valid display for the code {http://loinc.org}86585-7 - should be one of [\"MDS v3.0 - RAI v1.17.2 - Signs and symptoms of delirium (from CAM) [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -225,9 +225,9 @@ v: {
   "display" : "Is there evidence of an acute change in mental status from the patients baseline?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Acute onset mental status change [CMS Assessment]",
+  "display" : "Acute onset mental status change [CAM.CMS]",
   "severity" : "warning",
-  "error" : "The display \"Is there evidence of an acute change in mental status from the patients baseline?\" is not a valid display for the code {http://loinc.org}54632-5 - should be one of [\"Acute onset mental status change [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Is there evidence of an acute change in mental status from the patients baseline?\" is not a valid display for the code {http://loinc.org}54632-5 - should be one of [\"Acute onset mental status change [CAM.CMS]\",] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -247,9 +247,9 @@ v: {
   "display" : "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Inattention in last 7 days [CMS Assessment]",
+  "display" : "Inattention in last 7 days [CAM.CMS]",
   "severity" : "warning",
-  "error" : "The display \"Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?\" is not a valid display for the code {http://loinc.org}54628-3 - should be one of [\"Inattention in last 7 days [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?\" is not a valid display for the code {http://loinc.org}54628-3 - should be one of [\"Inattention in last 7 days [CAM.CMS]\",] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -269,9 +269,9 @@ v: {
   "display" : "Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Disorganized thinking in last 7 days [CMS Assessment]",
+  "display" : "Disorganized thinking in last 7 days [CAM.CMS]",
   "severity" : "warning",
-  "error" : "The display \"Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused\" is not a valid display for the code {http://loinc.org}54629-1 - should be one of [\"Disorganized thinking in last 7 days [CMS Assessment]\",] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"Did the resident have altered level of consiousness as indicated by any of the following criteria: (1) Vigilant - startles easily to any sound or touch, (2) Lethargic - repeatedly dozed off when being asked questions, but responded to voice or touch, (3) Stuporous - very difficult to arouse and keep aroused for the interview, (4) Comatose - could not be aroused\" is not a valid display for the code {http://loinc.org}54629-1 - should be one of [\"Disorganized thinking in last 7 days [CAM.CMS]\",] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
