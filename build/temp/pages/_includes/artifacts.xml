@@ -32,8 +32,8 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="CapabilityStatement-CapabilityStatement-pacio-cs.html"
-                     title="CapabilityStatement/CapabilityStatement-pacio-cs">PACIO Cognitive Status Capability Statement</a>
+                  <a href="CapabilityStatement-pacio-cap.html"
+                     title="CapabilityStatement/pacio-cap">PACIO Cognitive Status Capability Statement</a>
                </td>
                <td>{% capture desc %}This Capability Statement defines the expected capabilities of a PACIO Cognitive Status FHIR server conforming to the PACIO Cognitive Status Implementation Guide.{% endcapture %}
 {{ desc | markdownify}}</td>
@@ -149,12 +149,6 @@
                <td style="column-width:30%">
                   <a href="Observation-BCS-Hospital-MOCA-2.html"
                      title="Observation/BCS-Hospital-MOCA-2">BCS-Hospital-MOCA-2</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-BCS-SNF-BCAT-1.html"
-                     title="Observation/BCS-SNF-BCAT-1">BCS-SNF-BCAT-1</a>
                </td>
             </tr>
             <tr>
@@ -369,24 +363,6 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Condition-BSJ-Assessed-Need1.html"
-                     title="Condition/BSJ-Assessed-Need1">BSJ-Assessed-Need1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Condition-BSJ-Assessed-Need2.html"
-                     title="Condition/BSJ-Assessed-Need2">BSJ-Assessed-Need2</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Condition-BSJ-Assessed-Need3.html"
-                     title="Condition/BSJ-Assessed-Need3">BSJ-Assessed-Need3</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis1.html" title="Condition/BSJ-Diagnosis1">BSJ-Diagnosis1</a>
                </td>
             </tr>
@@ -428,11 +404,6 @@
             <tr>
                <td style="column-width:30%">
                   <a href="Condition-BSJ-Diagnosis9.html" title="Condition/BSJ-Diagnosis9">BSJ-Diagnosis9</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Encounter-BSJ-Encounter-1.html" title="Encounter/BSJ-Encounter-1">BSJ-Encounter-1</a>
                </td>
             </tr>
             <tr>
@@ -527,12 +498,6 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="QuestionnaireResponse-QResponse-SNF-BCAT-1.html"
-                     title="QuestionnaireResponse/QResponse-SNF-BCAT-1">QResponse-SNF-BCAT-1</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="QuestionnaireResponse-QResponse-SNF-BIMS-1.html"
                      title="QuestionnaireResponse/QResponse-SNF-BIMS-1">QResponse-SNF-BIMS-1</a>
                </td>
@@ -553,6 +518,11 @@
                <td style="column-width:30%">
                   <a href="QuestionnaireResponse-QResponse-SNF-PHQ9-1.html"
                      title="QuestionnaireResponse/QResponse-SNF-PHQ9-1">QResponse-SNF-PHQ9-1</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PractitionerRole-Role-RN.html" title="PractitionerRole/Role-RN">Role-RN</a>
                </td>
             </tr>
             <tr>

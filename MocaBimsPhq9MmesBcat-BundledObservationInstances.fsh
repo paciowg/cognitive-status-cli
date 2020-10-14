@@ -9,7 +9,6 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
 * category = CAT#survey
-* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "18"
 * valueCodeableConcept.coding.display = "Total score [MoCA]"
 * performer = Reference(Practitioner-JennyGlass)
@@ -28,7 +27,6 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
 * category = CAT#survey
-* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "22"
 * valueCodeableConcept.coding.display = "Total score [MoCA]"
 * performer = Reference(Practitioner-JennyGlass)
@@ -47,7 +45,6 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
 * category = CAT#survey
-* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "24"
 * valueCodeableConcept.coding.display = "MMSE Total Score"
 * performer = Reference(Practitioner-JennyGlass)
@@ -66,7 +63,6 @@ InstanceOf: BundledCognitiveStatus
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
 * category = CAT#survey
-* encounter = Reference(BSJ-Encounter-1)
 * valueCodeableConcept.text = "20"
 * valueCodeableConcept.coding.display = "MMSE Total Score"
 * performer = Reference(Practitioner-JennyGlass)
@@ -102,6 +98,7 @@ InstanceOf: BundledCognitiveStatus
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 * derivedFrom.display = "Questionnaire Response"
 
+/**********************************
 Instance: BCS-SNF-BCAT-1
 InstanceOf: BundledCognitiveStatus
 * subject = Reference(patientBSJ1)
@@ -119,6 +116,7 @@ InstanceOf: BundledCognitiveStatus
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BCAT-1)
 * derivedFrom.display = "Questionnaire Response"
+**********************************/
 
 Instance: BCS-SNF-PHQ9-1
 InstanceOf: BundledCognitiveStatus
