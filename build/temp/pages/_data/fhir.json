@@ -1,44 +1,45 @@
 {
   "path": "http://hl7.org/fhir/R4/",
-  "canonical": "https://paciowg.github.io/cognitive-status-ig",
-  "igId": "pacio-cs",
+  "canonical": "http://hl7.org/fhir/us/pacio-cs",
+  "igId": "hl7.fhir.us.pacio-cs",
   "igName": "PACIOCognitiveStatusImplementationGuide",
-  "packageId": "pacio-cs",
+  "packageId": "hl7.fhir.us.pacio-cs",
   "igVer": "0.1.0",
-  "errorCount": 46,
+  "errorCount": 8,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "4.5.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.5.0 (3)",
-  "totalFiles": 88,
-  "processedFiles": 112,
-  "genDate": "Thu, Oct 1, 2020 09:12-0700",
-  "genDay": "01/10/2020",
+  "totalFiles": 83,
+  "processedFiles": 107,
+  "genDate": "Wed, Oct 14, 2020 15:58-0700",
+  "genDay": "14/10/2020",
   "ig": {
-    "id": "pacio-cs",
+    "id": "hl7.fhir.us.pacio-cs",
     "name": "PACIOCognitiveStatusImplementationGuide",
     "title": "PACIO Cognitive Status Implementation Guide",
-    "url": "https://paciowg.github.io/cognitive-status-ig/ImplementationGuide/pacio-cs",
+    "url": "http://hl7.org/fhir/us/pacio-cs/ImplementationGuide/hl7.fhir.us.pacio-cs",
     "version": "0.1.0",
     "status": "active",
     "experimental": false,
-    "publisher": "PACIO Project",
+    "publisher": "HL7 Patient Care Work Group",
     "gitstatus": "",
     "contact": [
       {
         "name": "MITRE PACIO Team",
         "telecom": [
-          "http://pacioproject.org/"
+          "https://www.hl7.org/Special/committees/patientcare/",
+          "info@pacioproject.org"
         ]
       }
     ],
-    "date": "2020-10-01T09:12:36-07:00",
+    "date": "2020-10-14T15:58:14-07:00",
     "fhirVersion": "4.0.1"
   },
-  "u052f66442dd4422eb84e00e4a09f89b3": "http://hl7.org/fhir/us/core",
+  "u5af4f619ae4a47b1a1df405ccc7fda97": "http://hl7.org/fhir/us/core",
   "ver": {
-    "u052f66442dd4422eb84e00e4a09f89b3": "http://hl7.org/fhir/us/core/STU3.1"
+    "u5af4f619ae4a47b1a1df405ccc7fda97": "http://hl7.org/fhir/us/core/STU3.1"
   }
 }

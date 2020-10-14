@@ -16,6 +16,12 @@ InstanceOf: PractitionerRole
 * code.coding.display = "Speech Language Pathologist"
 * active = true
 
+Instance: Role-RN
+InstanceOf: PractitionerRole
+* code = SCT#224535009
+* code.coding.display = "Registered Nurse"
+* active = true
+
 // Practitioner instances
 Instance: Practitioner-LunaBaskins
 InstanceOf: Practitioner

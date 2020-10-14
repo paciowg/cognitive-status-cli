@@ -52,6 +52,7 @@ InstanceOf: CognitionQuestionnaireResponse
 * item[0].item[0].item[3].id = "54614-3"
 * item[0].item[0].item[3].answer.valueReference = Reference(BCS-SNF-BIMS-1)
 
+/***********************************
 Instance: QResponse-SNF-BCAT-1
 InstanceOf: CognitionQuestionnaireResponse
 * subject = Reference(patientBSJ1)
@@ -66,6 +67,7 @@ InstanceOf: CognitionQuestionnaireResponse
 * item[0].item[0].text =  "BCAT Summary Score"
 * item[0].item[0].id = "TBD-LOINC2"
 * item[0].item[0].answer.valueReference = Reference(BCS-SNF-BCAT-1)
+***************************************/
 
 Instance: QResponse-Hospital-MOCA-2
 InstanceOf: CognitionQuestionnaireResponse

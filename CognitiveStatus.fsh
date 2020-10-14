@@ -13,7 +13,6 @@ Description:    "An exchange of cognitive status data for a patient."
 * subject only Reference(Patient)
 
 * performer 1..*
-* performer ^binding.description = "The person who performed the assessment."
 
 * value[x] only CodeableConcept
 

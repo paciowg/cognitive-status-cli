@@ -1,39 +1,6 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "713458007",
-  "display" : "Needs transportation"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Lack of access to transportation (finding)",
-  "severity" : "warning",
-  "error" : "The display \"Needs transportation\" is not a valid display for the code {http://snomed.info/sct}713458007 - should be one of [\"Lack of access to transportation (finding)\",\"Lack of access to transportation\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "734920002",
-  "display" : "Needs health / nutrition education for diabetes"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Diabetes mellitus education service (qualifier value)",
-  "severity" : "warning",
-  "error" : "The display \"Needs health / nutrition education for diabetes\" is not a valid display for the code {http://snomed.info/sct}734920002 - should be one of [\"Diabetes mellitus education service (qualifier value)\",\"Diabetic education service\",\"Diabetes mellitus education service\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "183301007",
-  "display" : "Needs physical exercises"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Physical exercises",
-  "severity" : "warning",
-  "error" : "The display \"Needs physical exercises\" is not a valid display for the code {http://snomed.info/sct}183301007 - should be one of [\"Physical exercises\",\"Physical exercises (regime/therapy)\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
   "code" : "38341003",
   "display" : "Hypertension"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -133,11 +100,11 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "32485007",
-  "display" : "Hospital admission (procedure)"
+  "code" : "224535009",
+  "display" : "Registered Nurse"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Hospital admission",
+  "display" : "Registered nurse",
   "severity" : null,
   "error" : ""
 }
