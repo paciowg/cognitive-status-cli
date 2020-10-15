@@ -62,8 +62,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:25971f26-5557-40bc-ad20-1fad11dfd5a1",
-    "timestamp" : "2020-10-15T01:03:47.912Z",
+    "identifier" : "urn:uuid:955eb683-6680-4a0e-a10e-d9deabd480f1",
+    "timestamp" : "2020-10-15T14:54:43.316Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -163,8 +163,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:cbce78d3-e7bf-45c5-97bd-dba64cd83631",
-    "timestamp" : "2020-10-15T01:03:48.037Z",
+    "identifier" : "urn:uuid:43922e5b-c94e-4a66-a7b5-2ac8c20c0b59",
+    "timestamp" : "2020-10-15T14:54:43.441Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
