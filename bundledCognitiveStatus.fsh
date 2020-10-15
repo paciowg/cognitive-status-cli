@@ -1,8 +1,10 @@
 Alias: LNC = http://loinc.org
 Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
+Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 
 Profile:        BundledCognitiveStatus
-Parent:         Observation
+Parent:         USCoreObLab
 Id:             pacio-bcs
 Title:          "PACIO Bundled Cognitive Status"
 Description:    "An point in time bundle of cognitive status observations for a patient."
@@ -10,7 +12,7 @@ Description:    "An point in time bundle of cognitive status observations for a 
 * code from LNC (extensible)
 
 * subject 1..1
-* subject only Reference(Patient)
+* subject only Reference(USCorePatient)
 
 * performer 1..*
 

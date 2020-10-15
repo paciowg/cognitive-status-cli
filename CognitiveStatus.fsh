@@ -1,8 +1,10 @@
 Alias: LNC = http://loinc.org
 Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
+Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
+Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 
 Profile:        CognitiveStatus
-Parent:         Observation
+Parent:         USCoreObLab
 Id:             pacio-cs
 Title:          "PACIO Cognitive Status"
 Description:    "An exchange of cognitive status data for a patient."
@@ -10,7 +12,7 @@ Description:    "An exchange of cognitive status data for a patient."
 * code from LNC (extensible)
 
 * subject 1..1
-* subject only Reference(Patient)
+* subject only Reference(USCorePatient)
 
 * performer 1..*
 
