@@ -70,6 +70,7 @@
         "id": "Observation.extension:event-location",
         "path": "Observation.extension",
         "sliceName": "event-location",
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -85,6 +86,8 @@
         "id": "Observation.extension:device-use",
         "path": "Observation.extension",
         "sliceName": "device-use",
+        "min": 0,
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -109,16 +112,6 @@
         "id": "Observation.status",
         "path": "Observation.status",
         "short": "Should have the value 'final' to indicate the assessment is complete."
-      },
-      {
-        "id": "Observation.category",
-        "path": "Observation.category",
-        "short": "For a Post-Acute Care Assessment, should have the value 'survey'.",
-        "max": "1",
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category"
-        }
       },
       {
         "id": "Observation.code",
