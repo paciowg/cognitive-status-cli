@@ -1,7 +1,9 @@
 Alias: LNC = http://loinc.org
+Alias:  DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 Instance: BSJ-Prior-Level-Of-Cognitive-Function-1
 InstanceOf: PriorLevelOfCognitiveFunction
+Description: "An instance of PriorLevelOfCognitiveFunction"
 * subject = Reference(patientBSJ1)
 * status = #final
 
@@ -9,6 +11,7 @@ InstanceOf: PriorLevelOfCognitiveFunction
 * text.status = #additional
 * extension[assistance-required].valueCodeableConcept.text = "Independent"
 
+* dataAbsentReason = DAR#not-applicable
 * performer = Reference(Practitioner-JohnSmith)
 * performer[1] = Reference(provider-role-pcp)
 * performer[2] = Reference(provider-org-01)

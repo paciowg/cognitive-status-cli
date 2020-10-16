@@ -5,16 +5,16 @@
   "igName": "PACIOCognitiveStatusImplementationGuide",
   "packageId": "hl7.fhir.us.pacio-cs",
   "igVer": "0.1.0",
-  "errorCount": 19,
+  "errorCount": 0,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "4.5.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.5.0 (3)",
-  "totalFiles": 83,
-  "processedFiles": 107,
-  "genDate": "Thu, Oct 15, 2020 13:49-0700",
+  "totalFiles": 69,
+  "processedFiles": 93,
+  "genDate": "Thu, Oct 15, 2020 23:24-0700",
   "genDay": "15/10/2020",
   "ig": {
     "id": "hl7.fhir.us.pacio-cs",
@@ -24,22 +24,22 @@
     "version": "0.1.0",
     "status": "active",
     "experimental": false,
-    "publisher": "HL7 Patient Care Work Group",
     "gitstatus": "",
     "contact": [
       {
-        "name": "MITRE PACIO Team",
+        "name": "PACIO  project",
         "telecom": [
-          "https://www.hl7.org/Special/committees/patientcare/",
+          "http://www.hl7.org/Special/committees/patientcare/",
           "info@pacioproject.org"
         ]
       }
     ],
-    "date": "2020-10-15T13:49:46-07:00",
+    "date": "2020-10-15T23:24:00-07:00",
+    "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
     "fhirVersion": "4.0.1"
   },
-  "u43122583950b469f8b3897e845255ecb": "http://hl7.org/fhir/us/core",
+  "hl7_fhir_us_core": "http://hl7.org/fhir/us/core",
   "ver": {
-    "u43122583950b469f8b3897e845255ecb": "http://hl7.org/fhir/us/core/STU3.1"
+    "hl7_fhir_us_core": "http://hl7.org/fhir/us/core/STU3.1"
   }
 }

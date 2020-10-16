@@ -2,9 +2,10 @@ Alias: Q-MDS3-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MD
 
 Instance: QResponse-SNF-BIMS-1
 InstanceOf: CognitionQuestionnaireResponse
+Description: "An instance of CognitionQuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
-* questionnaire = Q-MDS3-NC-1.17
+//* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-07-11T11:30:00-05:00"
 
 * item[0].linkId = "Section-3"
@@ -71,9 +72,10 @@ InstanceOf: CognitionQuestionnaireResponse
 
 Instance: QResponse-Hospital-MOCA-2
 InstanceOf: CognitionQuestionnaireResponse
+Description: "An instance of CognitionQuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
-* questionnaire = Q-MDS3-NC-1.17
+//* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-07-10T12:16:00-05:00"
 
 * item[0].linkId = "MoCA"
@@ -86,9 +88,10 @@ InstanceOf: CognitionQuestionnaireResponse
 
 Instance: QResponse-Hospital-MOCA-1
 InstanceOf: CognitionQuestionnaireResponse
+Description: "An instance of CognitionQuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
-* questionnaire = Q-MDS3-NC-1.17
+//* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-07-08T17:32:00-05:00"
 
 * item[0].linkId = "MoCA"
@@ -101,9 +104,10 @@ InstanceOf: CognitionQuestionnaireResponse
 
 Instance: QResponse-Hospital-MMSE-1
 InstanceOf: CognitionQuestionnaireResponse
+Description: "An instance of CognitionQuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
-* questionnaire = Q-MDS3-NC-1.17
+//* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-07-08T17:32:00-05:00"
 
 * item[0].linkId = "MMSE"
@@ -116,9 +120,10 @@ InstanceOf: CognitionQuestionnaireResponse
 
 Instance: QResponse-Hospital-MMSE-2
 InstanceOf: CognitionQuestionnaireResponse
+Description: "An instance of CognitionQuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
-* questionnaire = Q-MDS3-NC-1.17
+//* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-07-10T12:16:00-05:00"
 
 * item[0].linkId = "MMSE"
@@ -131,9 +136,10 @@ InstanceOf: CognitionQuestionnaireResponse
 
 Instance: QResponse-SNF-PHQ9-1
 InstanceOf: CognitionQuestionnaireResponse
+Description: "An instance of CognitionQuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
-* questionnaire = Q-MDS3-NC-1.17
+//* questionnaire = Q-MDS3-NC-1.17
 * authored = "2020-07-11T11:30:00-05:00"
 
 * item[0].linkId = "Section-4"

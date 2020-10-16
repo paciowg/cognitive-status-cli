@@ -70,6 +70,7 @@
         "id": "Observation.extension:event-location",
         "path": "Observation.extension",
         "sliceName": "event-location",
+        "min": 0,
         "max": "1",
         "type": [
           {
