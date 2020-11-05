@@ -119,7 +119,7 @@
         "short": "For a Post-Acute Care Assessment, should include a LOINC code and text for the kind of assessment.",
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {
@@ -145,7 +145,7 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization. ",
+        "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization.",
         "min": 1
       },
       {

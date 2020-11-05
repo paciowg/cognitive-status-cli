@@ -1,4 +1,4 @@
-Alias:  LNC = http://loinc.org
+//Alias:  LNC = http://loinc.org
 
 Profile:        CognitionQuestionnaireResponse
 Parent:         QuestionnaireResponse

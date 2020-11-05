@@ -1,5 +1,7 @@
+/********
 Alias: LNC = http://loinc.org
 Alias:  DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
+*********/
 
 Instance: BSJ-Prior-Level-Of-Cognitive-Function-1
 InstanceOf: PriorLevelOfCognitiveFunction

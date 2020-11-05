@@ -1,7 +1,10 @@
+/*******
 Alias: LNC = http://loinc.org
 Alias: UOM = http://unitsofmeasure.org
 Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
+*********/
 
+/*********
 Instance: BCS-SNF-BIMS-1-Ob-Question-6
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
@@ -39,7 +42,9 @@ Description: "An instance of CognitiveStatus"
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
+**********/
 
+/********
 Instance: BCS-SNF-PHQ9-1-Ob-Question-15
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
@@ -58,7 +63,9 @@ Description: "An instance of CognitiveStatus"
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
+******/
 
+/************
 Instance: BCS-SNF-BIMS-1-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
@@ -145,7 +152,7 @@ Description: "An instance of CognitiveStatus"
 * code.text = "Able to recall 'sock'"
 * code.coding.display = "Recall - sock [BIMS]"
 * valueCodeableConcept = LNC#LA10126-3
-* valueCodeableConcept.text = "Yes, after cueing ('something to wear')"
+* valueCodeableConcept.text = 'Yes, after cueing (""something to wear"")'
 * valueCodeableConcept.coding.display = "Yes, after cueing ('something to wear')"
 * performer = Reference(Practitioner-HoneyJones)
 * performer[1] = Reference(Role-SLP)
@@ -153,7 +160,9 @@ Description: "An instance of CognitiveStatus"
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
+***************/
 
+/***********
 Instance: BCS-SNF-PHQ9-1-Ob-Question-13
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
@@ -475,3 +484,4 @@ Description: "An instance of CognitiveStatus"
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
+*********************/

@@ -1,6 +1,8 @@
+/***********
 Alias: LNC = http://loinc.org
 Alias: UOM = http://unitsofmeasure.org
 Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
+**********/
 
 Instance: BCS-SNF-CAM-Admission-1-Ob-Question-1
 InstanceOf: CognitiveStatus
