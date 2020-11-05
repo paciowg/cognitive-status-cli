@@ -1,5 +1,6 @@
 Alias: Q-MDS3-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
 
+/****************
 Instance: QResponse-SNF-BIMS-1
 InstanceOf: CognitionQuestionnaireResponse
 Description: "An instance of CognitionQuestionnaireResponse"
@@ -52,6 +53,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].item[3].text =  "BIMS Summary Score"
 * item[0].item[0].item[3].id = "54614-3"
 * item[0].item[0].item[3].answer.valueReference = Reference(BCS-SNF-BIMS-1)
+***************/
 
 /***********************************
 Instance: QResponse-SNF-BCAT-1
@@ -70,6 +72,7 @@ InstanceOf: CognitionQuestionnaireResponse
 * item[0].item[0].answer.valueReference = Reference(BCS-SNF-BCAT-1)
 ***************************************/
 
+/*********
 Instance: QResponse-Hospital-MOCA-2
 InstanceOf: CognitionQuestionnaireResponse
 Description: "An instance of CognitionQuestionnaireResponse"
@@ -85,6 +88,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].text =  "Total score [MoCA]"
 * item[0].item[0].id = "72172-0"
 * item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MOCA-2)
+*************/
 
 Instance: QResponse-Hospital-MOCA-1
 InstanceOf: CognitionQuestionnaireResponse
@@ -102,6 +106,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].id = "72172-0"
 * item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MOCA-1)
 
+/*******
 Instance: QResponse-Hospital-MMSE-1
 InstanceOf: CognitionQuestionnaireResponse
 Description: "An instance of CognitionQuestionnaireResponse"
@@ -133,7 +138,9 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].text =  "MMSE Total Score"
 * item[0].item[0].id = "72106-8"
 * item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MMSE-2)
+***********/
 
+/*****************
 Instance: QResponse-SNF-PHQ9-1
 InstanceOf: CognitionQuestionnaireResponse
 Description: "An instance of CognitionQuestionnaireResponse"
@@ -230,3 +237,4 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[1].text =  "PHQ-9 Total Score"
 * item[0].item[1].id = "54654-9"
 * item[0].item[1].answer.valueReference = Reference(BCS-SNF-PHQ9-1)
+********************/

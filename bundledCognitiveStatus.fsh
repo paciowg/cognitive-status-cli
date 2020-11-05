@@ -1,8 +1,9 @@
+/********
 Alias: LNC = http://loinc.org
 Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
-
+**********/
 
 Profile:        BundledCognitiveStatus
 Parent:         USCoreObLab
@@ -10,7 +11,7 @@ Id:             pacio-bcs
 Title:          "PACIO Bundled Cognitive Status"
 Description:    "An point in time bundle of cognitive status observations for a patient."
 
-* code from LNC (extensible)
+* code from LNCVS (extensible)
 
 * subject 1..1
 * subject only Reference(USCorePatient)
@@ -25,7 +26,7 @@ Description:    "An point in time bundle of cognitive status observations for a 
 * effective[x] 1..1
 * effective[x] only dateTime or Period
 
-* performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization. "
+* performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization."
 //* category ^short = "For a Post-Acute Care Assessment, should have the value 'survey'."
 * code ^short = "For a Post-Acute Care Assessment, should include a LOINC code and text for the kind of assessment."
 * subject ^short = "Should only reference a Patient resource"

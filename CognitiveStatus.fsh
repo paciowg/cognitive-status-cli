@@ -1,7 +1,9 @@
+/**********
 Alias: LNC = http://loinc.org
 Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
 Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
+**********/
 
 Profile:        CognitiveStatus
 Parent:         USCoreObLab
@@ -9,7 +11,7 @@ Id:             pacio-cs
 Title:          "PACIO Cognitive Status"
 Description:    "An exchange of cognitive status data for a patient."
 
-* code from LNC (extensible)
+* code from LNCVS (extensible)
 
 * subject 1..1
 * subject only Reference(USCorePatient)
@@ -23,10 +25,10 @@ Description:    "An exchange of cognitive status data for a patient."
 
 * extension contains ObservationLocation named event-location 0..1 MS
 
-* component.code from LNC (extensible)
+* component.code from LNCVS (extensible)
 * component.value[x] only CodeableConcept
 
-* performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization. "
+* performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization."
 * code ^short = "For a Post-Acute Care Assessment, should include a LOINC code and text for the question."
 * subject ^short = "Should only reference a Patient resource"
 * component ^short = "If used, the answers for the associated questions (for the purpose of grouping answers under a heading and displaying side-by-side columns)"

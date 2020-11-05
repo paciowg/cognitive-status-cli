@@ -1,5 +1,7 @@
+/**********
 Alias:  LNC = http://loinc.org
 Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
+***********/
 
 Instance: BCS-Hospital-MOCA-1
 InstanceOf: BundledCognitiveStatus
@@ -9,8 +11,8 @@ Description: "An instance of BundledCognitiveStatus"
 * effectiveDateTime = "2020-07-08T17:32:00-05:00"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
-* category = CAT#survey
-* category[1] = CAT#laboratory
+//* category = CAT#survey
+* category = CAT#laboratory
 * valueCodeableConcept.text = "18"
 * valueCodeableConcept.coding.display = "Total score [MoCA]"
 * performer = Reference(Practitioner-JennyGlass)
@@ -21,6 +23,7 @@ Description: "An instance of BundledCognitiveStatus"
 * derivedFrom = Reference(QResponse-Hospital-MOCA-1)
 * derivedFrom.display = "Questionnaire Response"
 
+/*************
 Instance: BCS-Hospital-MOCA-2
 InstanceOf: BundledCognitiveStatus
 Description: "An instance of BundledCognitiveStatus"
@@ -29,8 +32,8 @@ Description: "An instance of BundledCognitiveStatus"
 * effectiveDateTime = "2020-07-10T12:16:00-05:00"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
-* category = CAT#survey
-* category[1] = CAT#laboratory
+//* category = CAT#survey
+* category = CAT#laboratory
 * valueCodeableConcept.text = "22"
 * valueCodeableConcept.coding.display = "Total score [MoCA]"
 * performer = Reference(Practitioner-JennyGlass)
@@ -40,7 +43,9 @@ Description: "An instance of BundledCognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * derivedFrom = Reference(QResponse-Hospital-MOCA-2)
 * derivedFrom.display = "Questionnaire Response"
+***********/
 
+/***************
 Instance: BCS-Hospital-MMSE-2
 InstanceOf: BundledCognitiveStatus
 Description: "An instance of BundledCognitiveStatus"
@@ -49,8 +54,8 @@ Description: "An instance of BundledCognitiveStatus"
 * effectiveDateTime = "2020-07-10T12:16:00-05:00"
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
-* category = CAT#survey
-* category[1] = CAT#laboratory
+//* category = CAT#survey
+* category = CAT#laboratory
 * valueCodeableConcept.text = "24"
 * valueCodeableConcept.coding.display = "MMSE Total Score"
 * performer = Reference(Practitioner-JennyGlass)
@@ -61,6 +66,7 @@ Description: "An instance of BundledCognitiveStatus"
 * derivedFrom = Reference(QResponse-Hospital-MMSE-2)
 * derivedFrom.display = "Questionnaire Response"
 
+/********
 Instance: BCS-Hospital-MMSE-1
 InstanceOf: BundledCognitiveStatus
 Description: "An instance of BundledCognitiveStatus"
@@ -69,8 +75,8 @@ Description: "An instance of BundledCognitiveStatus"
 * effectiveDateTime = "2020-07-08T17:32:00-05:00"
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
-* category = CAT#survey
-* category[1] = CAT#laboratory
+//* category = CAT#survey
+* category = CAT#laboratory
 * valueCodeableConcept.text = "20"
 * valueCodeableConcept.coding.display = "MMSE Total Score"
 * performer = Reference(Practitioner-JennyGlass)
@@ -80,7 +86,9 @@ Description: "An instance of BundledCognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * derivedFrom = Reference(QResponse-Hospital-MMSE-1)
 * derivedFrom.display = "Questionnaire Response"
+************/
 
+/**************
 Instance: BCS-SNF-BIMS-1
 InstanceOf: BundledCognitiveStatus
 Description: "An instance of BundledCognitiveStatus"
@@ -107,6 +115,7 @@ Description: "An instance of BundledCognitiveStatus"
 * hasMember[6] = Reference(BCS-SNF-BIMS-1-Ob-Question-7)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 * derivedFrom.display = "Questionnaire Response"
+*************/
 
 /**********************************
 Instance: BCS-SNF-BCAT-1
@@ -128,6 +137,7 @@ InstanceOf: BundledCognitiveStatus
 * derivedFrom.display = "Questionnaire Response"
 **********************************/
 
+/**************
 Instance: BCS-SNF-PHQ9-1
 InstanceOf: BundledCognitiveStatus
 Description: "An instance of BundledCognitiveStatus"
@@ -165,3 +175,4 @@ Description: "An instance of BundledCognitiveStatus"
 * hasMember[17] = Reference(BCS-SNF-PHQ9-1-Ob-Question-25)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 * derivedFrom.display = "Questionnaire Response"
+****************/

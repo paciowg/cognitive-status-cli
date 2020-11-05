@@ -12,10 +12,10 @@
   "toolingVersion": "4.5.0",
   "toolingRevision": "3",
   "toolingVersionFull": "4.5.0 (3)",
-  "totalFiles": 69,
-  "processedFiles": 93,
-  "genDate": "Thu, Oct 15, 2020 23:24-0700",
-  "genDay": "15/10/2020",
+  "totalFiles": 34,
+  "processedFiles": 58,
+  "genDate": "Fri, Oct 16, 2020 20:54-0700",
+  "genDay": "16/10/2020",
   "ig": {
     "id": "hl7.fhir.us.pacio-cs",
     "name": "PACIOCognitiveStatusImplementationGuide",
@@ -24,17 +24,25 @@
     "version": "0.1.0",
     "status": "active",
     "experimental": false,
+    "publisher": "HL7 Patient Care Work Group",
     "gitstatus": "",
     "contact": [
       {
-        "name": "PACIO  project",
+        "name": "HL7 Patient Care Work Group",
+        "telecom": [
+          "http://www.hl7.org/Special/committees/patientcare",
+          "patientcare@lists.HL7.org"
+        ]
+      },
+      {
+        "name": "PACIO project",
         "telecom": [
           "http://www.hl7.org/Special/committees/patientcare/",
           "info@pacioproject.org"
         ]
       }
     ],
-    "date": "2020-10-15T23:24:00-07:00",
+    "date": "2020-10-16T20:54:21-07:00",
     "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
     "fhirVersion": "4.0.1"
   },

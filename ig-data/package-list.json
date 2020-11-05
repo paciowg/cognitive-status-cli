@@ -1,0 +1,25 @@
+{
+  "package-id": "hl7.fhir.us.pacio-cs",
+  "canonical": "http://hl7.org/fhir/us/pacio-cs",
+  "title": "PACIO Cognitive Status Implementation Guide",
+  "introduction": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
+  "category": "Patient Summary",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "0.1.0",
+      "date": "2020-10-16",
+      "desc": "Initial STU ballot (Jan 2021 Ballot)",
+      "path": "http://hl7.org/fhir/us/pacio-cs/2021Jan",
+      "status": "ballot",
+      "sequence": "STU 1",
+      "fhirversion": "4.0.1"
+    }
+  ]
+}
