@@ -45,127 +45,17 @@
   <workgroup key="vocab" webcode="vocab" name="Vocabulary"/>
   <workgroup key="v2mg" webcode="v2management" name="V2 Mgmt Group"/>
 </workgroups>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               url="http://hl7.org/fhir/us/pacio-cs"
-               ciUrl="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status"
-               defaultWorkgroup="pc"
-               defaultVersion="current"
-               xsi:noNamespaceSchemaLocation="../schemas/specification.xsd"
-               gitUrl="https://github.com/HL7/fhir-pacio-cognitive-status"
-               ballotUrl="http://hl7.org/fhir/us/pacio-cs">
-   <version code="current" url="http://build.fhir.org/ig/example/example-ig"/>
-   <version code="0.0.1" url="http://example.org/fhir/STU1"/>
-   <version code="0.1" deprecated="true"/>
-   <artifactPageExtension value="-definitions"/>
-   <artifactPageExtension value="-examples"/>
-   <artifactPageExtension value="-mappings"/>
-   <artifact name="PACIO Bundled Cognitive Status"
-             key="StructureDefinition-pacio-bcs"
-             id="StructureDefinition/pacio-bcs"/>
-   <artifact name="PACIO Cognition Questionnaire Response"
-             key="StructureDefinition-pacio-cognition-qr"
-             id="StructureDefinition/pacio-cognition-qr"/>
-   <artifact name="PACIO Cognitive Status"
-             key="StructureDefinition-pacio-cs"
-             id="StructureDefinition/pacio-cs"/>
-   <artifact name="PACIO Prior Level of Cognitive Function"
-             key="StructureDefinition-pacio-plcf"
-             id="StructureDefinition/pacio-plcf"/>
-   <artifact name="Use of Device"
-             key="StructureDefinition-pacio-cs-dev"
-             id="StructureDefinition/pacio-cs-dev"/>
-   <artifact name="AssistanceRequired"
-             key="StructureDefinition-assistance-required"
-             id="StructureDefinition/assistance-required"/>
-   <artifact name="DevicePatientUsed"
-             key="StructureDefinition-device-patient-used"
-             id="StructureDefinition/device-patient-used"/>
-   <artifact name="BCS-Hospital-MOCA-1"
-             key="Observation-BCS-Hospital-MOCA-1"
-             id="Observation/BCS-Hospital-MOCA-1"/>
-   <artifact name="BCS-SNF-CAM-Admission-1"
-             key="Observation-BCS-SNF-CAM-Admission-1"
-             id="Observation/BCS-SNF-CAM-Admission-1"/>
-   <artifact name="BCS-SNF-CAM-Admission-1-Ob-Question-1"
-             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-1"
-             id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
-   <artifact name="BCS-SNF-CAM-Admission-1-Ob-Question-3"
-             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-3"
-             id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
-   <artifact name="BCS-SNF-CAM-Admission-1-Ob-Question-5"
-             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-5"
-             id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
-   <artifact name="BSJ-Prior-Level-Of-Cognitive-Function-1"
-             key="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1"
-             id="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"/>
-   <artifact name="Org-01" key="Organization-Org-01" id="Organization/Org-01"/>
-   <artifact name="Org-02" key="Organization-Org-02" id="Organization/Org-02"/>
-   <artifact name="Org-03" key="Organization-Org-03" id="Organization/Org-03"/>
-   <artifact name="Org-Loc-01"
-             key="Location-Org-Loc-01"
-             id="Location/Org-Loc-01"/>
-   <artifact name="Org-Loc-02"
-             key="Location-Org-Loc-02"
-             id="Location/Org-Loc-02"/>
-   <artifact name="Org-Loc-03"
-             key="Location-Org-Loc-03"
-             id="Location/Org-Loc-03"/>
-   <artifact name="Practitioner-HoneyJones"
-             key="Practitioner-Practitioner-HoneyJones"
-             id="Practitioner/Practitioner-HoneyJones"/>
-   <artifact name="Practitioner-JennyGlass"
-             key="Practitioner-Practitioner-JennyGlass"
-             id="Practitioner/Practitioner-JennyGlass"/>
-   <artifact name="Practitioner-JohnSmith"
-             key="Practitioner-Practitioner-JohnSmith"
-             id="Practitioner/Practitioner-JohnSmith"/>
-   <artifact name="Practitioner-LunaBaskins"
-             key="Practitioner-Practitioner-LunaBaskins"
-             id="Practitioner/Practitioner-LunaBaskins"/>
-   <artifact name="Practitioner-NoraOlogist"
-             key="Practitioner-Practitioner-NoraOlogist"
-             id="Practitioner/Practitioner-NoraOlogist"/>
-   <artifact name="QResponse-Hospital-MOCA-1"
-             key="QuestionnaireResponse-QResponse-Hospital-MOCA-1"
-             id="QuestionnaireResponse/QResponse-Hospital-MOCA-1"/>
-   <artifact name="QResponse-SNF-CAM-Admission-1"
-             key="QuestionnaireResponse-QResponse-SNF-CAM-Admission-1"
-             id="QuestionnaireResponse/QResponse-SNF-CAM-Admission-1"/>
-   <artifact name="Role-RN"
-             key="PractitionerRole-Role-RN"
-             id="PractitionerRole/Role-RN"/>
-   <artifact name="Role-SLP"
-             key="PractitionerRole-Role-SLP"
-             id="PractitionerRole/Role-SLP"/>
-   <artifact name="patientBSJ1"
-             key="Patient-patientBSJ1"
-             id="Patient/patientBSJ1"/>
-   <artifact name="provider-org-01"
-             key="Organization-provider-org-01"
-             id="Organization/provider-org-01"/>
-   <artifact name="provider-org-loc-01"
-             key="Location-provider-org-loc-01"
-             id="Location/provider-org-loc-01"/>
-   <artifact name="provider-role-pcp"
-             key="PractitionerRole-provider-role-pcp"
-             id="PractitionerRole/provider-role-pcp"/>
-   <artifact name="PACIO Cognitive Status Capability Statement"
-             key="CapabilityStatement-pacio-cap"
-             id="CapabilityStatement/pacio-cap"/>
-   <page name="(NA)" key="NA"/>
-   <page name="(many)" key="many"/>
-   <page name="Table of Contents" key="toc"/>
-   <page name="Home" key="index"/>
-   <page name="Cognitive Status Use Case" key="cognitive_status_use_case"/>
-   <page name="Profile Highlights and Guidance"
-         key="profile_highlights_and_guidance"/>
-   <page name="Representative Assessments" key="representative_assessments"/>
-   <page name="Security and Data Sharing" key="security_and_data_sharing"/>
-   <page name="Underlying Technologies" key="underlying_technologies"/>
-   <page name="Artifacts Summary" key="artifacts"/>
-   <page name="(profiles)" key="profiles" deprecated="true"/>
-   <page name="usecases" key="usecases" deprecated="true"/>
-</specification>
+
+<specification gitUrl="https://github.com/HL7/fhir-pacio-cognitive-status" url="http://hl7.org/fhir/us/pacio-cs" ciUrl="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status" defaultWorkgroup="pc" defaultVersion="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/specification.xsd">
+  <version code="0.1" url="http://hl7.org/fhir/us/pacio-cs"/>
+  <page name="(NA)" key="NA"/>
+  <page name="(many)" key="many"/>
+  <page name="(profiles)" key="profiles"/>
+  <page name="index" key="index"/>
+  <page name="toc" key="toc"/>
+  <page name="usecases" key="usecases"/>
+</specification> 
+
 <package-list>
    <package version="current"
             path="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status"
@@ -174,6 +64,7 @@
             path="http://hl7.org/fhir/us/pacio-cs/2021Jan"
             status="ballot"/>
 </package-list>
+
 <ImplementationGuide xmlns="http://hl7.org/fhir">
    <id value="hl7.fhir.us.pacio-cs"/>
    <text>
@@ -181,18 +72,18 @@
       <div xmlns="http://www.w3.org/1999/xhtml">
          <h2>PACIOCognitiveStatusImplementationGuide</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://hl7.org/fhir/us/pacio-cs/ImplementationGuide/hl7.fhir.us.pacio-cs</pre>
+         <pre>https://paciowg.github.io/cognitive-status-ig//ImplementationGuide/hl7.fhir.us.pacio-cs</pre>
          <div>
             <p>To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders</p>
          </div>
       </div>
    </text>
-   <url value="http://hl7.org/fhir/us/pacio-cs/ImplementationGuide/hl7.fhir.us.pacio-cs"/>
+   <url value="https://paciowg.github.io/cognitive-status-ig//ImplementationGuide/hl7.fhir.us.pacio-cs"/>
    <version value="0.1.0"/>
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-16T20:54:21-07:00"/>
+   <date value="2020-12-30T14:04:49-05:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -234,7 +125,7 @@
    <definition>
       <grouping id="_dyn_capabilitystatement">
          <name value="Behavior: Capability Statements"/>
-         <description value="The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems complying with the implementation guide are expected to declare conformance to one or more of the following capability statements."/>
+         <description value="The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements."/>
       </grouping>
 
 
@@ -245,12 +136,12 @@
 
       <grouping id="_str_profile">
          <name value="Structures: Resource Profiles"/>
-         <description value="These define constraints on FHIR resources that need to be complied with by conformant implementations"/>
+         <description value="These define constraints on FHIR resources for systems conforming to this implementation guide"/>
       </grouping>
 
       <grouping id="_str_extension">
          <name value="Structures: Extension Definitions"/>
-         <description value="These define constraints on FHIR data types that need to be complied with by conformant implementations"/>
+         <description value="These define constraints on FHIR data types for systems conforming to this implementation guide"/>
       </grouping>
 
 
@@ -265,7 +156,7 @@
 
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
+            <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-pacio-bcs.html"/>
@@ -276,7 +167,7 @@
          <name value="PACIO Bundled Cognitive Status"/>
          <description value="An point in time bundle of cognitive status observations for a patient."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="_str_extension"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -380,7 +271,7 @@
          </reference>
          <name value="BCS-Hospital-MOCA-1"/>
          <description value="An instance of BundledCognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -395,7 +286,7 @@
          </reference>
          <name value="BCS-SNF-CAM-Admission-1"/>
          <description value="An instance of BundledCognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -410,7 +301,7 @@
          </reference>
          <name value="BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
          <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -425,7 +316,7 @@
          </reference>
          <name value="BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
          <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -440,7 +331,7 @@
          </reference>
          <name value="BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
          <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -455,7 +346,7 @@
          </reference>
          <name value="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
          <description value="An instance of PriorLevelOfCognitiveFunction"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-plcf"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -635,7 +526,7 @@
          </reference>
          <name value="QResponse-Hospital-MOCA-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -650,7 +541,7 @@
          </reference>
          <name value="QResponse-SNF-CAM-Admission-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -802,11 +693,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-pacio-bcs.html"/>
-               <title value="PACIO Bundled Cognitive Status"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="StructureDefinition-pacio-cognition-qr.html"/>
                <title value="PACIO Cognition Questionnaire Response"/>
                <generation value="generated"/>
@@ -824,6 +710,11 @@
             <page>
                <nameUrl value="StructureDefinition-pacio-cs-dev.html"/>
                <title value="Use of Device"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-pacio-bcs.html"/>
+               <title value="PACIO Bundled Cognitive Status"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -976,10 +867,6 @@
          <value value="false"/>
       </parameter>
       <parameter>
-         <code value="path-history"/>
-         <value value="http://hl7.org/fhir/us/pacio-cs/history.html"/>
-      </parameter>
-      <parameter>
          <code value="path-resource"/>
          <value value="input/capabilities"/>
       </parameter>
@@ -1064,6 +951,10 @@
          <value value="input/ignoreWarnings.txt"/>
       </parameter>
       <parameter>
+         <code value="path-history"/>
+         <value value="https://paciowg.github.io/cognitive-status-ig//history.html"/>
+      </parameter>
+      <parameter>
          <code value="template-html"/>
          <value value="template-page.html"/>
       </parameter>
@@ -1105,4 +996,6 @@
       </parameter>
    </definition>
 </ImplementationGuide>
+
+
 </root>
