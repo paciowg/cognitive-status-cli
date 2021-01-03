@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://paciowg.github.io/cognitive-status-ig//StructureDefinition/pacio-cs-dev",
+  "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs-dev",
   "version": "0.1.0",
   "name": "UseOfDevice",
   "title": "Use of Device",

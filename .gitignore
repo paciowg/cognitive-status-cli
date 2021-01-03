@@ -44,4 +44,3 @@ $RECYCLE.BIN/
 build/input-cache
 build/temp
 build/input
-node_modules

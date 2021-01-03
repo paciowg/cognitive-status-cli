@@ -6,7 +6,7 @@ Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-p
 **********/
 
 Profile:        BundledCognitiveStatus
-Parent:         Observation
+Parent:         USCoreObLab
 Id:             pacio-bcs
 Title:          "PACIO Bundled Cognitive Status"
 Description:    "An point in time bundle of cognitive status observations for a patient."

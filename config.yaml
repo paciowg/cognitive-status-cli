@@ -10,7 +10,7 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.pacio-cs
-canonical: https://paciowg.github.io/cognitive-status-ig/
+canonical: http://hl7.org/fhir/us/pacio-cs
 version: 0.1.0
 name: PACIOCognitiveStatusImplementationGuide
 title: PACIO Cognitive Status Implementation Guide
