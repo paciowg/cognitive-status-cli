@@ -6,7 +6,7 @@ Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-p
 **********/
 
 Profile:        BundledCognitiveStatus
-Parent:         USCoreObLab
+Parent:         Observation
 Id:             pacio-bcs
 Title:          "PACIO Bundled Cognitive Status"
 Description:    "An point in time bundle of cognitive status observations for a patient."
@@ -20,14 +20,14 @@ Description:    "An point in time bundle of cognitive status observations for a 
 
 * value[x] only CodeableConcept
 
-//* category 1..1
-//* category from CAT (extensible)
+* category 1..1
+* category from CATVS (extensible)
 
 * effective[x] 1..1
 * effective[x] only dateTime or Period
 
 * performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization."
-//* category ^short = "For a Post-Acute Care Assessment, should have the value 'survey'."
+* category ^short = "For a Post-Acute Care Assessment, should have the value 'survey'."
 * code ^short = "For a Post-Acute Care Assessment, should include a LOINC code and text for the kind of assessment."
 * subject ^short = "Should only reference a Patient resource"
 * component ^short = "Currently not used in BundledCognitiveStatus."

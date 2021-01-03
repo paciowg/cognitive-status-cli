@@ -6,7 +6,7 @@ Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-p
 **********/
 
 Profile:        CognitiveStatus
-Parent:         USCoreObLab
+Parent:         Observation
 Id:             pacio-cs
 Title:          "PACIO Cognitive Status"
 Description:    "An exchange of cognitive status data for a patient."

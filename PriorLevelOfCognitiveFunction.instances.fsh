@@ -20,4 +20,4 @@ Description: "An instance of PriorLevelOfCognitiveFunction"
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(provider-org-loc-01)
 * effectivePeriod.start = "2019-07-01"
-* effectivePeriod.end = "2020-11-30"
+* effectivePeriod.end = "2019-11-30"
