@@ -7,7 +7,7 @@ Title:          "PACIO Cognition Questionnaire Response"
 Description:    "A completed, or sections of a completed, CMS PAC assessment."
 
 * subject 1..1
-* subject only Reference(Patient)
+* subject only Reference(USCorePatient)
 
 * questionnaire ^short = "This field contains the URI for the PAC assessment questionnaire."
 

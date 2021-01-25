@@ -5,14 +5,14 @@
   "jurisdiction": "US",
   "extensions": [
     {
-      "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/assistance-required",
+      "url": "http://paciowg.github.io/cognitive-status-ig/StructureDefinition/assistance-required",
       "title": "AssistanceRequired",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/device-patient-used",
+      "url": "http://paciowg.github.io/cognitive-status-ig/StructureDefinition/device-patient-used",
       "title": "DevicePatientUsed",
       "types": [
         "Reference"
@@ -22,19 +22,19 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf",
+        "url": "http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf",
         "title": "PACIO Prior Level of Cognitive Function"
       }
     ],
     "QuestionnaireResponse": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr",
+        "url": "http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr",
         "title": "PACIO Cognition Questionnaire Response"
       }
     ],
     "DeviceUseStatement": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs-dev",
+        "url": "http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs-dev",
         "title": "Use of Device"
       }
     ]
@@ -86,10 +86,10 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/assistance-required": [
+    "http://paciowg.github.io/cognitive-status-ig/StructureDefinition/assistance-required": [
       "Observation"
     ],
-    "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/device-patient-used": [
+    "http://paciowg.github.io/cognitive-status-ig/StructureDefinition/device-patient-used": [
       "Observation"
     ]
   }

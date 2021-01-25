@@ -9,5 +9,5 @@ Id:             pacio-cs-dev
 Title:          "Use of Device"
 Description:    "A device used by a Patient during a cognitive status assessment."
 * subject 1..1
-* subject only Reference(Patient)
+* subject only Reference(USCorePatient)
 * device ^short = "The description of the device that the patient used."

@@ -6,7 +6,7 @@ Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-p
 ******************/
 
 Profile:        PriorLevelOfCognitiveFunction
-Parent:         USCoreObLab
+Parent:         Observation
 Id:             pacio-plcf
 Title:          "PACIO Prior Level of Cognitive Function"
 Description:    "An exchange of prior level of cognitive function data for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"

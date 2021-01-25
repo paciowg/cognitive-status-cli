@@ -11,12 +11,6 @@ lists those files generated from project configs or the contents in the ig-data 
 
 | SUSHI-GENERATED FILE                                 | ACTION    | INPUT FILE(S)                                                       |
 | ---------------------------------------------------- | --------- | ------------------------------------------------------------------- |
-| _gencontinuous.bat                                   | generated |                                                                     |
-| _gencontinuous.sh                                    | generated |                                                                     |
-| _genonce.bat                                         | generated |                                                                     |
-| _genonce.sh                                          | generated |                                                                     |
-| _updatePublisher.bat                                 | generated |                                                                     |
-| _updatePublisher.sh                                  | generated |                                                                     |
 | ig.ini                                               | generated | ../config.yaml                                                      |
 | input/ImplementationGuide-hl7.fhir.us.pacio-cs.json  | generated | ../config.yaml, {all input resources and pages}                     |
 | input/ignoreWarnings.txt                             | generated |                                                                     |
