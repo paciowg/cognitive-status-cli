@@ -54,7 +54,7 @@
                   <a href="StructureDefinition-pacio-bcs.html"
                      title="StructureDefinition/pacio-bcs">PACIO Bundled Cognitive Status</a>
                </td>
-               <td>{% capture desc %}An point in time bundle of cognitive status observations for a patient.{% endcapture %}
+               <td>{% capture desc %}A point in time bundle of cognitive status observations for a patient.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -573,14 +573,14 @@
                <td style="column-width:30%">
                   <a href="PractitionerRole-Role-RN.html" title="PractitionerRole/Role-RN">Role-RN</a>
                </td>
-               <td>{% capture desc %}An instance of Practitioner{% endcapture %}
+               <td>{% capture desc %}An instance of PractitionerRole{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="PractitionerRole-Role-SLP.html" title="PractitionerRole/Role-SLP">Role-SLP</a>
                </td>
-               <td>{% capture desc %}An instance of Practitioner{% endcapture %}
+               <td>{% capture desc %}An instance of PractitionerRole{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

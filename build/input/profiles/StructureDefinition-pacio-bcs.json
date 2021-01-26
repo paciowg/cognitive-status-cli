@@ -16,7 +16,7 @@
   "name": "BundledCognitiveStatus",
   "title": "PACIO Bundled Cognitive Status",
   "status": "active",
-  "description": "An point in time bundle of cognitive status observations for a patient.",
+  "description": "A point in time bundle of cognitive status observations for a patient.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

@@ -14,19 +14,4 @@ Before reading this implementation guide, it's important to be familiar with som
 * [Security]({{site.data.fhir.path}}security.html)
 * [Security Labels]({{site.data.fhir.path}}security-labels.html)
 
-This implementation guide supports the [R4]({{site.data.fhir.path}}index.html) version of the FHIR standard and builds on the [US Core Implementation Guide](http://hl7.org/fhir/us/core) and implementers need to familiarize themselves with the profiles in that guide.  Implementers should also familiarize themselves with the FHIR resources used within the guide:
-
-<table>
-    <td>
-      <a href="{{site.data.fhir.path}}device.html">Device</a><br/>
-      <a href="{{site.data.fhir.path}}deviceusestatement.html">DeviceUseStatement</a><br/>
-      <a href="{{site.data.fhir.path}}location.html">Location</a><br/>
-      <a href="{{site.data.fhir.path}}observation.html">Observation</a><br/>
-      <a href="{{site.data.fhir.path}}organization.html">Organization</a><br/>
-      <a href="{{site.data.fhir.path}}patient.html">Patient</a><br/>
-      <a href="{{site.data.fhir.path}}practitioner.html">Practitioner</a><br/>
-      <a href="{{site.data.fhir.path}}practitionerrole.html">PractitionerRole</a><br/>
-      <a href="{{site.data.fhir.path}}questionnaire.html">Questionnaire</a><br/>
-      <a href="{{site.data.fhir.path}}questionnaireresponse.html">QuestionnaireResponse</a><br/>
-    </td>
-</table>
+This implementation guide supports the [R4]({{site.data.fhir.path}}index.html) version of the FHIR standard and builds on the [US Core Implementation Guide](http://hl7.org/fhir/us/core) and implementers need to familiarize themselves with the profiles in that guide.

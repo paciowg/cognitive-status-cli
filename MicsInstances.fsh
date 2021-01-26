@@ -14,14 +14,14 @@ InstanceOf: Patient
 // PractitionerRole instances
 Instance: Role-SLP
 InstanceOf: PractitionerRole
-Description: "An instance of Practitioner"
+Description: "An instance of PractitionerRole"
 * code = SCT#159026005
 * code.coding.display = "Speech and language therapist"
 * active = true
 
 Instance: Role-RN
 InstanceOf: PractitionerRole
-Description: "An instance of Practitioner"
+Description: "An instance of PractitionerRole"
 * code = SCT#224535009
 * code.coding.display = "Registered Nurse"
 * active = true

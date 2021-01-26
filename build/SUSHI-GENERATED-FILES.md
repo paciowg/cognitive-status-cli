@@ -11,8 +11,8 @@ lists those files generated from project configs or the contents in the ig-data 
 
 | SUSHI-GENERATED FILE                                 | ACTION    | INPUT FILE(S)                                                       |
 | ---------------------------------------------------- | --------- | ------------------------------------------------------------------- |
-| ig.ini                                               | generated | ../config.yaml                                                      |
-| input/ImplementationGuide-hl7.fhir.us.pacio-cs.json  | generated | ../config.yaml, {all input resources and pages}                     |
+| ig.ini                                               | generated | ../sushi-config.yaml                                                |
+| input/ImplementationGuide-hl7.fhir.us.pacio-cs.json  | generated | ../sushi-config.yaml, {all input resources and pages}               |
 | input/ignoreWarnings.txt                             | generated |                                                                     |
 | input/images/BCS_BIMS_Example.png                    | copied    | ../ig-data/input/images/BCS_BIMS_Example.png                        |
 | input/images/BCS_CAM_Example.png                     | copied    | ../ig-data/input/images/BCS_CAM_Example.png                         |

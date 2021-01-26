@@ -1,4 +1,6 @@
-//Alias:  LNC = http://loinc.org
+/**********
+NOTE: Aliases are defined in GlobalAliasList.fsh
+**********/
 
 Profile:        CognitionQuestionnaireResponse
 Parent:         QuestionnaireResponse

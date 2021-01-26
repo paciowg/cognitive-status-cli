@@ -1,7 +1,6 @@
-/********
-Alias: LNC = http://loinc.org
-Alias:  DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
-*********/
+/**********
+NOTE: Aliases are defined in GlobalAliasList.fsh
+**********/
 
 Instance: BSJ-Prior-Level-Of-Cognitive-Function-1
 InstanceOf: PriorLevelOfCognitiveFunction

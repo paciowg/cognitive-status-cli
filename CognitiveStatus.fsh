@@ -1,8 +1,5 @@
 /**********
-Alias: LNC = http://loinc.org
-Alias: ObservationLocation = http://hl7.org/fhir/StructureDefinition/event-location
-Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
-Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
+NOTE: Aliases are defined in GlobalAliasList.fsh
 **********/
 
 Profile:        CognitiveStatus
