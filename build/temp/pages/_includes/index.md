@@ -8,11 +8,11 @@
 * ig-data/input/pagecontent/index.md                                                    *
 *****************************************************************************************
 {% endcomment %} -->
-### Cognitive Status
+### Background
 
 Care coordination – when a person transitions between healthcare settings, including ambulatory care, acute care, long-term post-acute care (LTPAC), and home- and community-based services (HCBS) – is often fragmented and can lead to poor health outcomes, increased burden, and increased costs. Interoperable health information exchange has the potential to improve patient and provider communications and supports access to longitudinal health information that enables improved efficiencies, improved quality of care, and improved health outcomes. Data should be usable across the continuum of care, and beyond the traditional healthcare system – into the community.
 
-Providers are not receiving complete and accurate information in a timely manner, leading to adverse outcomes and additional expenses. Failure to exchange accurate, timely data often leads to inefficient workflows, duplicative data entries, and increased risk of patient harm attributable to missing or inaccurate information. HIT can significantly alleviate administrative burden by supporting health information exchange across care settings to ensure that the relevant information necessary to care for the incoming patient is delivered to the right person, at the right time- therefore improving patient outcomes, reducing provider burden, improving cost efficiencies, and improving workflows. Moreover, enhanced data exchange would allow for advanced computability, standardization, usability, and real-time data analytics, enabling broader data use by health IT developers, researchers, providers, and payers.
+Providers are not receiving complete and accurate information in a timely manner, leading to adverse outcomes and additional expenses. Failure to exchange accurate, timely data often leads to inefficient workflows, duplicative data entries, and increased risk of patient harm attributable to missing or inaccurate information. Health IT can significantly alleviate administrative burden by supporting health information exchange across care settings to ensure that the relevant information necessary to care for the incoming patient is delivered to the right person, at the right time- therefore improving patient outcomes, reducing provider burden, improving cost efficiencies, and improving workflows. Moreover, enhanced data exchange would allow for advanced computability, standardization, usability, and real-time data analytics, enabling broader data use by health IT developers, researchers, providers, and payers.
 
 Poor quality discharge information is a major barrier to safe and effective transitions. With 45% of Medicare beneficiaries requiring post-acute care (PAC) services after hospitalization, the need for a seamless exchange of health information is great.
 
@@ -26,17 +26,25 @@ The Act requires:
 * Implementation of data elements specified in each assessment domain using standardized data elements to be nested within the assessment instruments currently required for submission by LTCH, IRF, SNF, and HHA providers.
 * Data to be standardized and interoperable to allow exchange of data between PAC providers, among others, using common standards and definitions to provide access to longitudinal information and facilitate coordinated care.
 
-### Expected Users
-
-Interoperability challenges persist in post-acute care; providers are not receiving complete and accurate information in a timely manner, leading to patient harm, adverse outcomes, and additional expense. Failure to exchange accurate, timely data often leads to inefficient workflows, duplicative data entries, and increased risk of patient harm attributable to missing or inaccurate information. Health IT can significantly alleviate this administrative burden by exchanging post-acute care assessments and associated clinical information between care settings to ensure that the receiving care setting has all of the relevant information they need to best treat the incoming patient, improving patient outcomes, reducing provider burden, improving cost efficiencies, and improving workflows. Moreover, it would allow for advanced computability, standardization, usability, and real-time analytics for PAC facilities, enabling broader use by health IT developers, researchers, providers, and payers.
-
 ![PACIO logo](./pacio.png)
 
-### Background
+### The PACIO Project
 
 The PACIO Project is a collaborative effort to advance interoperable health data exchange between PAC and other providers, patients, and key stakeholders across health care and to promote health data exchange in collaboration with policy makers, standards organizations, and industry through a consensus-based approach.
 
 The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides (IGs) and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
+
+### Cognitive Status
+
+The focus of the Cognitive Status IG is on the effective exchange of cognitive status observation data across various PAC settings in fulfilling the IMPACT Act.
+
+A cognitive status observation contains details of an evaluation or assessment of a patient's cognitive status. The evaluation may include assessment of a patient's mood, memory, and ability to make decisions. The observation data, if present, will include supporting caregivers, non-medical devices, and the time period for which the evaluation and assessment were performed.
+
+This is different from a cognitive status problem observation, which is a clinical statement that describes a patient’s cognitive condition, findings, or symptoms. Examples of cognitive problem observations are inability to recall, amnesia, dementia, and aggressive behavior.
+
+The IMPACT Act stipulates the use of commonly used PAC assessment instruments for reporting of standardized patient assessment data. An example of cognitive status observation data is the specific set of questions along with the answers recorded and the total severity score computed when a Resident Mood Interview (PHQ-9) assessment was conducted with a patient.
+
+In this IG a set of profiles based on some well-established FHIR resources is presented to define data models which specify data elements and coding standards to promote standardization and interoperability.
 
 ### Content and Organization
 The implementation guide is organized into the following sections:

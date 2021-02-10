@@ -86,7 +86,7 @@
                   <a href="StructureDefinition-pacio-cs-dev.html"
                      title="StructureDefinition/pacio-cs-dev">Use of Device</a>
                </td>
-               <td>{% capture desc %}A device used by a Patient during a cognitive status assessment.{% endcapture %}
+               <td>{% capture desc %}A record of an assistive device such as a hearing aid being used by a patient during a cognitive status assessment. This extension based on the DeviceUseStatement resource provides a way for a BundledCognitiveStatus resource to show records of device usage during an assessment.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -113,7 +113,7 @@
                   <a href="StructureDefinition-device-patient-used.html"
                      title="StructureDefinition/device-patient-used">DevicePatientUsed</a>
                </td>
-               <td>{% capture desc %}A device used by a patient during a cognitive status assessment.{% endcapture %}
+               <td>{% capture desc %}A record indicating what healthcare-related assistive device was used by a patient during a cognitive status assessment.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
