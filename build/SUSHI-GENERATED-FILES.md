@@ -19,6 +19,7 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/images/BCS_MOCA_Example.png                    | copied    | ../ig-data/input/images/BCS_MOCA_Example.png                        |
 | input/images/BCS_PHQ9_Example.png                    | copied    | ../ig-data/input/images/BCS_PHQ9_Example.png                        |
 | input/images/CS_PHQ9_TwoColumn_Example.png           | copied    | ../ig-data/input/images/CS_PHQ9_TwoColumn_Example.png               |
+| input/images/Cognitive_Status_Use_Case.jpg           | copied    | ../ig-data/input/images/Cognitive_Status_Use_Case.jpg               |
 | input/images/Cognitive_Status_Use_Case.png           | copied    | ../ig-data/input/images/Cognitive_Status_Use_Case.png               |
 | input/images/PLOCF_Example.png                       | copied    | ../ig-data/input/images/PLOCF_Example.png                           |
 | input/images/Patient_Journey.png                     | copied    | ../ig-data/input/images/Patient_Journey.png                         |
