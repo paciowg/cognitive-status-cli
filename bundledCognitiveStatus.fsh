@@ -45,7 +45,7 @@ Description:    "A point in time bundle of cognitive status observations for a p
 * extension contains DevicePatientUsed named device-use 0..* MS
 
 Extension: DevicePatientUsed
-Description: "A record indicating what healthcare-related assistive device was used by a patient during a cognitive status assessment."
+Description: "A record indicating what healthcare-related assistive device was used by a patient during a cognitive status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."
 Id: device-patient-used
 * value[x] only Reference(UseOfDevice)
 * value[x] ^short = "Points to a record of a healthcare-related assistive device being used by a patient during an assessment."
