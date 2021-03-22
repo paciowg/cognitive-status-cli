@@ -15,7 +15,7 @@ Description:    "A point in time bundle of cognitive status observations for a p
 
 * performer 1..*
 
-* value[x] only CodeableConcept
+* value[x] only CodeableConcept or Quantity
 
 * category 1..1
 * category from CATVS (extensible)

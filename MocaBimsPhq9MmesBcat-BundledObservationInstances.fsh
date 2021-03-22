@@ -8,6 +8,8 @@ Description: "An instance of BundledCognitiveStatus"
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
 * category = CAT#survey
 * valueCodeableConcept.text = "18"
+* valueCodeableConcept.coding.code = #72172-0
+* valueCodeableConcept.coding.system = LNC
 * valueCodeableConcept.coding.display = "Total score [MoCA]"
 * performer = Reference(Practitioner-JennyGlass)
 * performer[1] = Reference(Role-SLP)
@@ -26,8 +28,10 @@ Description: "An instance of BundledCognitiveStatus"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
 * category = CAT#survey
-* valueCodeableConcept.text = "22"
-* valueCodeableConcept.coding.display = "Total score [MoCA]"
+// * valueQuantity.value = 22
+// * valueQuantity.system = "http://unitsofmeasure.org"
+// * valueQuantity.code = {score}
+* valueQuantity = 22 '{score}'
 * performer = Reference(Practitioner-JennyGlass)
 * performer[1] = Reference(Role-SLP)
 * performer[2] = Reference(Org-01)

@@ -7063,3 +7063,14 @@ v: {
   "error" : "The display \"Yes, after cueing (&quot;something to wear&quot;)\" is not a valid display for the code {http://loinc.org}LA10126-3 - should be one of [\"Yes, after cueing (\"\"something to wear\"\")\"] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "72172-0",
+  "display" : "Total score [MoCA]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Total score [MoCA]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
