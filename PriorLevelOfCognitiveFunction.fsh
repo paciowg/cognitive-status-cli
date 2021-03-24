@@ -15,8 +15,8 @@ Description:    "An exchange of prior level of cognitive function data for a pat
 * code = LNC#11332-4 "History of Cognitive Function Narrative"
 * code.text = "History of Cognitive Function Narrative"
 
-* text 1..1
-* text ^short = "Text summary of the prior level of cognitive function for the patient."
+//* text 1..1
+//* text ^short = "Text summary of the prior level of cognitive function for the patient."
 //* text ^binding.description = "Text summary of the prior level of cognitive function for the patient. (Strongly encouraged until more structured method is established)"
 
 * subject 1..1

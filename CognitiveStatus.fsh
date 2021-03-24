@@ -15,7 +15,7 @@ Description:    "An exchange of cognitive status data for a patient."
 
 * performer 1..*
 
-* value[x] only CodeableConcept
+//* value[x] only CodeableConcept
 
 * effective[x] 1..1
 * effective[x] only dateTime

@@ -152,15 +152,6 @@
         "min": 1
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ]
-      },
-      {
         "id": "Observation.interpretation",
         "path": "Observation.interpretation",
         "short": "Currently not used in CognitiveStatus."

@@ -2,17 +2,16 @@
 NOTE: Aliases are defined in GlobalAliasList.fsh
 **********/
 
+
 Instance: BSJ-Prior-Level-Of-Cognitive-Function-1
 InstanceOf: PriorLevelOfCognitiveFunction
 Description: "An instance of PriorLevelOfCognitiveFunction"
 * subject = Reference(patientBSJ1)
 * status = #final
 
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Alert and oriented x 3. She is independent in household finances, social and community activities, coeherent and appropriate communication. Appropriate attire for location and weather.</div>"
-* text.status = #additional
 * extension[assistance-required].valueCodeableConcept.text = "Independent"
 
-* dataAbsentReason = DAR#not-applicable
+* valueString = "Alert and oriented x 3. She is independent in household finances, social and community activities, coeherent and appropriate communication. Appropriate attire for location and weather."
 * performer = Reference(Practitioner-JohnSmith)
 * performer[1] = Reference(provider-role-pcp)
 * performer[2] = Reference(provider-org-01)

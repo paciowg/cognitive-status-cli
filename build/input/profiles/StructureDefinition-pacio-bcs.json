@@ -182,18 +182,6 @@
         "min": 1
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "type": [
-          {
-            "code": "Quantity"
-          },
-          {
-            "code": "CodeableConcept"
-          }
-        ]
-      },
-      {
         "id": "Observation.dataAbsentReason",
         "path": "Observation.dataAbsentReason",
         "short": "Currently not used in BundledCognitiveStatus."
