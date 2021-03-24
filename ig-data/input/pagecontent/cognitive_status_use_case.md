@@ -16,9 +16,9 @@ Figure 1: Example Post-acute Care Patient Healthcare Journey
 
 ### Data Exchange
 
-In Figure 2, the patient is admitted to Healthcare Setting A due to the result of an event requiring medical attention, such as a stroke. Healthcare setting A has the patient complete several cognitive and mental assessments instruments. The results are documented in the electronic health record (EHR) system of Healthcare Setting A.
+In Figure 2, the patient is admitted to Healthcare Setting A due to the result of an event requiring medical attention, such as a stroke. Healthcare setting A has the patient complete several cognitive and mental assessment instruments. The results are documented in the electronic health record (EHR) system of Healthcare Setting A.
 
-Healthcare Setting A transfers the patient to Healthcare Setting B. When the patient arrives at Healthcare Setting B, their clinicians can retrieve the results from the cognitive and mental assessments instruments that were performed on the patient at Healthcare Setting A, as part of the transfer summary, using the profiles for exchanging cognitive status data defined in this Implementation Guide. Additionally, during the patients stay in Healthcare setting B, the clinician documents the results from completed cognitive and mental assessment instruments.
+Healthcare Setting A transfers the patient to Healthcare Setting B. When the patient arrives at Healthcare Setting B, their clinicians can retrieve the results from the cognitive and mental assessment instruments that were performed on the patient at Healthcare Setting A, as part of the transfer summary, using the profiles for exchanging cognitive status data defined in this Implementation Guide. Additionally, during the patients stay in Healthcare setting B, the clinician documents the results from completed cognitive and mental assessment instruments.
 
 Healthcare Setting B transfers the patient to Healthcare Setting C. When the patient arrives at Healthcare Setting C, their clinicians can retrieve the results from the cognitive and mental assessment instruments that were performed on the patient at Healthcare Setting A and Healthcare Setting B, as part of the transfer summary, using the profiles for exchanging cognitive status data defined in this Implementation Guide.
 
