@@ -9,7 +9,7 @@ Description: "An instance of PriorLevelOfCognitiveFunction"
 * subject = Reference(patientBSJ1)
 * status = #final
 
-* extension[assistance-required].valueCodeableConcept.text = "Independent"
+* extension[assistance-required].valueCodeableConcept = LNC#LA28862-3
 
 * valueString = "Alert and oriented x 3. She is independent in household finances, social and community activities, coeherent and appropriate communication. Appropriate attire for location and weather."
 * performer = Reference(Practitioner-JohnSmith)

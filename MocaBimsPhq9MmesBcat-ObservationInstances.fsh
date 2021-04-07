@@ -1,3 +1,104 @@
+Instance: BCS-Hospital-MOCA-1-Ob-Question-1
+InstanceOf: CognitiveStatus
+Description: "An instance of CognitiveStatus"
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-07-08T17:32:00-05:00"
+* code = LNC#72172-0
+* code.text = "Total score [MoCA]"
+* code.coding.display = "Total score [MoCA]"
+* valueQuantity = 18 '{score}'
+* performer = Reference(Practitioner-JennyGlass)
+* performer[1] = Reference(Role-SLP)
+* performer[2] = Reference(Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Org-Loc-01)
+* derivedFrom = Reference(QResponse-Hospital-MOCA-1)
+
+Instance: BCS-Hospital-MOCA-2-Ob-Question-1
+InstanceOf: CognitiveStatus
+Description: "An instance of CognitiveStatus"
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-07-10T12:16:00-05:00"
+* code = LNC#72172-0
+* code.text = "Total score [MoCA]"
+* code.coding.display = "Total score [MoCA]"
+* valueQuantity = 22 '{score}'
+* performer = Reference(Practitioner-JennyGlass)
+* performer[1] = Reference(Role-SLP)
+* performer[2] = Reference(Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Org-Loc-01)
+* derivedFrom = Reference(QResponse-Hospital-MOCA-2)
+
+Instance: BCS-Hospital-MMSE-2-Ob-Question-1
+InstanceOf: CognitiveStatus
+Description: "An instance of CognitiveStatus"
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-07-10T12:16:00-05:00"
+* code = LNC#72106-8
+* code.coding.display = "Total score [MMSE]"
+* valueQuantity = 24 '{score}'
+* performer = Reference(Practitioner-JennyGlass)
+* performer[1] = Reference(Role-SLP)
+* performer[2] = Reference(Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Org-Loc-01)
+* derivedFrom = Reference(QResponse-Hospital-MMSE-2)
+
+Instance: BCS-Hospital-MMSE-1-Ob-Question-1
+InstanceOf: CognitiveStatus
+Description: "An instance of CognitiveStatus"
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-07-08T17:32:00-05:00"
+* code = LNC#72106-8
+* code.coding.display = "Total score [MMSE]"
+* valueQuantity = 20 '{score}'
+* performer = Reference(Practitioner-JennyGlass)
+* performer[1] = Reference(Role-SLP)
+* performer[2] = Reference(Org-01)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Org-Loc-01)
+* derivedFrom = Reference(QResponse-Hospital-MMSE-1)
+
+Instance: BCS-SNF-BCAT-1-Ob-Question-1
+InstanceOf: CognitiveStatus
+Description: "An instance of CognitiveStatus"
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-07-11T11:30:00-05:00"
+* code = LNC#TBD-LOINC2
+* code.coding.display = "BCAT Summary Score"
+* valueQuantity = 16 '{score}'
+* performer = Reference(Practitioner-HoneyJones)
+* performer[1] = Reference(Role-SLP)
+* performer[2] = Reference(Org-02)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Org-Loc-02)
+* derivedFrom = Reference(QResponse-SNF-BCAT-1)
+
+Instance: BCS-SNF-BIMS-1-Ob-Question-8
+InstanceOf: CognitiveStatus
+Description: "An instance of CognitiveStatus"
+* subject = Reference(patientBSJ1)
+* status = #final
+* effectiveDateTime = "2020-07-11T11:30:00-05:00"
+* code = LNC#54614-3
+* code.text = "Brief Interview for Mental Status - summary score [BIMS]"
+* code.coding.display = "Brief Interview for Mental Status - summary score [BIMS]"
+* valueQuantity = 9 '{score}'
+* performer = Reference(Practitioner-HoneyJones)
+* performer[1] = Reference(Role-SLP)
+* performer[2] = Reference(Org-02)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(Org-Loc-02)
+* derivedFrom = Reference(QResponse-SNF-BIMS-1)
+
+
+
 Instance: BCS-SNF-BIMS-1-Ob-Question-6
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"

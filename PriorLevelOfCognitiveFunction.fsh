@@ -15,9 +15,10 @@ Description:    "An exchange of prior level of cognitive function data for a pat
 * code = LNC#11332-4 "History of Cognitive Function Narrative"
 * code.text = "History of Cognitive Function Narrative"
 
-//* text 1..1
-//* text ^short = "Text summary of the prior level of cognitive function for the patient."
-//* text ^binding.description = "Text summary of the prior level of cognitive function for the patient. (Strongly encouraged until more structured method is established)"
+* value[x] 1..1
+* value[x] only string
+* value[x] ^short = "Text summary of the prior level of cognitive function for the patient."
+* value[x] ^binding.description = "Text summary of the prior level of cognitive function for the patient. (Strongly encouraged until more structured method is established)"
 
 * subject 1..1
 * subject only Reference(USCorePatient)
@@ -30,9 +31,10 @@ Description:    "An exchange of prior level of cognitive function data for a pat
 * effective[x] only dateTime or Period
 
 * extension contains ObservationLocation named event-location 0..1 MS
-* extension contains AssistanceRequired named assistance-required 0..1 MS
+* extension contains AssistanceRequired named assistance-required 0..1
 
 Extension: AssistanceRequired
-Description: "Associated with prior level of cognitive function to provide indication of 'independent' vs. 'assistance needed'."
+Description: "Associated with prior level of cognitive function to provide indication of level of assistance needed. The 'CMS MDS Prior Functioning' answer list LL4970-1 provides exmples of possible values."
 Id: assistance-required
 * value[x] only CodeableConcept
+* value[x] from LL4970-1 (example)

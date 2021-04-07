@@ -105,7 +105,7 @@
                   <a href="StructureDefinition-assistance-required.html"
                      title="StructureDefinition/assistance-required">AssistanceRequired</a>
                </td>
-               <td>{% capture desc %}Associated with prior level of cognitive function to provide indication of 'independent' vs. 'assistance needed'.{% endcapture %}
+               <td>{% capture desc %}Associated with prior level of cognitive function to provide indication of level of assistance needed. The 'CMS MDS Prior Functioning' answer list LL4970-1 provides exmples of possible values.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -137,10 +137,26 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Observation-BCS-Hospital-MMSE-1-Ob-Question-1.html"
+                     title="Observation/BCS-Hospital-MMSE-1-Ob-Question-1">BCS-Hospital-MMSE-1-Ob-Question-1</a>
+               </td>
+               <td>{% capture desc %}An instance of CognitiveStatus{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Observation-BCS-Hospital-MMSE-2.html"
                      title="Observation/BCS-Hospital-MMSE-2">BCS-Hospital-MMSE-2</a>
                </td>
                <td>{% capture desc %}An instance of BundledCognitiveStatus{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BCS-Hospital-MMSE-2-Ob-Question-1.html"
+                     title="Observation/BCS-Hospital-MMSE-2-Ob-Question-1">BCS-Hospital-MMSE-2-Ob-Question-1</a>
+               </td>
+               <td>{% capture desc %}An instance of CognitiveStatus{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -153,6 +169,14 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Observation-BCS-Hospital-MOCA-1-Ob-Question-1.html"
+                     title="Observation/BCS-Hospital-MOCA-1-Ob-Question-1">BCS-Hospital-MOCA-1-Ob-Question-1</a>
+               </td>
+               <td>{% capture desc %}An instance of CognitiveStatus{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Observation-BCS-Hospital-MOCA-2.html"
                      title="Observation/BCS-Hospital-MOCA-2">BCS-Hospital-MOCA-2</a>
                </td>
@@ -161,10 +185,26 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="Observation-BCS-Hospital-MOCA-2-Ob-Question-1.html"
+                     title="Observation/BCS-Hospital-MOCA-2-Ob-Question-1">BCS-Hospital-MOCA-2-Ob-Question-1</a>
+               </td>
+               <td>{% capture desc %}An instance of CognitiveStatus{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="Observation-BCS-SNF-BCAT-1.html"
                      title="Observation/BCS-SNF-BCAT-1">BCS-SNF-BCAT-1</a>
                </td>
                <td>{% capture desc %}An instance of BundledCognitiveStatus{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BCS-SNF-BCAT-1-Ob-Question-1.html"
+                     title="Observation/BCS-SNF-BCAT-1-Ob-Question-1">BCS-SNF-BCAT-1-Ob-Question-1</a>
+               </td>
+               <td>{% capture desc %}An instance of CognitiveStatus{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -227,6 +267,14 @@
                <td style="column-width:30%">
                   <a href="Observation-BCS-SNF-BIMS-1-Ob-Question-7.html"
                      title="Observation/BCS-SNF-BIMS-1-Ob-Question-7">BCS-SNF-BIMS-1-Ob-Question-7</a>
+               </td>
+               <td>{% capture desc %}An instance of CognitiveStatus{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-BCS-SNF-BIMS-1-Ob-Question-8.html"
+                     title="Observation/BCS-SNF-BIMS-1-Ob-Question-8">BCS-SNF-BIMS-1-Ob-Question-8</a>
                </td>
                <td>{% capture desc %}An instance of CognitiveStatus{% endcapture %}
 {{ desc | markdownify}}</td>

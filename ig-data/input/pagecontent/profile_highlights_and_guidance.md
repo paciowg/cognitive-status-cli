@@ -60,8 +60,12 @@ This resource profile is intended to be used for data exchange of a point in tim
     <td>A “must support” extension added to the Observation resource for storing the Reference(UseOfDevice) to specify one or more devices used by a patient during a cognitive status assessment.</td>
   </tr>
   <tr>
+    <td>status</td>
+    <td>A required field with 'required' binding to the value set ObservationStatus (http://hl7.org/fhir/R4/valueset-observation-status.html). This field should contain the value 'final' when all the observations are complete and there are no further actions needed. Otherwise, another value from the value set may appropriately be used.</td>
+  </tr>
+  <tr>
     <td>category</td>
-    <td>A required field with 'extensible' binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
+    <td>A required field with 'extensible' binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value 'survey' for PAC assessment.</td>
   </tr>
   <tr>
     <td>code</td>
@@ -77,11 +81,7 @@ This resource profile is intended to be used for data exchange of a point in tim
   </tr>
   <tr>
     <td>performer</td>
-    <td>At least one ‘performer’ is required to be present to indicate who is responsible for the observation.</td>
-  </tr>
-  <tr>
-    <td>value</td>
-    <td>This field can only be of the type CodeableConcept. In the case of an assessment with a summary score, for example, this field may appropriately be used to contain the score value.</td>
+    <td>At least one 'performer' is required to be present to indicate who is responsible for the observation.</td>
   </tr>
   <tr>
     <td>hasMember</td>
@@ -109,6 +109,10 @@ This resource profile is intended to be used for data exchange of a single cogni
     <td>A “must support” extension added to the Observation resource for storing the Reference(Location) to indicate where the observation event occurred.</td>
   </tr>
   <tr>
+    <td>status</td>
+    <td>A required field with 'required' binding to the value set ObservationStatus (http://hl7.org/fhir/R4/valueset-observation-status.html). This field should contain the value 'final' when the observation is complete and there are no further actions needed. Otherwise, another value from the value set may appropriately be used.</td>
+  </tr>
+  <tr>
     <td>code</td>
     <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
@@ -126,7 +130,7 @@ This resource profile is intended to be used for data exchange of a single cogni
   </tr>
   <tr>
     <td>value</td>
-    <td>This field can only be of the type CodeableConcept.</td>
+    <td>It is strongly recommended that the CodeableConcept type be used whenever possible to provide a suitable code to define the concept for the value.</td>
   </tr>
   <tr>
     <td>component.code</td>

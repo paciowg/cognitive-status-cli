@@ -49,9 +49,9 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].item[2].item[2].id = "52737-4"
 * item[0].item[0].item[2].item[2].answer.valueReference = Reference(BCS-SNF-BIMS-1-Ob-Question-7)
 * item[0].item[0].item[3].linkId = "Section-3/C0500"
-* item[0].item[0].item[3].text =  "BIMS Summary Score"
+* item[0].item[0].item[3].text =  "Brief Interview for Mental Status - summary score [BIMS]"
 * item[0].item[0].item[3].id = "54614-3"
-* item[0].item[0].item[3].answer.valueReference = Reference(BCS-SNF-BIMS-1)
+* item[0].item[0].item[3].answer.valueReference = Reference(BCS-SNF-BIMS-1-Ob-Question-8)
 
 Instance: QResponse-SNF-BCAT-1
 InstanceOf: CognitionQuestionnaireResponse
@@ -67,7 +67,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].linkId = "BCAT/SummaryScore"
 * item[0].item[0].text =  "BCAT Summary Score"
 * item[0].item[0].id = "TBD-LOINC2"
-* item[0].item[0].answer.valueReference = Reference(BCS-SNF-BCAT-1)
+* item[0].item[0].answer.valueReference = Reference(BCS-SNF-BCAT-1-Ob-Question-1)
 
 Instance: QResponse-Hospital-MOCA-2
 InstanceOf: CognitionQuestionnaireResponse
@@ -83,7 +83,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].linkId = "MoCA/TotalScore"
 * item[0].item[0].text =  "Total score [MoCA]"
 * item[0].item[0].id = "72172-0"
-* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MOCA-2)
+* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MOCA-2-Ob-Question-1)
 
 Instance: QResponse-Hospital-MOCA-1
 InstanceOf: CognitionQuestionnaireResponse
@@ -99,7 +99,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].linkId = "MoCA/TotalScore"
 * item[0].item[0].text =  "Total score [MoCA]"
 * item[0].item[0].id = "72172-0"
-* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MOCA-1)
+* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MOCA-1-Ob-Question-1)
 
 Instance: QResponse-Hospital-MMSE-1
 InstanceOf: CognitionQuestionnaireResponse
@@ -115,7 +115,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].linkId = "MMSE/ToTalScore"
 * item[0].item[0].text =  "MMSE Total Score"
 * item[0].item[0].id = "72106-8"
-* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MMSE-1)
+* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MMSE-1-Ob-Question-1)
 
 Instance: QResponse-Hospital-MMSE-2
 InstanceOf: CognitionQuestionnaireResponse
@@ -131,7 +131,7 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].linkId = "MMSE/ToTalScore"
 * item[0].item[0].text =  "MMSE Total Score"
 * item[0].item[0].id = "72106-8"
-* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MMSE-2)
+* item[0].item[0].answer.valueReference = Reference(BCS-Hospital-MMSE-2-Ob-Question-1)
 
 Instance: QResponse-SNF-PHQ9-1
 InstanceOf: CognitionQuestionnaireResponse
