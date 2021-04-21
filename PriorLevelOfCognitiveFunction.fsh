@@ -34,7 +34,7 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * extension contains AssistanceRequired named assistance-required 0..1 MS
 
 Extension: AssistanceRequired
-Description: "Provides a high-level indication of assistance required for the person’s baseline ability (cognitive function immediately preceding the current admission, illness, or exacerbation for a patient) to answer cognitive related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."
+Description: "Associated with prior level of cognitive function to provide a high-level indication of assistance required for the person’s baseline ability (cognitive function immediately preceding the current admission, illness, or exacerbation for a patient) to answer cognitive related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."
 Id: assistance-required
 * value[x] only CodeableConcept
 * value[x] from LL4309-2 (extensible)
