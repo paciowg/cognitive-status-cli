@@ -9,7 +9,7 @@ Profile:        PriorLevelOfCognitiveFunction
 Parent:         Observation
 Id:             pacio-plcf
 Title:          "PACIO Prior Level of Cognitive Function"
-Description:    "An exchange of prior level of cognitive function data for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"
+Description:    "An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"
 
 * code from LNCVS
 * code = LNC#11332-4 "History of Cognitive Function Narrative"
@@ -31,10 +31,10 @@ Description:    "An exchange of prior level of cognitive function data for a pat
 * effective[x] only dateTime or Period
 
 * extension contains ObservationLocation named event-location 0..1 MS
-* extension contains AssistanceRequired named assistance-required 0..1
+* extension contains AssistanceRequired named assistance-required 0..1 MS
 
 Extension: AssistanceRequired
-Description: "Associated with prior level of cognitive function to provide indication of level of assistance needed. The 'CMS MDS Prior Functioning' answer list LL4970-1 provides exmples of possible values."
+Description: "Provides a high-level indication of assistance required for the person’s baseline ability (cognitive function immediately preceding the current admission, illness, or exacerbation for a patient) to answer cognitive related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."
 Id: assistance-required
 * value[x] only CodeableConcept
-* value[x] from LL4970-1 (example)
+* value[x] from LL4309-2 (extensible)

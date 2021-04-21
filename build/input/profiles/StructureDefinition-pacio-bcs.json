@@ -16,7 +16,7 @@
   "name": "BundledCognitiveStatus",
   "title": "PACIO Bundled Cognitive Status",
   "status": "active",
-  "description": "A point in time bundle of cognitive status observations for a patient.",
+  "description": "A point in time collection of cognitive status observations for a patient.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -106,12 +106,12 @@
       {
         "id": "Observation.basedOn",
         "path": "Observation.basedOn",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.partOf",
         "path": "Observation.partOf",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.status",
@@ -155,7 +155,7 @@
       {
         "id": "Observation.focus",
         "path": "Observation.focus",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.effective[x]",
@@ -173,7 +173,7 @@
       {
         "id": "Observation.issued",
         "path": "Observation.issued",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.performer",
@@ -189,42 +189,42 @@
       {
         "id": "Observation.dataAbsentReason",
         "path": "Observation.dataAbsentReason",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.interpretation",
         "path": "Observation.interpretation",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.bodySite",
         "path": "Observation.bodySite",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.method",
         "path": "Observation.method",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.specimen",
         "path": "Observation.specimen",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.device",
         "path": "Observation.device",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.referenceRange",
         "path": "Observation.referenceRange",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       },
       {
         "id": "Observation.component",
         "path": "Observation.component",
-        "short": "Currently not used in BundledCognitiveStatus."
+        "short": "Currently not used in CognitiveStatusCollection."
       }
     ]
   }

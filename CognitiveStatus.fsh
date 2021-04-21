@@ -6,7 +6,7 @@ Profile:        CognitiveStatus
 Parent:         Observation
 Id:             pacio-cs
 Title:          "PACIO Cognitive Status"
-Description:    "An exchange of cognitive status data for a patient."
+Description:    "An exchange of cognitive status observation for a patient."
 
 * code from LNCVS (extensible)
 
