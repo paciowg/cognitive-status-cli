@@ -25,7 +25,7 @@
         <text value="Repetition of three words # [BIMS]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-1"/>
+            <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-1"/>
           </valueReference>
         </answer>
       </item>
@@ -37,7 +37,7 @@
           <text value="Temporal orientation - current year [BIMS]"/>
           <answer>
             <valueReference>
-              <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-2"/>
+              <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-2"/>
             </valueReference>
           </answer>
         </item>
@@ -46,7 +46,7 @@
           <text value="Temporal orientation - current month [BIMS]"/>
           <answer>
             <valueReference>
-              <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-3"/>
+              <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-3"/>
             </valueReference>
           </answer>
         </item>
@@ -55,7 +55,7 @@
           <text value="Temporal orientation - current day of the week [BIMS]"/>
           <answer>
             <valueReference>
-              <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-4"/>
+              <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-4"/>
             </valueReference>
           </answer>
         </item>
@@ -68,7 +68,7 @@
           <text value="Recall - sock [BIMS]"/>
           <answer>
             <valueReference>
-              <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-5"/>
+              <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-5"/>
             </valueReference>
           </answer>
         </item>
@@ -77,7 +77,7 @@
           <text value="Recall - blue [BIMS]"/>
           <answer>
             <valueReference>
-              <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-6"/>
+              <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-6"/>
             </valueReference>
           </answer>
         </item>
@@ -86,7 +86,7 @@
           <text value="Recall - bed [BIMS]"/>
           <answer>
             <valueReference>
-              <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-7"/>
+              <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-7"/>
             </valueReference>
           </answer>
         </item>
@@ -96,7 +96,7 @@
         <text value="Brief Interview for Mental Status - summary score [BIMS]"/>
         <answer>
           <valueReference>
-            <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-8"/>
+            <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-8"/>
           </valueReference>
         </answer>
       </item>

@@ -34,7 +34,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-1"
+                    "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-1"
                   }
                 }
               ]
@@ -51,7 +51,7 @@
                   "answer": [
                     {
                       "valueReference": {
-                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-2"
+                        "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-2"
                       }
                     }
                   ]
@@ -63,7 +63,7 @@
                   "answer": [
                     {
                       "valueReference": {
-                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-3"
+                        "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-3"
                       }
                     }
                   ]
@@ -75,7 +75,7 @@
                   "answer": [
                     {
                       "valueReference": {
-                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-4"
+                        "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-4"
                       }
                     }
                   ]
@@ -94,7 +94,7 @@
                   "answer": [
                     {
                       "valueReference": {
-                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-5"
+                        "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-5"
                       }
                     }
                   ]
@@ -106,7 +106,7 @@
                   "answer": [
                     {
                       "valueReference": {
-                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-6"
+                        "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-6"
                       }
                     }
                   ]
@@ -118,7 +118,7 @@
                   "answer": [
                     {
                       "valueReference": {
-                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-7"
+                        "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-7"
                       }
                     }
                   ]
@@ -132,7 +132,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-8"
+                    "reference": "Observation/CSC-SNF-BIMS-1-Ob-Question-8"
                   }
                 }
               ]

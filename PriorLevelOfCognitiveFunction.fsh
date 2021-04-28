@@ -24,7 +24,8 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * subject only Reference(USCorePatient)
 
 * performer 1..*
-* performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization."
+* performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
+
 //* performer ^binding.description = "The person who performed the assessment."
 
 * effective[x] 1..1

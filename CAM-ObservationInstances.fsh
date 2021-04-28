@@ -4,7 +4,7 @@ Alias: UOM = http://unitsofmeasure.org
 Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 **********/
 
-Instance: BCS-SNF-CAM-Admission-1-Ob-Question-1
+Instance: CSC-SNF-CAM-Admission-1-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -23,7 +23,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-CAM-Admission-1)
 
-Instance: BCS-SNF-CAM-Admission-1-Ob-Question-3
+Instance: CSC-SNF-CAM-Admission-1-Ob-Question-3
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -42,7 +42,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-CAM-Admission-1)
 
-Instance: BCS-SNF-CAM-Admission-1-Ob-Question-5
+Instance: CSC-SNF-CAM-Admission-1-Ob-Question-5
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)

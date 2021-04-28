@@ -20,12 +20,14 @@ Description:    "An exchange of cognitive status observation for a patient."
 * effective[x] 1..1
 * effective[x] only dateTime
 
+* derivedFrom MS
+
 * extension contains ObservationLocation named event-location 0..1 MS
 
 * component.code from LNCVS (extensible)
 * component.value[x] only CodeableConcept
 
-* performer ^short = "The person who performed the assessment. May also be used to provide the practitioner role and organization."
+* performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
 * code ^short = "For a Post-Acute Care Assessment, should include a LOINC code and text for the question."
 * subject ^short = "Should only reference a Patient resource."
 * value[x] ^short = "Whenever possible should use the CodeableConcept type to provide a suitable code to define the concept."
@@ -34,7 +36,7 @@ Description:    "An exchange of cognitive status observation for a patient."
 * component.value[x] ^short = "The code and text for the answer to the (associated) question."
 * basedOn ^short = "Currently not used in CognitiveStatus."
 * partOf ^short = "Currently not used in CognitiveStatus."
-* status ^short = "Should have the value 'final' when the observation is complete."
+* status ^short = "Should have the value 'final' when the observation is complete and there are no further actions needed. Otherwise, another value from the value set may appropriately be used."
 * focus ^short = "Currently not used in CognitiveStatus."
 * issued ^short = "Currently not used in CognitiveStatus."
 * interpretation ^short = "Currently not used in CognitiveStatus."

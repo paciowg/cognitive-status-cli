@@ -7,49 +7,54 @@
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
 <artifact id="StructureDefinition/assistance-required" key="StructureDefinition-assistance-required" name="AssistanceRequired"/>
-<artifact id="Observation/BCS-Hospital-MMSE-1" key="Observation-BCS-Hospital-MMSE-1" name="BCS-Hospital-MMSE-1"/>
-<artifact id="Observation/BCS-Hospital-MMSE-1-Ob-Question-1" key="Observation-BCS-Hospital-MMSE-1-Ob-Question-1" name="BCS-Hospital-MMSE-1-Ob-Question-1"/>
-<artifact id="Observation/BCS-Hospital-MMSE-2" key="Observation-BCS-Hospital-MMSE-2" name="BCS-Hospital-MMSE-2"/>
-<artifact id="Observation/BCS-Hospital-MMSE-2-Ob-Question-1" key="Observation-BCS-Hospital-MMSE-2-Ob-Question-1" name="BCS-Hospital-MMSE-2-Ob-Question-1"/>
-<artifact id="Observation/BCS-Hospital-MOCA-1" key="Observation-BCS-Hospital-MOCA-1" name="BCS-Hospital-MOCA-1"/>
-<artifact id="Observation/BCS-Hospital-MOCA-1-Ob-Question-1" key="Observation-BCS-Hospital-MOCA-1-Ob-Question-1" name="BCS-Hospital-MOCA-1-Ob-Question-1"/>
-<artifact id="Observation/BCS-Hospital-MOCA-2" key="Observation-BCS-Hospital-MOCA-2" name="BCS-Hospital-MOCA-2"/>
-<artifact id="Observation/BCS-Hospital-MOCA-2-Ob-Question-1" key="Observation-BCS-Hospital-MOCA-2-Ob-Question-1" name="BCS-Hospital-MOCA-2-Ob-Question-1"/>
-<artifact id="Observation/BCS-SNF-BCAT-1" key="Observation-BCS-SNF-BCAT-1" name="BCS-SNF-BCAT-1"/>
-<artifact id="Observation/BCS-SNF-BCAT-1-Ob-Question-1" key="Observation-BCS-SNF-BCAT-1-Ob-Question-1" name="BCS-SNF-BCAT-1-Ob-Question-1"/>
-<artifact id="Observation/BCS-SNF-BIMS-1" key="Observation-BCS-SNF-BIMS-1" name="BCS-SNF-BIMS-1"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-1" key="Observation-BCS-SNF-BIMS-1-Ob-Question-1" name="BCS-SNF-BIMS-1-Ob-Question-1"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-2" key="Observation-BCS-SNF-BIMS-1-Ob-Question-2" name="BCS-SNF-BIMS-1-Ob-Question-2"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-3" key="Observation-BCS-SNF-BIMS-1-Ob-Question-3" name="BCS-SNF-BIMS-1-Ob-Question-3"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-4" key="Observation-BCS-SNF-BIMS-1-Ob-Question-4" name="BCS-SNF-BIMS-1-Ob-Question-4"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-5" key="Observation-BCS-SNF-BIMS-1-Ob-Question-5" name="BCS-SNF-BIMS-1-Ob-Question-5"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-6" key="Observation-BCS-SNF-BIMS-1-Ob-Question-6" name="BCS-SNF-BIMS-1-Ob-Question-6"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-7" key="Observation-BCS-SNF-BIMS-1-Ob-Question-7" name="BCS-SNF-BIMS-1-Ob-Question-7"/>
-<artifact id="Observation/BCS-SNF-BIMS-1-Ob-Question-8" key="Observation-BCS-SNF-BIMS-1-Ob-Question-8" name="BCS-SNF-BIMS-1-Ob-Question-8"/>
-<artifact id="Observation/BCS-SNF-CAM-Admission-1" key="Observation-BCS-SNF-CAM-Admission-1" name="BCS-SNF-CAM-Admission-1"/>
-<artifact id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-1" name="BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
-<artifact id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-3" name="BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
-<artifact id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-5" name="BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1" key="Observation-BCS-SNF-PHQ9-1" name="BCS-SNF-PHQ9-1"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-10" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-10" name="BCS-SNF-PHQ9-1-Ob-Question-10"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-11" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-11" name="BCS-SNF-PHQ9-1-Ob-Question-11"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-12" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-12" name="BCS-SNF-PHQ9-1-Ob-Question-12"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-13" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-13" name="BCS-SNF-PHQ9-1-Ob-Question-13"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-14" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-14" name="BCS-SNF-PHQ9-1-Ob-Question-14"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-15" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-15" name="BCS-SNF-PHQ9-1-Ob-Question-15"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-16" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-16" name="BCS-SNF-PHQ9-1-Ob-Question-16"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-17" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-17" name="BCS-SNF-PHQ9-1-Ob-Question-17"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-18" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-18" name="BCS-SNF-PHQ9-1-Ob-Question-18"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-19" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-19" name="BCS-SNF-PHQ9-1-Ob-Question-19"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-20" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-20" name="BCS-SNF-PHQ9-1-Ob-Question-20"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-21" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-21" name="BCS-SNF-PHQ9-1-Ob-Question-21"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-22" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-22" name="BCS-SNF-PHQ9-1-Ob-Question-22"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-23" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-23" name="BCS-SNF-PHQ9-1-Ob-Question-23"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-24" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-24" name="BCS-SNF-PHQ9-1-Ob-Question-24"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-25" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-25" name="BCS-SNF-PHQ9-1-Ob-Question-25"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-8" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-8" name="BCS-SNF-PHQ9-1-Ob-Question-8"/>
-<artifact id="Observation/BCS-SNF-PHQ9-1-Ob-Question-9" key="Observation-BCS-SNF-PHQ9-1-Ob-Question-9" name="BCS-SNF-PHQ9-1-Ob-Question-9"/>
+<artifact deprecated="true" id="Observation/BCS-Hospital-MOCA-1" key="Observation-BCS-Hospital-MOCA-1" name="BCS-Hospital-MOCA-1"/>
+<artifact deprecated="true" id="Observation/BCS-SNF-CAM-Admission-1" key="Observation-BCS-SNF-CAM-Admission-1" name="BCS-SNF-CAM-Admission-1"/>
+<artifact deprecated="true" id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-1" name="BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
+<artifact deprecated="true" id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-3" name="BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
+<artifact deprecated="true" id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-5" name="BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
 <artifact id="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1" key="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1" name="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
+<artifact id="Observation/CSC-Hospital-MMSE-1" key="Observation-CSC-Hospital-MMSE-1" name="CSC-Hospital-MMSE-1"/>
+<artifact id="Observation/CSC-Hospital-MMSE-1-Ob-Question-1" key="Observation-CSC-Hospital-MMSE-1-Ob-Question-1" name="CSC-Hospital-MMSE-1-Ob-Question-1"/>
+<artifact id="Observation/CSC-Hospital-MMSE-2" key="Observation-CSC-Hospital-MMSE-2" name="CSC-Hospital-MMSE-2"/>
+<artifact id="Observation/CSC-Hospital-MMSE-2-Ob-Question-1" key="Observation-CSC-Hospital-MMSE-2-Ob-Question-1" name="CSC-Hospital-MMSE-2-Ob-Question-1"/>
+<artifact id="Observation/CSC-Hospital-MOCA-1" key="Observation-CSC-Hospital-MOCA-1" name="CSC-Hospital-MOCA-1"/>
+<artifact id="Observation/CSC-Hospital-MOCA-1-Ob-Question-1" key="Observation-CSC-Hospital-MOCA-1-Ob-Question-1" name="CSC-Hospital-MOCA-1-Ob-Question-1"/>
+<artifact id="Observation/CSC-Hospital-MOCA-2" key="Observation-CSC-Hospital-MOCA-2" name="CSC-Hospital-MOCA-2"/>
+<artifact id="Observation/CSC-Hospital-MOCA-2-Ob-Question-1" key="Observation-CSC-Hospital-MOCA-2-Ob-Question-1" name="CSC-Hospital-MOCA-2-Ob-Question-1"/>
+<artifact id="Observation/CSC-SNF-BCAT-1" key="Observation-CSC-SNF-BCAT-1" name="CSC-SNF-BCAT-1"/>
+<artifact id="Observation/CSC-SNF-BCAT-1-Ob-Question-1" key="Observation-CSC-SNF-BCAT-1-Ob-Question-1" name="CSC-SNF-BCAT-1-Ob-Question-1"/>
+<artifact id="Observation/CSC-SNF-BIMS-1" key="Observation-CSC-SNF-BIMS-1" name="CSC-SNF-BIMS-1"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-1" key="Observation-CSC-SNF-BIMS-1-Ob-Question-1" name="CSC-SNF-BIMS-1-Ob-Question-1"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-2" key="Observation-CSC-SNF-BIMS-1-Ob-Question-2" name="CSC-SNF-BIMS-1-Ob-Question-2"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-3" key="Observation-CSC-SNF-BIMS-1-Ob-Question-3" name="CSC-SNF-BIMS-1-Ob-Question-3"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-4" key="Observation-CSC-SNF-BIMS-1-Ob-Question-4" name="CSC-SNF-BIMS-1-Ob-Question-4"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-5" key="Observation-CSC-SNF-BIMS-1-Ob-Question-5" name="CSC-SNF-BIMS-1-Ob-Question-5"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-6" key="Observation-CSC-SNF-BIMS-1-Ob-Question-6" name="CSC-SNF-BIMS-1-Ob-Question-6"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-7" key="Observation-CSC-SNF-BIMS-1-Ob-Question-7" name="CSC-SNF-BIMS-1-Ob-Question-7"/>
+<artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-8" key="Observation-CSC-SNF-BIMS-1-Ob-Question-8" name="CSC-SNF-BIMS-1-Ob-Question-8"/>
+<artifact id="Observation/CSC-SNF-CAM-Admission-1" key="Observation-CSC-SNF-CAM-Admission-1" name="CSC-SNF-CAM-Admission-1"/>
+<artifact id="Observation/CSC-SNF-CAM-Admission-1-Ob-Question-1" key="Observation-CSC-SNF-CAM-Admission-1-Ob-Question-1" name="CSC-SNF-CAM-Admission-1-Ob-Question-1"/>
+<artifact id="Observation/CSC-SNF-CAM-Admission-1-Ob-Question-3" key="Observation-CSC-SNF-CAM-Admission-1-Ob-Question-3" name="CSC-SNF-CAM-Admission-1-Ob-Question-3"/>
+<artifact id="Observation/CSC-SNF-CAM-Admission-1-Ob-Question-5" key="Observation-CSC-SNF-CAM-Admission-1-Ob-Question-5" name="CSC-SNF-CAM-Admission-1-Ob-Question-5"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1" key="Observation-CSC-SNF-PHQ9-1" name="CSC-SNF-PHQ9-1"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-10" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-10" name="CSC-SNF-PHQ9-1-Ob-Question-10"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-11" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-11" name="CSC-SNF-PHQ9-1-Ob-Question-11"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-12" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-12" name="CSC-SNF-PHQ9-1-Ob-Question-12"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-13" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-13" name="CSC-SNF-PHQ9-1-Ob-Question-13"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-14" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-14" name="CSC-SNF-PHQ9-1-Ob-Question-14"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-15" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-15" name="CSC-SNF-PHQ9-1-Ob-Question-15"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-16" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-16" name="CSC-SNF-PHQ9-1-Ob-Question-16"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-17" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-17" name="CSC-SNF-PHQ9-1-Ob-Question-17"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-18" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-18" name="CSC-SNF-PHQ9-1-Ob-Question-18"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-19" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-19" name="CSC-SNF-PHQ9-1-Ob-Question-19"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-20" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-20" name="CSC-SNF-PHQ9-1-Ob-Question-20"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-21" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-21" name="CSC-SNF-PHQ9-1-Ob-Question-21"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-22" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-22" name="CSC-SNF-PHQ9-1-Ob-Question-22"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-23" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-23" name="CSC-SNF-PHQ9-1-Ob-Question-23"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-24" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-24" name="CSC-SNF-PHQ9-1-Ob-Question-24"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-25" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-25" name="CSC-SNF-PHQ9-1-Ob-Question-25"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-8" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-8" name="CSC-SNF-PHQ9-1-Ob-Question-8"/>
+<artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-9" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-9" name="CSC-SNF-PHQ9-1-Ob-Question-9"/>
 <artifact id="StructureDefinition/device-patient-used" key="StructureDefinition-device-patient-used" name="DevicePatientUsed"/>
 <artifact id="Organization/Org-01" key="Organization-Org-01" name="Org-01"/>
 <artifact id="Organization/Org-02" key="Organization-Org-02" name="Org-02"/>
@@ -57,10 +62,11 @@
 <artifact id="Location/Org-Loc-01" key="Location-Org-Loc-01" name="Org-Loc-01"/>
 <artifact id="Location/Org-Loc-02" key="Location-Org-Loc-02" name="Org-Loc-02"/>
 <artifact id="Location/Org-Loc-03" key="Location-Org-Loc-03" name="Org-Loc-03"/>
-<artifact id="StructureDefinition/pacio-bcs" key="StructureDefinition-pacio-bcs" name="PACIO Bundled Cognitive Status"/>
+<artifact deprecated="true" id="StructureDefinition/pacio-bcs" key="StructureDefinition-pacio-bcs" name="PACIO Bundled Cognitive Status"/>
 <artifact id="StructureDefinition/pacio-cognition-qr" key="StructureDefinition-pacio-cognition-qr" name="PACIO Cognition Questionnaire Response"/>
 <artifact id="StructureDefinition/pacio-cs" key="StructureDefinition-pacio-cs" name="PACIO Cognitive Status"/>
 <artifact id="CapabilityStatement/pacio-cap" key="CapabilityStatement-pacio-cap" name="PACIO Cognitive Status Capability Statement"/>
+<artifact id="StructureDefinition/pacio-csc" key="StructureDefinition-pacio-csc" name="PACIO Cognitive Status Collection"/>
 <artifact id="StructureDefinition/pacio-plcf" key="StructureDefinition-pacio-plcf" name="PACIO Prior Level of Cognitive Function"/>
 <artifact id="Practitioner/Practitioner-HoneyJones" key="Practitioner-Practitioner-HoneyJones" name="Practitioner-HoneyJones"/>
 <artifact id="Practitioner/Practitioner-JennyGlass" key="Practitioner-Practitioner-JennyGlass" name="Practitioner-JennyGlass"/>

@@ -33,7 +33,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1"
+                    "reference": "Observation/CSC-SNF-CAM-Admission-1-Ob-Question-1"
                   }
                 }
               ]
@@ -45,7 +45,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3"
+                    "reference": "Observation/CSC-SNF-CAM-Admission-1-Ob-Question-3"
                   }
                 }
               ]
@@ -57,7 +57,7 @@
               "answer": [
                 {
                   "valueReference": {
-                    "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5"
+                    "reference": "Observation/CSC-SNF-CAM-Admission-1-Ob-Question-5"
                   }
                 }
               ]

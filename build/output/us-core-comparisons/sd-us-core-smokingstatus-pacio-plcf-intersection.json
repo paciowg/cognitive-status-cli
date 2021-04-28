@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d4aa260f-c32d-4a64-b3b3-64a83ed00415-144",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d4aa260f-c32d-4a64-b3b3-64a83ed00415-144",
+  "id" : "ee53fa45-5ec0-4af6-a163-61acd8e24dd2-144",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-144",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndPriorLevelOfCognitiveFunction",
   "title" : "Intersection of US Core Smoking Status Observation Profile And PACIO Prior Level of Cognitive Function",
   "status" : "active",
-  "date" : "2021-04-21T10:37:02-07:00",
+  "date" : "2021-04-27T14:47:45-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -486,7 +486,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/d4aa260f-c32d-4a64-b3b3-64a83ed00415-51"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-48"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -578,7 +578,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/d4aa260f-c32d-4a64-b3b3-64a83ed00415-54"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-51"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -941,7 +941,7 @@
     },
     {
       "path" : "Observation.performer",
-      "short" : "left: Who is responsible for the observation; right: The person who performed the assessment. May also be used to provide the practitioner role and organization.",
+      "short" : "left: Who is responsible for the observation; right: The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization.",
       "definition" : "Who was responsible for asserting the observed value as \"true\".",
       "requirements" : "May give a degree of confidence in the observation and also indicates where follow-up questions should be directed.",
       "min" : 1,

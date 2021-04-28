@@ -47,8 +47,8 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-1>;
-             fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-1" ]
+             fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-1>;
+             fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-1" ]
            ]
          ]
        ], [
@@ -64,8 +64,8 @@
            fhir:QuestionnaireResponse.item.answer [
              fhir:index 0;
              fhir:QuestionnaireResponse.item.answer.valueReference [
-               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-2>;
-               fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-2" ]
+               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-2>;
+               fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-2" ]
              ]
            ]
          ], [
@@ -76,8 +76,8 @@
            fhir:QuestionnaireResponse.item.answer [
              fhir:index 0;
              fhir:QuestionnaireResponse.item.answer.valueReference [
-               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-3>;
-               fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-3" ]
+               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-3>;
+               fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-3" ]
              ]
            ]
          ], [
@@ -88,8 +88,8 @@
            fhir:QuestionnaireResponse.item.answer [
              fhir:index 0;
              fhir:QuestionnaireResponse.item.answer.valueReference [
-               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-4>;
-               fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-4" ]
+               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-4>;
+               fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-4" ]
              ]
            ]
          ]
@@ -106,8 +106,8 @@
            fhir:QuestionnaireResponse.item.answer [
              fhir:index 0;
              fhir:QuestionnaireResponse.item.answer.valueReference [
-               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-5>;
-               fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-5" ]
+               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-5>;
+               fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-5" ]
              ]
            ]
          ], [
@@ -118,8 +118,8 @@
            fhir:QuestionnaireResponse.item.answer [
              fhir:index 0;
              fhir:QuestionnaireResponse.item.answer.valueReference [
-               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-6>;
-               fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-6" ]
+               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-6>;
+               fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-6" ]
              ]
            ]
          ], [
@@ -130,8 +130,8 @@
            fhir:QuestionnaireResponse.item.answer [
              fhir:index 0;
              fhir:QuestionnaireResponse.item.answer.valueReference [
-               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-7>;
-               fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-7" ]
+               fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-7>;
+               fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-7" ]
              ]
            ]
          ]
@@ -143,8 +143,8 @@
          fhir:QuestionnaireResponse.item.answer [
            fhir:index 0;
            fhir:QuestionnaireResponse.item.answer.valueReference [
-             fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/BCS-SNF-BIMS-1-Ob-Question-8>;
-             fhir:Reference.reference [ fhir:value "Observation/BCS-SNF-BIMS-1-Ob-Question-8" ]
+             fhir:link <http://paciowg.github.io/cognitive-status-ig/Observation/CSC-SNF-BIMS-1-Ob-Question-8>;
+             fhir:Reference.reference [ fhir:value "Observation/CSC-SNF-BIMS-1-Ob-Question-8" ]
            ]
          ]
        ]

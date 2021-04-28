@@ -1,4 +1,4 @@
-Instance: BCS-Hospital-MOCA-1-Ob-Question-1
+Instance: CSC-Hospital-MOCA-1-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -15,7 +15,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * derivedFrom = Reference(QResponse-Hospital-MOCA-1)
 
-Instance: BCS-Hospital-MOCA-2-Ob-Question-1
+Instance: CSC-Hospital-MOCA-2-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -32,7 +32,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * derivedFrom = Reference(QResponse-Hospital-MOCA-2)
 
-Instance: BCS-Hospital-MMSE-2-Ob-Question-1
+Instance: CSC-Hospital-MMSE-2-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -48,7 +48,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * derivedFrom = Reference(QResponse-Hospital-MMSE-2)
 
-Instance: BCS-Hospital-MMSE-1-Ob-Question-1
+Instance: CSC-Hospital-MMSE-1-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -64,7 +64,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * derivedFrom = Reference(QResponse-Hospital-MMSE-1)
 
-Instance: BCS-SNF-BCAT-1-Ob-Question-1
+Instance: CSC-SNF-BCAT-1-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -80,7 +80,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BCAT-1)
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-8
+Instance: CSC-SNF-BIMS-1-Ob-Question-8
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -99,7 +99,7 @@ Description: "An instance of CognitiveStatus"
 
 
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-6
+Instance: CSC-SNF-BIMS-1-Ob-Question-6
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -118,7 +118,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-7
+Instance: CSC-SNF-BIMS-1-Ob-Question-7
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -137,7 +137,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-15
+Instance: CSC-SNF-PHQ9-1-Ob-Question-15
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -156,7 +156,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-1
+Instance: CSC-SNF-BIMS-1-Ob-Question-1
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -175,7 +175,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-2
+Instance: CSC-SNF-BIMS-1-Ob-Question-2
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -194,7 +194,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-3
+Instance: CSC-SNF-BIMS-1-Ob-Question-3
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -213,7 +213,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-4
+Instance: CSC-SNF-BIMS-1-Ob-Question-4
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -232,7 +232,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: BCS-SNF-BIMS-1-Ob-Question-5
+Instance: CSC-SNF-BIMS-1-Ob-Question-5
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -251,7 +251,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-13
+Instance: CSC-SNF-PHQ9-1-Ob-Question-13
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -270,7 +270,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-12
+Instance: CSC-SNF-PHQ9-1-Ob-Question-12
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -289,7 +289,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-19
+Instance: CSC-SNF-PHQ9-1-Ob-Question-19
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -308,7 +308,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-18
+Instance: CSC-SNF-PHQ9-1-Ob-Question-18
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -327,7 +327,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-24
+Instance: CSC-SNF-PHQ9-1-Ob-Question-24
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -346,7 +346,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-25
+Instance: CSC-SNF-PHQ9-1-Ob-Question-25
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -364,7 +364,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-20
+Instance: CSC-SNF-PHQ9-1-Ob-Question-20
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -383,7 +383,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-21
+Instance: CSC-SNF-PHQ9-1-Ob-Question-21
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -402,7 +402,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-22
+Instance: CSC-SNF-PHQ9-1-Ob-Question-22
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -421,7 +421,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-23
+Instance: CSC-SNF-PHQ9-1-Ob-Question-23
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -440,7 +440,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-14
+Instance: CSC-SNF-PHQ9-1-Ob-Question-14
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -459,7 +459,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-17
+Instance: CSC-SNF-PHQ9-1-Ob-Question-17
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -478,7 +478,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-16
+Instance: CSC-SNF-PHQ9-1-Ob-Question-16
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -497,7 +497,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-11
+Instance: CSC-SNF-PHQ9-1-Ob-Question-11
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -516,7 +516,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-9
+Instance: CSC-SNF-PHQ9-1-Ob-Question-9
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -535,7 +535,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-8
+Instance: CSC-SNF-PHQ9-1-Ob-Question-8
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)
@@ -554,7 +554,7 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: BCS-SNF-PHQ9-1-Ob-Question-10
+Instance: CSC-SNF-PHQ9-1-Ob-Question-10
 InstanceOf: CognitiveStatus
 Description: "An instance of CognitiveStatus"
 * subject = Reference(patientBSJ1)

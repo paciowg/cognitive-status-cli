@@ -4,9 +4,9 @@ Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias:  DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 *************/
 
-Instance: BCS-SNF-CAM-Admission-1
-InstanceOf: BundledCognitiveStatus
-Description: "An instance of BundledCognitiveStatus"
+Instance: CSC-SNF-CAM-Admission-1
+InstanceOf: CognitiveStatusCollection
+Description: "An instance of CognitiveStatusCollection"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-09T18:00:00-05:00"
@@ -20,8 +20,8 @@ Description: "An instance of BundledCognitiveStatus"
 * performer[2] = Reference(Org-02)
 * performer[2].display = "Organization"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
-* hasMember[0] = Reference(BCS-SNF-CAM-Admission-1-Ob-Question-1)
-* hasMember[1] = Reference(BCS-SNF-CAM-Admission-1-Ob-Question-3)
-* hasMember[2] = Reference(BCS-SNF-CAM-Admission-1-Ob-Question-5)
+* hasMember[0] = Reference(CSC-SNF-CAM-Admission-1-Ob-Question-1)
+* hasMember[1] = Reference(CSC-SNF-CAM-Admission-1-Ob-Question-3)
+* hasMember[2] = Reference(CSC-SNF-CAM-Admission-1-Ob-Question-5)
 * derivedFrom = Reference(QResponse-SNF-CAM-Admission-1)
 * derivedFrom.display = "Questionnaire Response"
