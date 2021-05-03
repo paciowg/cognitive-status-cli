@@ -44,6 +44,8 @@ Description:    "A point in time collection of cognitive status observations for
 * specimen ^short = "Currently not used in CognitiveStatusCollection."
 * device ^short = "Currently not used in CognitiveStatusCollection."
 * referenceRange ^short = "Currently not used in CognitiveStatusCollection."
+* hasMember ^short = "Should point to..."
+* derivedFrom ^short = "Should point back to..."
 
 * extension contains ObservationLocation named event-location 0..1 MS
 //* extension.event-location ^short = "A 'Must Support' extension to indicate where the observation event occurred."

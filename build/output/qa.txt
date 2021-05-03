@@ -3,7 +3,7 @@
 
 err = 5, warn = 19, info = 1
 IG Publisher Version: 1.1.64 Out of date - current version is 1.1.68
-Generated Tue Apr 27 14:48:51 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-cs#0.1.0 (canonical = http://paciowg.github.io/cognitive-status-ig)
+Generated Mon May 03 09:24:27 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-cs#0.1.0 (canonical = http://paciowg.github.io/cognitive-status-ig)
 
  Build Errors : 5 / 1 / 0
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/cognitive-status-cli/build/input/ImplementationGuide-hl7.fhir.us.pacio-cs : 0 / 0 / 1
@@ -264,7 +264,7 @@ WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/cognitive-sta
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/cognitive-status-cli/build/input/profiles/structuredefinition-pacio-plcf.json ==
 INFORMATION: StructureDefinition/pacio-plcf: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 ERROR: StructureDefinition/pacio-plcf: StructureDefinition.snapshot.element[27].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
-ERROR: StructureDefinition/pacio-plcf: StructureDefinition.differential.element[9].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+ERROR: StructureDefinition/pacio-plcf: StructureDefinition.differential.element[14].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
 WARNING: StructureDefinition.where(url = 'http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/cognitive-status-cli/build/input/resources/capabilitystatement-pacio-cap.json ==
 INFORMATION: CapabilityStatement/pacio-cap: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement

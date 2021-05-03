@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ee53fa45-5ec0-4af6-a163-61acd8e24dd2-62",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-62",
+  "id" : "7bdaf0e7-e263-43eb-826e-56ce30122965-62",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7bdaf0e7-e263-43eb-826e-56ce30122965-62",
   "name" : "UnionUSCorePediatricBMIforAgeObservationProfileAndCognitiveStatusCollection",
   "title" : "Union of US Core Pediatric BMI for Age Observation Profile And PACIO Cognitive Status Collection",
   "status" : "active",
-  "date" : "2021-04-27T14:47:45-07:00",
+  "date" : "2021-05-03T09:23:33-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -525,7 +525,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Codes for high level observation categories.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-59"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-59"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1521,7 +1521,7 @@
     },
     {
       "path" : "Observation.hasMember",
-      "short" : "left: Used when reporting vital signs panel components; right: Related resource that belongs to the Observation group",
+      "short" : "left: Used when reporting vital signs panel components; right: Should point to...",
       "definition" : "left: Used when reporting vital signs panel components.; right: This observation is a group observation (e.g. a battery, a panel of tests, a set of vital sign measurements) that includes the target as a member of the group.",
       "comment" : "When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see [Notes] below.  Note that a system may calculate results from [QuestionnaireResponse]  into a final score and represent the score as an Observation.",
       "min" : 0,
@@ -1560,7 +1560,7 @@
     },
     {
       "path" : "Observation.derivedFrom",
-      "short" : "Related measurements the observation is made from",
+      "short" : "left: Related measurements the observation is made from; right: Should point back to...",
       "definition" : "The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image.",
       "comment" : "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes] below.",
       "min" : 0,
@@ -1754,7 +1754,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-5"
       },
       "mapping" : [{
         "identity" : "w5",

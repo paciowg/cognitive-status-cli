@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ee53fa45-5ec0-4af6-a163-61acd8e24dd2-24",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-24",
+  "id" : "7bdaf0e7-e263-43eb-826e-56ce30122965-24",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7bdaf0e7-e263-43eb-826e-56ce30122965-24",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndCognitiveStatus",
   "title" : "Intersection of US Core Body Temperature Profile And PACIO Cognitive Status",
   "status" : "active",
-  "date" : "2021-04-27T14:47:45-07:00",
+  "date" : "2021-05-03T09:23:33-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-6"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1550,7 +1550,7 @@
     },
     {
       "path" : "Observation.derivedFrom",
-      "short" : "Related measurements the observation is made from",
+      "short" : "left: Related measurements the observation is made from; right: Should point back to...",
       "definition" : "The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image.",
       "comment" : "All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes] below.",
       "min" : 0,
@@ -1744,7 +1744,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ee53fa45-5ec0-4af6-a163-61acd8e24dd2-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-6"
       },
       "mapping" : [{
         "identity" : "w5",

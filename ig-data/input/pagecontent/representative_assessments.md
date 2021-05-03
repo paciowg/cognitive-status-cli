@@ -115,7 +115,7 @@ The Brief Cognitive Assessment Tool (BCAT) is included here as an example:
     <td>AdministrativeGender (required)</td>
   </tr>
   <tr>
-    <td>Eduction</td>
+    <td>Education</td>
     <td>Observation.component</td>
     <td></td>
     <td>91694-0, LP2877-1, LL836-8</td>
