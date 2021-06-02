@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 52733-3}\">Temporal orientation - current month [BIMS]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson </a></p><p><b>effective</b>: Jul 11, 2020, 9:30:00 AM</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-HoneyJones.html\">Generated Summary: active; Honey Jones ; gender: female</a></li><li><a href=\"PractitionerRole-Role-SLP.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 159026005}\">Speech and language therapist</span></a></li><li><a href=\"Organization-Org-02.html\">Organization. Generated Summary: name: Happy Nursing Facility</a></li></ul><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA10010-9}\">Missed by 6 days to 1 month</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-BIMS-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 9:30:00 AM</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Org-Loc-02.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 52731-7}\">Repetition of Three Words. Number of words repeated after first attempt</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: Betsy Smith-Johnson</a></p><p><b>effective</b>: Jul 11, 2020, 9:30:00 AM</p><p><b>performer</b>: <a href=\"PractitionerRole-Role-SLP-HoneyJones.html\">Generated Summary: active; <span title=\"Codes: {http://snomed.info/sct 159026005}\">Speech and language therapist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA6404-3}\">Two</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse-QResponse-SNF-BIMS-1.html\">Generated Summary: questionnaire: https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17; status: completed; authored: Jul 11, 2020, 9:30:00 AM</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -32,12 +32,12 @@
   fhir:Observation.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a loinc:52733-3;
+       a loinc:52731-7;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
-       fhir:Coding.code [ fhir:value "52733-3" ];
-       fhir:Coding.display [ fhir:value "Temporal orientation - current month [BIMS]" ]
+       fhir:Coding.code [ fhir:value "52731-7" ];
+       fhir:Coding.display [ fhir:value "Repetition of three words # [BIMS]" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Temporal orientation - current month [BIMS]" ]
+     fhir:CodeableConcept.text [ fhir:value "Repetition of Three Words. Number of words repeated after first attempt" ]
   ];
   fhir:Observation.subject [
      fhir:link <http://paciowg.github.io/cognitive-status-ig/Patient/patientBSJ1>;
@@ -46,27 +46,18 @@
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-11T11:30:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://paciowg.github.io/cognitive-status-ig/Practitioner/Practitioner-HoneyJones>;
-     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-HoneyJones" ]
-  ], [
-     fhir:index 1;
-     fhir:link <http://paciowg.github.io/cognitive-status-ig/PractitionerRole/Role-SLP>;
-     fhir:Reference.reference [ fhir:value "PractitionerRole/Role-SLP" ]
-  ], [
-     fhir:index 2;
-     fhir:link <http://paciowg.github.io/cognitive-status-ig/Organization/Org-02>;
-     fhir:Reference.reference [ fhir:value "Organization/Org-02" ];
-     fhir:Reference.display [ fhir:value "Organization" ]
+     fhir:link <http://paciowg.github.io/cognitive-status-ig/PractitionerRole/Role-SLP-HoneyJones>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/Role-SLP-HoneyJones" ]
   ];
   fhir:Observation.valueCodeableConcept [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a loinc:LA10010-9;
+       a loinc:LA6404-3;
        fhir:Coding.system [ fhir:value "http://loinc.org" ];
-       fhir:Coding.code [ fhir:value "LA10010-9" ];
-       fhir:Coding.display [ fhir:value "Missed by 6 days to 1 month" ]
+       fhir:Coding.code [ fhir:value "LA6404-3" ];
+       fhir:Coding.display [ fhir:value "Two" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Missed by 6 days to 1 month" ]
+     fhir:CodeableConcept.text [ fhir:value "Two" ]
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;

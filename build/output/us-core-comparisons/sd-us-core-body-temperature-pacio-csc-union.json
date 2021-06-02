@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "7bdaf0e7-e263-43eb-826e-56ce30122965-77",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7bdaf0e7-e263-43eb-826e-56ce30122965-77",
+  "id" : "4af86865-13a6-486a-89c7-4a562ec05304-77",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4af86865-13a6-486a-89c7-4a562ec05304-77",
   "name" : "UnionUSCoreBodyTemperatureProfileAndCognitiveStatusCollection",
   "title" : "Union of US Core Body Temperature Profile And PACIO Cognitive Status Collection",
   "status" : "active",
-  "date" : "2021-05-03T09:23:33-07:00",
+  "date" : "2021-06-02T08:22:33-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -525,7 +525,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Codes for high level observation categories.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-59"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4af86865-13a6-486a-89c7-4a562ec05304-59"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4af86865-13a6-486a-89c7-4a562ec05304-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1754,7 +1754,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7bdaf0e7-e263-43eb-826e-56ce30122965-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4af86865-13a6-486a-89c7-4a562ec05304-5"
       },
       "mapping" : [{
         "identity" : "w5",

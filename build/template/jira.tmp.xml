@@ -194,7 +194,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-05-03T09:23:29-07:00"/>
+   <date value="2021-06-02T08:22:29-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -234,7 +234,7 @@
       <version value="3.1.0"/>
    </dependsOn>
    <definition>
-      <grouping id="_dyn_capabilitystatement">
+      <grouping id="-dyn-capabilitystatement">
          <name value="Behavior: Capability Statements"/>
          <description value="The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements."/>
       </grouping>
@@ -245,12 +245,12 @@
 
 
 
-      <grouping id="_str_profile">
+      <grouping id="-str-profile">
          <name value="Structures: Resource Profiles"/>
          <description value="These define constraints on FHIR resources for systems conforming to this implementation guide"/>
       </grouping>
 
-      <grouping id="_str_extension">
+      <grouping id="-str-extension">
          <name value="Structures: Extension Definitions"/>
          <description value="These define constraints on FHIR data types for systems conforming to this implementation guide"/>
       </grouping>
@@ -264,7 +264,7 @@
 
 
 
-      <grouping id="_ex_example">
+      <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
       </grouping>
@@ -282,7 +282,7 @@
          <name value="PACIO Cognition Questionnaire Response"/>
          <description value="A completed, or sections of a completed, CMS PAC assessment."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -297,7 +297,7 @@
          <name value="PACIO Cognitive Status"/>
          <description value="An exchange of cognitive status observation for a patient."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -312,7 +312,7 @@
          <name value="PACIO Cognitive Status Collection"/>
          <description value="A point in time collection of cognitive status observations for a patient."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -327,7 +327,7 @@
          <name value="PACIO Prior Level of Cognitive Function"/>
          <description value="An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -342,7 +342,7 @@
          <name value="Use of Device"/>
          <description value="A record of an assistive device--e.g. eyeglasses or hearing aid, being used by a patient during a cognitive status assessment. This profile based on the DeviceUseStatement resource provides a way to include information about device usage during an assessment."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_profile"/>
+         <groupingId value="-str-profile"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -357,7 +357,7 @@
          <name value="AssistanceRequired"/>
          <description value="Associated with prior level of cognitive function to provide a high-level indication of assistance required for the person’s baseline ability (cognitive function immediately preceding the current admission, illness, or exacerbation for a patient) to answer cognitive related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_extension"/>
+         <groupingId value="-str-extension"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -372,7 +372,7 @@
          <name value="DevicePatientUsed"/>
          <description value="A record indicating what healthcare-related assistive device was used by a patient during a cognitive status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_str_extension"/>
+         <groupingId value="-str-extension"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -387,7 +387,7 @@
          <name value="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
          <description value="An instance of PriorLevelOfCognitiveFunction"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -402,22 +402,22 @@
          <name value="CSC-Hospital-MMSE-1"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-Hospital-MMSE-1-Ob-Question-1.html"/>
+            <valueUri value="Observation-CSC-Hospital-MMSE-1-Ob-Question-31.html"/>
          </extension>
          <reference>
-            <reference value="Observation/CSC-Hospital-MMSE-1-Ob-Question-1"/>
+            <reference value="Observation/CSC-Hospital-MMSE-1-Ob-Question-31"/>
          </reference>
-         <name value="CSC-Hospital-MMSE-1-Ob-Question-1"/>
+         <name value="CSC-Hospital-MMSE-1-Ob-Question-31"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -432,22 +432,22 @@
          <name value="CSC-Hospital-MMSE-2"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-Hospital-MMSE-2-Ob-Question-1.html"/>
+            <valueUri value="Observation-CSC-Hospital-MMSE-2-Ob-Question-32.html"/>
          </extension>
          <reference>
-            <reference value="Observation/CSC-Hospital-MMSE-2-Ob-Question-1"/>
+            <reference value="Observation/CSC-Hospital-MMSE-2-Ob-Question-32"/>
          </reference>
-         <name value="CSC-Hospital-MMSE-2-Ob-Question-1"/>
+         <name value="CSC-Hospital-MMSE-2-Ob-Question-32"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -462,7 +462,7 @@
          <name value="CSC-Hospital-MOCA-1"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -477,7 +477,7 @@
          <name value="CSC-Hospital-MOCA-1-Ob-Question-1"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -492,22 +492,22 @@
          <name value="CSC-Hospital-MOCA-2"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-Hospital-MOCA-2-Ob-Question-1.html"/>
+            <valueUri value="Observation-CSC-Hospital-MOCA-2-Ob-Question-2.html"/>
          </extension>
          <reference>
-            <reference value="Observation/CSC-Hospital-MOCA-2-Ob-Question-1"/>
+            <reference value="Observation/CSC-Hospital-MOCA-2-Ob-Question-2"/>
          </reference>
-         <name value="CSC-Hospital-MOCA-2-Ob-Question-1"/>
+         <name value="CSC-Hospital-MOCA-2-Ob-Question-2"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -522,22 +522,22 @@
          <name value="CSC-SNF-BCAT-1"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-BCAT-1-Ob-Question-1.html"/>
+            <valueUri value="Observation-CSC-SNF-BCAT-1-Ob-Question-30.html"/>
          </extension>
          <reference>
-            <reference value="Observation/CSC-SNF-BCAT-1-Ob-Question-1"/>
+            <reference value="Observation/CSC-SNF-BCAT-1-Ob-Question-30"/>
          </reference>
-         <name value="CSC-SNF-BCAT-1-Ob-Question-1"/>
+         <name value="CSC-SNF-BCAT-1-Ob-Question-30"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -552,37 +552,22 @@
          <name value="CSC-SNF-BIMS-1"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-BIMS-1-Ob-Question-1.html"/>
+            <valueUri value="Observation-CSC-SNF-BIMS-1-Ob-Question-10.html"/>
          </extension>
          <reference>
-            <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-1"/>
+            <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-10"/>
          </reference>
-         <name value="CSC-SNF-BIMS-1-Ob-Question-1"/>
+         <name value="CSC-SNF-BIMS-1-Ob-Question-10"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-BIMS-1-Ob-Question-2.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-2"/>
-         </reference>
-         <name value="CSC-SNF-BIMS-1-Ob-Question-2"/>
-         <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -597,7 +582,7 @@
          <name value="CSC-SNF-BIMS-1-Ob-Question-3"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -612,7 +597,7 @@
          <name value="CSC-SNF-BIMS-1-Ob-Question-4"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -627,7 +612,7 @@
          <name value="CSC-SNF-BIMS-1-Ob-Question-5"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -642,7 +627,7 @@
          <name value="CSC-SNF-BIMS-1-Ob-Question-6"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -657,7 +642,7 @@
          <name value="CSC-SNF-BIMS-1-Ob-Question-7"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -672,7 +657,22 @@
          <name value="CSC-SNF-BIMS-1-Ob-Question-8"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-CSC-SNF-BIMS-1-Ob-Question-9.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/CSC-SNF-BIMS-1-Ob-Question-9"/>
+         </reference>
+         <name value="CSC-SNF-BIMS-1-Ob-Question-9"/>
+         <description value="An instance of CognitiveStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -687,7 +687,7 @@
          <name value="CSC-SNF-CAM-Admission-1"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -702,7 +702,7 @@
          <name value="CSC-SNF-CAM-Admission-1-Ob-Question-1"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -717,7 +717,7 @@
          <name value="CSC-SNF-CAM-Admission-1-Ob-Question-3"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -732,7 +732,7 @@
          <name value="CSC-SNF-CAM-Admission-1-Ob-Question-5"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -747,22 +747,7 @@
          <name value="CSC-SNF-PHQ9-1"/>
          <description value="An instance of CognitiveStatusCollection"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-PHQ9-1-Ob-Question-10.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/CSC-SNF-PHQ9-1-Ob-Question-10"/>
-         </reference>
-         <name value="CSC-SNF-PHQ9-1-Ob-Question-10"/>
-         <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -777,7 +762,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-11"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -792,7 +777,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-12"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -807,7 +792,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-13"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -822,7 +807,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-14"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -837,7 +822,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-15"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -852,7 +837,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-16"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -867,7 +852,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-17"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -882,7 +867,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-18"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -897,7 +882,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-19"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -912,7 +897,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-20"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -927,7 +912,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-21"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -942,7 +927,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-22"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -957,7 +942,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-23"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -972,7 +957,7 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-24"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -987,37 +972,67 @@
          <name value="CSC-SNF-PHQ9-1-Ob-Question-25"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-PHQ9-1-Ob-Question-8.html"/>
+            <valueUri value="Observation-CSC-SNF-PHQ9-1-Ob-Question-26.html"/>
          </extension>
          <reference>
-            <reference value="Observation/CSC-SNF-PHQ9-1-Ob-Question-8"/>
+            <reference value="Observation/CSC-SNF-PHQ9-1-Ob-Question-26"/>
          </reference>
-         <name value="CSC-SNF-PHQ9-1-Ob-Question-8"/>
+         <name value="CSC-SNF-PHQ9-1-Ob-Question-26"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-PHQ9-1-Ob-Question-9.html"/>
+            <valueUri value="Observation-CSC-SNF-PHQ9-1-Ob-Question-27.html"/>
          </extension>
          <reference>
-            <reference value="Observation/CSC-SNF-PHQ9-1-Ob-Question-9"/>
+            <reference value="Observation/CSC-SNF-PHQ9-1-Ob-Question-27"/>
          </reference>
-         <name value="CSC-SNF-PHQ9-1-Ob-Question-9"/>
+         <name value="CSC-SNF-PHQ9-1-Ob-Question-27"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-CSC-SNF-PHQ9-1-Ob-Question-28.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/CSC-SNF-PHQ9-1-Ob-Question-28"/>
+         </reference>
+         <name value="CSC-SNF-PHQ9-1-Ob-Question-28"/>
+         <description value="An instance of CognitiveStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-CSC-SNF-PHQ9-1-Ob-Question-29.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/CSC-SNF-PHQ9-1-Ob-Question-29"/>
+         </reference>
+         <name value="CSC-SNF-PHQ9-1-Ob-Question-29"/>
+         <description value="An instance of CognitiveStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1032,7 +1047,7 @@
          <name value="Org-01"/>
          <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1047,7 +1062,7 @@
          <name value="Org-02"/>
          <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1062,7 +1077,7 @@
          <name value="Org-03"/>
          <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1077,7 +1092,7 @@
          <name value="Org-Loc-01"/>
          <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1092,7 +1107,7 @@
          <name value="Org-Loc-02"/>
          <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1107,7 +1122,7 @@
          <name value="Org-Loc-03"/>
          <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1122,7 +1137,7 @@
          <name value="Practitioner-HoneyJones"/>
          <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1137,7 +1152,7 @@
          <name value="Practitioner-JennyGlass"/>
          <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1152,7 +1167,7 @@
          <name value="Practitioner-JohnSmith"/>
          <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1167,7 +1182,7 @@
          <name value="Practitioner-LunaBaskins"/>
          <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1182,7 +1197,7 @@
          <name value="Practitioner-NoraOlogist"/>
          <description value="An instance of Practitioner"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1197,7 +1212,7 @@
          <name value="QResponse-Hospital-MMSE-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1212,7 +1227,7 @@
          <name value="QResponse-Hospital-MMSE-2"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1227,7 +1242,7 @@
          <name value="QResponse-Hospital-MOCA-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1242,7 +1257,7 @@
          <name value="QResponse-Hospital-MOCA-2"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1257,7 +1272,7 @@
          <name value="QResponse-SNF-BCAT-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1272,7 +1287,7 @@
          <name value="QResponse-SNF-BIMS-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1287,7 +1302,7 @@
          <name value="QResponse-SNF-CAM-Admission-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1302,37 +1317,52 @@
          <name value="QResponse-SNF-PHQ9-1"/>
          <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="PractitionerRole"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="PractitionerRole-Role-RN.html"/>
+            <valueUri value="PractitionerRole-Role-SLP-HoneyJones.html"/>
          </extension>
          <reference>
-            <reference value="PractitionerRole/Role-RN"/>
+            <reference value="PractitionerRole/Role-SLP-HoneyJones"/>
          </reference>
-         <name value="Role-RN"/>
+         <name value="Role-SLP-HoneyJones"/>
          <description value="An instance of PractitionerRole"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="PractitionerRole"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="PractitionerRole-Role-SLP.html"/>
+            <valueUri value="PractitionerRole-Role-SLP-JennyGlass.html"/>
          </extension>
          <reference>
-            <reference value="PractitionerRole/Role-SLP"/>
+            <reference value="PractitionerRole/Role-SLP-JennyGlass"/>
          </reference>
-         <name value="Role-SLP"/>
+         <name value="Role-SLP-JennyGlass"/>
          <description value="An instance of PractitionerRole"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-Role-SLP-LunaBaskins.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/Role-SLP-LunaBaskins"/>
+         </reference>
+         <name value="Role-SLP-LunaBaskins"/>
+         <description value="An instance of PractitionerRole"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1347,7 +1377,7 @@
          <name value="patientBSJ1"/>
          <description value="An instance of Patient"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1362,7 +1392,22 @@
          <name value="provider-org-01"/>
          <description value="An instance of Organization"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-provider-org-16.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/provider-org-16"/>
+         </reference>
+         <name value="provider-org-16"/>
+         <description value="An instance of Organization"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1377,7 +1422,37 @@
          <name value="provider-org-loc-01"/>
          <description value="An instance of Location"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-provider-org-loc-16.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/provider-org-loc-16"/>
+         </reference>
+         <name value="provider-org-loc-16"/>
+         <description value="An instance of Location"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-provider-role-neurologist.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/provider-role-neurologist"/>
+         </reference>
+         <name value="provider-role-neurologist"/>
+         <description value="An instance of PractitionerRole"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1390,9 +1465,9 @@
             <reference value="PractitionerRole/provider-role-pcp"/>
          </reference>
          <name value="provider-role-pcp"/>
-         <description value="An instance of Practitioner"/>
+         <description value="An instance of PractitionerRole"/>
          <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1407,7 +1482,7 @@
          <name value="PACIO Cognitive Status Capability Statement"/>
          <description value="This Capability Statement defines the expected capabilities of a PACIO Cognitive Status FHIR server conforming to the PACIO Cognitive Status Implementation Guide."/>
          <exampleBoolean value="false"/>
-         <groupingId value="_dyn_capabilitystatement"/>
+         <groupingId value="-dyn-capabilitystatement"/>
       </resource>
       <page>
          <nameUrl value="toc.html"/>
@@ -1498,8 +1573,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-CSC-Hospital-MMSE-1-Ob-Question-1.html"/>
-               <title value="CSC-Hospital-MMSE-1-Ob-Question-1"/>
+               <nameUrl value="Observation-CSC-Hospital-MMSE-1-Ob-Question-31.html"/>
+               <title value="CSC-Hospital-MMSE-1-Ob-Question-31"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1508,8 +1583,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-CSC-Hospital-MMSE-2-Ob-Question-1.html"/>
-               <title value="CSC-Hospital-MMSE-2-Ob-Question-1"/>
+               <nameUrl value="Observation-CSC-Hospital-MMSE-2-Ob-Question-32.html"/>
+               <title value="CSC-Hospital-MMSE-2-Ob-Question-32"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1528,8 +1603,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-CSC-Hospital-MOCA-2-Ob-Question-1.html"/>
-               <title value="CSC-Hospital-MOCA-2-Ob-Question-1"/>
+               <nameUrl value="Observation-CSC-Hospital-MOCA-2-Ob-Question-2.html"/>
+               <title value="CSC-Hospital-MOCA-2-Ob-Question-2"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1538,8 +1613,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-CSC-SNF-BCAT-1-Ob-Question-1.html"/>
-               <title value="CSC-SNF-BCAT-1-Ob-Question-1"/>
+               <nameUrl value="Observation-CSC-SNF-BCAT-1-Ob-Question-30.html"/>
+               <title value="CSC-SNF-BCAT-1-Ob-Question-30"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1548,13 +1623,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-CSC-SNF-BIMS-1-Ob-Question-1.html"/>
-               <title value="CSC-SNF-BIMS-1-Ob-Question-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-CSC-SNF-BIMS-1-Ob-Question-2.html"/>
-               <title value="CSC-SNF-BIMS-1-Ob-Question-2"/>
+               <nameUrl value="Observation-CSC-SNF-BIMS-1-Ob-Question-10.html"/>
+               <title value="CSC-SNF-BIMS-1-Ob-Question-10"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1588,6 +1658,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="Observation-CSC-SNF-BIMS-1-Ob-Question-9.html"/>
+               <title value="CSC-SNF-BIMS-1-Ob-Question-9"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="Observation-CSC-SNF-CAM-Admission-1.html"/>
                <title value="CSC-SNF-CAM-Admission-1"/>
                <generation value="generated"/>
@@ -1610,11 +1685,6 @@
             <page>
                <nameUrl value="Observation-CSC-SNF-PHQ9-1.html"/>
                <title value="CSC-SNF-PHQ9-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-CSC-SNF-PHQ9-1-Ob-Question-10.html"/>
-               <title value="CSC-SNF-PHQ9-1-Ob-Question-10"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1693,13 +1763,23 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-CSC-SNF-PHQ9-1-Ob-Question-8.html"/>
-               <title value="CSC-SNF-PHQ9-1-Ob-Question-8"/>
+               <nameUrl value="Observation-CSC-SNF-PHQ9-1-Ob-Question-26.html"/>
+               <title value="CSC-SNF-PHQ9-1-Ob-Question-26"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-CSC-SNF-PHQ9-1-Ob-Question-9.html"/>
-               <title value="CSC-SNF-PHQ9-1-Ob-Question-9"/>
+               <nameUrl value="Observation-CSC-SNF-PHQ9-1-Ob-Question-27.html"/>
+               <title value="CSC-SNF-PHQ9-1-Ob-Question-27"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-CSC-SNF-PHQ9-1-Ob-Question-28.html"/>
+               <title value="CSC-SNF-PHQ9-1-Ob-Question-28"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Observation-CSC-SNF-PHQ9-1-Ob-Question-29.html"/>
+               <title value="CSC-SNF-PHQ9-1-Ob-Question-29"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1798,13 +1878,18 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="PractitionerRole-Role-RN.html"/>
-               <title value="Role-RN"/>
+               <nameUrl value="PractitionerRole-Role-SLP-HoneyJones.html"/>
+               <title value="Role-SLP-HoneyJones"/>
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="PractitionerRole-Role-SLP.html"/>
-               <title value="Role-SLP"/>
+               <nameUrl value="PractitionerRole-Role-SLP-JennyGlass.html"/>
+               <title value="Role-SLP-JennyGlass"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="PractitionerRole-Role-SLP-LunaBaskins.html"/>
+               <title value="Role-SLP-LunaBaskins"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1818,8 +1903,23 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="Organization-provider-org-16.html"/>
+               <title value="provider-org-16"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="Location-provider-org-loc-01.html"/>
                <title value="provider-org-loc-01"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Location-provider-org-loc-16.html"/>
+               <title value="provider-org-loc-16"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="PractitionerRole-provider-role-neurologist.html"/>
+               <title value="provider-role-neurologist"/>
                <generation value="generated"/>
             </page>
             <page>

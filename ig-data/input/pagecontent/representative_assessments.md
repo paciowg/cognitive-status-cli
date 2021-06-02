@@ -118,7 +118,7 @@ The Brief Cognitive Assessment Tool (BCAT) is included here as an example:
     <td>Education</td>
     <td>Observation.component</td>
     <td></td>
-    <td>91694-0, LP2877-1, LL836-8</td>
+    <td>91694-0, LL836-8</td>
   </tr>
   <tr>
     <td>Examiner</td>
