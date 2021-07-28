@@ -5,7 +5,7 @@
   "igName": "PACIOCognitiveStatusImplementationGuide",
   "packageId": "hl7.fhir.us.pacio-cs",
   "igVer": "0.1.0",
-  "errorCount": 8,
+  "errorCount": 6,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
@@ -14,8 +14,8 @@
   "toolingVersionFull": "4.6.0 (3)",
   "totalFiles": 82,
   "processedFiles": 107,
-  "genDate": "Wed, Jun 2, 2021 08:22-0700",
-  "genDay": "02/06/2021",
+  "genDate": "Wed, Jul 28, 2021 10:12-0700",
+  "genDay": "28/07/2021",
   "ig": {
     "id": "hl7.fhir.us.pacio-cs",
     "name": "PACIOCognitiveStatusImplementationGuide",
@@ -42,7 +42,7 @@
         ]
       }
     ],
-    "date": "2021-06-02T08:22:29-07:00",
+    "date": "2021-07-28T10:12:48-07:00",
     "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
     "fhirVersion": "4.0.1"
   },

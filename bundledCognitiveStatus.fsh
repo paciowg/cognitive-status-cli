@@ -6,7 +6,7 @@ Profile:        CognitiveStatusCollection
 Parent:         Observation
 Id:             pacio-csc
 Title:          "PACIO Cognitive Status Collection"
-Description:    "A point in time collection of cognitive status observations for a patient."
+Description:    "A point in time collection of cognitive status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)."
 
 * code from LNCVS (extensible)
 
@@ -44,8 +44,8 @@ Description:    "A point in time collection of cognitive status observations for
 * specimen ^short = "Currently not used in CognitiveStatusCollection."
 * device ^short = "Currently not used in CognitiveStatusCollection."
 * referenceRange ^short = "Currently not used in CognitiveStatusCollection."
-* hasMember ^short = "Should point to..."
-* derivedFrom ^short = "Should point back to..."
+* hasMember ^short = "Each cognitive status observation in the collection."
+* derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
 
 * extension contains ObservationLocation named event-location 0..1 MS
 //* extension.event-location ^short = "A 'Must Support' extension to indicate where the observation event occurred."

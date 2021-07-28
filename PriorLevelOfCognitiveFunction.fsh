@@ -2,7 +2,7 @@ Profile:        PriorLevelOfCognitiveFunction
 Parent:         Observation
 Id:             pacio-plcf
 Title:          "PACIO Prior Level of Cognitive Function"
-Description:    "An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"
+Description:    "An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of cognitive assessments. For formal assessments conducted with for example, an assessment instructment, use the Cognitive Status Collecction and Cognitive Status profiles to capture assessment data."
 
 * code from LNCVS
 * code = LNC#11332-4 "History of Cognitive Function Narrative"
@@ -14,7 +14,7 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * value[x] ^binding.description = "Text summary of the prior level of cognitive function for the patient. (Strongly encouraged until more structured method is established)"
 
 * subject 1..1
-* subject only Reference(Patient)
+* subject only Reference(USCorePatient)
 
 * performer 1..*
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."

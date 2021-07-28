@@ -10,7 +10,7 @@
     "basename": "QuestionnaireResponse",
     "basepath": "http://hl7.org/fhir/R4/questionnaireresponse.html",
     "status": "active",
-    "date": "Wed Jun 02 08:22:29 PDT 2021",
+    "date": "Wed Jul 28 10:12:48 PDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "publisher": "HL7 Patient Care Work Group",
@@ -27,11 +27,11 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Wed Jun 02 08:22:29 PDT 2021",
+    "date": "Wed Jul 28 10:12:48 PDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "publisher": "HL7 Patient Care Work Group",
-    "description": "An exchange of cognitive status observation for a patient."
+    "description": "An exchange of cognitive status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)."
   },
   "pacio-csc": {
     "index": 2,
@@ -44,11 +44,11 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Wed Jun 02 08:22:29 PDT 2021",
+    "date": "Wed Jul 28 10:12:48 PDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "publisher": "HL7 Patient Care Work Group",
-    "description": "A point in time collection of cognitive status observations for a patient."
+    "description": "A point in time collection of cognitive status observations for a patient. This profile is used for exchanging a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)."
   },
   "pacio-plcf": {
     "index": 3,
@@ -61,11 +61,11 @@
     "basename": "Observation",
     "basepath": "http://hl7.org/fhir/R4/observation.html",
     "status": "active",
-    "date": "Wed Jun 02 08:22:29 PDT 2021",
+    "date": "Wed Jul 28 10:12:48 PDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "publisher": "HL7 Patient Care Work Group",
-    "description": "An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. (The use of this profile is encouraged in the absence of formal prior level of cognitive assessments.)"
+    "description": "An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of cognitive assessments. For formal assessments conducted with for example, an assessment instructment, use the Cognitive Status Collecction and Cognitive Status profiles to capture assessment data."
   },
   "pacio-cs-dev": {
     "index": 4,
@@ -78,7 +78,7 @@
     "basename": "DeviceUseStatement",
     "basepath": "http://hl7.org/fhir/R4/deviceusestatement.html",
     "status": "active",
-    "date": "Wed Jun 02 08:22:29 PDT 2021",
+    "date": "Wed Jul 28 10:12:48 PDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "publisher": "HL7 Patient Care Work Group",
@@ -95,7 +95,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Wed Jun 02 08:22:29 PDT 2021",
+    "date": "Wed Jul 28 10:12:48 PDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "publisher": "HL7 Patient Care Work Group",
@@ -117,7 +117,7 @@
     "basename": "Extension",
     "basepath": "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status": "active",
-    "date": "Wed Jun 02 08:22:29 PDT 2021",
+    "date": "Wed Jul 28 10:12:48 PDT 2021",
     "abstract": false,
     "derivation": "constraint",
     "publisher": "HL7 Patient Care Work Group",

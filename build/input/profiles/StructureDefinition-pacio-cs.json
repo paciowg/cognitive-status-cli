@@ -16,7 +16,7 @@
   "name": "CognitiveStatus",
   "title": "PACIO Cognitive Status",
   "status": "active",
-  "description": "An exchange of cognitive status observation for a patient.",
+  "description": "An exchange of cognitive status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen).",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -194,7 +194,7 @@
       {
         "id": "Observation.derivedFrom",
         "path": "Observation.derivedFrom",
-        "short": "Should point back to...",
+        "short": "Should point back to the QuestionnaireResponse that this resource is derived from.",
         "mustSupport": true
       },
       {

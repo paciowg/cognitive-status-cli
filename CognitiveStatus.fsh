@@ -6,7 +6,7 @@ Profile:        CognitiveStatus
 Parent:         Observation
 Id:             pacio-cs
 Title:          "PACIO Cognitive Status"
-Description:    "An exchange of cognitive status observation for a patient."
+Description:    "An exchange of cognitive status observation for a patient. This profile is used for exchanging a single observation data generally included in a set of observation data collected through the use of a structured resource (e.g. assessment tool, instrument, or screen)."
 
 * code from LNCVS (extensible)
 
@@ -46,4 +46,4 @@ Description:    "An exchange of cognitive status observation for a patient."
 * device ^short = "Currently not used in CognitiveStatus."
 * referenceRange ^short = "Currently not used in CognitiveStatus."
 * hasMember ^short = "Currently not used in CognitiveStatus."
-* derivedFrom ^short = "Should point back to..."
+* derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
