@@ -41,6 +41,8 @@ $RECYCLE.BIN/
 
 ### IG Publisher ###
 
-build/input-cache
-build/temp
-build/input
+/fsh-generated
+/input-cache
+###/output
+/template
+/temp
