@@ -13,7 +13,7 @@ Alias: NUCC = http://nucc.org/provider-taxonomy
 // NOTE: use a value set (not code system) when binding a field
 Alias: LNCVS = http://hl7.org/fhir/ValueSet/observation-codes
 Alias: CATVS = http://hl7.org/fhir/ValueSet/observation-category
-Alias: LL4309-2 = http://loinc.org/vs/LL4309-2
+Alias: LL4309-2VS = http://loinc.org/vs/LL4309-2
 //Alias: PACIOFunctioningCategoryVS = https://paciowg.github.io/cognitive-status-ig/ValueSet-pacio-cat-vs
 
 // Misc
@@ -26,5 +26,5 @@ Alias: USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/
 Alias: USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
 Alias: SDCQR = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse
 
-Alias: MDS3.0-NC-1.17 = http://paciowg.github.io/cognitive-status-ig/MDS3.0-NC-1.17.xml
+Alias: MDS3.0-NC-1.17 = http://paciowg.github.io/cognitive-status-ig/MDS3.0-NC-1.17
 

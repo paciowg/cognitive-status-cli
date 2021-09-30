@@ -62,4 +62,4 @@ Extension: AssistanceRequired
 Description: "Associated with the Narrative History of Cognitive Status profile to provide a high-level indication of assistance required for the person’s baseline ability (cognitive function immediately preceding the current admission, illness, or exacerbation for a patient) to answer cognitive related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."
 Id: assistance-required
 * value[x] only CodeableConcept
-* value[x] from LL4309-2 (extensible)
+* value[x] from LL4309-2VS (extensible)
