@@ -39,6 +39,7 @@ parameters:
   show-inherited-invariants: false
   apply-jurisdiction: true
   apply-publisher: true
+  path-expansion-params: '../../input/_resources/terminology-settings.json'  # for using US ed of SNOMED
 copyrightYear: 2020+
 releaseLabel: STU Ballot
 
